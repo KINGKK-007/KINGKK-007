@@ -1,58 +1,48 @@
-#  Hola!  Mi **Kanav Kumar** (aka **KING KK**)
+<h1 align="center">Hola! I'm <strong>Kanav Kumar</strong> (aka <strong>KING KK</strong>) 👋</h1>
 
-🎓 **Computer Science Engineering Student**  
-💻 Passionate about coding, problem-solving, and continuous learning  
-🌐 Currently exploring the realms of competitive programming and software development
+<p align="center">
+  🎓 B.Tech CSE @ IIIT Bangalore &nbsp;|&nbsp; 💻 Competitive Programmer & Developer &nbsp;|&nbsp; 🚀 Lifelong Learner
+</p>
+
+<br/>
+
+<h2 align="center">🚀 Languages & Tools</h2>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" width="40" height="40" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" width="40" height="40" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VS Code" width="40" height="40" />
+</p>
+
+<br/>
+
+<h2 align="center">📈 GitHub Stats</h2>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=KINGKK-007&show_icons=true&theme=radical" height="200" alt="GitHub Stats" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=KINGKK-007&theme=radical" height="200" alt="GitHub Streak" />
+</p>
 
 
-## 🚀 About Me
-
-- 🎓 Pursuing B.Tech in Computer Science Engineering at IIIT Bangalore
-- 🧠 Enthusiastic about algorithms, data structures, and system design
-- 🛠️ Building projects that solve real-world problems
-- 📚 Always eager to learn new technologies and improve my skills
-
- 
-<h2>🚀 Languages and Tools I Use</h2>
-
-<div align="center" style="gap: 12px; display: flex; justify-content: center; flex-wrap: wrap;">
-  <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" style="display: inline-block;" title="C++">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="42" height="42" />
-  </a>
-  <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" style="display: inline-block;" title="Python">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="42" height="42" />
-  </a>
-  <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" style="display: inline-block;" title="C">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="42" height="42" />
-  </a>
-  <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" style="display: inline-block;" title="JavaScript">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="42" height="42" />
-  </a>
-  <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" style="display: inline-block;" title="CSS3">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="42" height="42" />
-  </a>
-  <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" style="display: inline-block;" title="HTML5">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="42" height="42" />
-  </a>
-  <a target="_blank" href="https://github.com" style="display: inline-block;" title="GitHub">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="github" width="42" height="42" />
-  </a>
-  <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" style="display: inline-block;" title="VS Code">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="42" height="42" />
-  </a>
+</p>
 </div>
 
- 
-## 🛠️ Skills & Technologies
-
-- **Languages:** C++, Python, C, HTML, CSS, JavaScript
-- **Tools & Platforms:** Git, GitHub, VS Code, Linux
- 
-## 📈 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KINGKK-007&show_icons=true&theme=radical" alt="Kanav's GitHub stats" />
-</div>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=KINGKK-007&color=000000&style=flat-square" alt="Profile views">
+</p>
 
 <div align="center" style="gap: 12px; display: flex; justify-content: center; flex-wrap: wrap;">
   <img src="https://raw.githubusercontent.com/KINGKK-007/KINGKK-007/output/snake.svg" alt="Snake animation" />
