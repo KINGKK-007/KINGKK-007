@@ -39,6 +39,11 @@
 ## 📈 GitHub Stats
 
 ![Kanav's GitHub stats](https://github-readme-stats.vercel.app/api?username=KINGKK-007&show_icons=true&theme=radical)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KINGKK-007/KINGKK-007/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KINGKK-007/KINGKK-007/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/KINGKK-007/KINGKK-007/output/github-snake.svg" />
+</picture>
 
 ---
 
