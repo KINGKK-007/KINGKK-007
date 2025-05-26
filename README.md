@@ -15,15 +15,15 @@
   &nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40" />
   &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="36" height="36" />
   &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" width="40" height="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" width="45" height="45" />
   &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" width="40" height="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" width="45" height="45" />
   &nbsp;&nbsp;
-  <img src="https://imgs.search.brave.com/_yUlZxgAUmMqjX7QKh1ZaP7h4s8ue7zUdSet2RB59ec/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vZ3NVVXBS/UjYtNmpUbmxBanVm/MlNMMWljOG4tME53/aWROa0ZKQWVBaWRF/VS9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTlq/Wkc0dS9jR2w0WVdK/aGVTNWpiMjB2L2NH/aHZkRzh2TWpBeU1p/OHcvTVM4ek1DOHhN/eTh6TXk5bi9hWFJv/ZFdJdE5qazRNRGc1/L05GODJOREF1Y0c1/bg" alt="GitHub" width="40" height="40" />
+  <img src="https://imgs.search.brave.com/_yUlZxgAUmMqjX7QKh1ZaP7h4s8ue7zUdSet2RB59ec/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vZ3NVVXBS/UjYtNmpUbmxBanVm/MlNMMWljOG4tME53/aWROa0ZKQWVBaWRF/VS9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTlq/Wkc0dS9jR2w0WVdK/aGVTNWpiMjB2L2NH/aHZkRzh2TWpBeU1p/OHcvTVM4ek1DOHhN/eTh6TXk5bi9hWFJv/ZFdJdE5qazRNRGc1/L05GODJOREF1Y0c1/bg" alt="GitHub" width="38" height="38" />
   &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VS Code" width="37" height="37" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VS Code" width="35" height="35" />
 </p>
 
 <br/>
