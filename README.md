@@ -45,7 +45,7 @@
 </p>
 
 <div align="center" style="gap: 12px; display: flex; justify-content: center; flex-wrap: wrap;">
-  <img src="https://raw.githubusercontent.com/KINGKK-007/KINGKK-007/output/snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/Ayush-patel9/Ayush-patel9/output/snake.svg" alt="Snake animation" />
 </div>
  
 <h2>⚡️ Where to find me</h2>
