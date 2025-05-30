@@ -31,9 +31,9 @@
 <h2 align="center">📈 GitHub Stats</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ayush-patel9&show_icons=true&theme=radical" height="200" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=KINGKK-007&show_icons=true&theme=radical" height="200" alt="GitHub Stats" />
   &nbsp;&nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Ayush-patel9&theme=radical" height="200" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=KINGKK-007&theme=radical" height="200" alt="GitHub Streak" />
 </p>
 
 
@@ -41,11 +41,11 @@
 </div>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Ayush-patel9&color=000000&style=flat-square" alt="Profile views">
+  <img src="https://komarev.com/ghpvc/?username=KINGKK-007&color=000000&style=flat-square" alt="Profile views">
 </p>
 
 <div align="center" style="gap: 12px; display: flex; justify-content: center; flex-wrap: wrap;">
-  <img src="https://raw.githubusercontent.com/Ayush-patel9/Ayush-patel9/output/snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/KINGKK-007/KINGKK-007/output/snake.svg" alt="Snake animation" />
 </div>
  
 <h2>⚡️ Where to find me</h2>
@@ -67,5 +67,3 @@
     <img src="https://img.shields.io/badge/dev.to-007ACC?style=for-the-badge&logo=dev.to&logoColor=white" alt="dev.to" />
   </a>
 </div>
-
-
