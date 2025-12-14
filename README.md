@@ -43,7 +43,7 @@
 <h2>⚡️ Where to find me</h2>
 
 <div align="center" style="gap: 12px; display: flex; justify-content: center; flex-wrap: wrap;">
-  <a target="_blank" href="https://www.linkedin.com/in/kanav-kumar-b655962b5" style="display: inline-block;">
+  <a target="_blank" href="https://www.linkedin.com/in/kanavkumar007" style="display: inline-block;">
     <img src="https://img.shields.io/badge/linkedin-logo?style=for-the-badge&logo=linkedin&logoColor=white&color=%230a77b6" alt="linkedin" />
   </a>
   <a href="mailto:kumarkanav1510@gmail.com" style="display: inline-block;">
