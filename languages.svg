@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="238" viewBox="0 0 420 238" role="img" aria-labelledby="title desc">
+<title id="title">Languages in my repositories</title><desc id="desc">Python: 74.8%; C: 14.2%; TypeScript: 5.4%; Java: 2.7%</desc>
+<style>
+:root{--bg:#f7f9f7;--border:#d9e4dd;--text:#182d23;--muted:#526b5d;--accent:#347a5b;--track:#e4ede7;--bar:#69ac8b}
+@media(prefers-color-scheme:dark){:root{--bg:#0d1117;--border:#293830;--text:#e6ede8;--muted:#92a69a;--accent:#9bd8bc;--track:#1b2821;--bar:#76ad91}}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:var(--text)}
+.label{font-size:10px;letter-spacing:1.6px;fill:var(--muted)}
+.muted{font-size:10px;fill:var(--muted)}
+</style>
+<rect x=".5" y=".5" width="419" height="237" rx="10" fill="var(--bg)" stroke="var(--border)"/>
+
+<text x="24" y="30" class="label">LANGUAGES IN MY REPOS</text>
+<text x="24" y="60" font-size="12">Python</text>
+<text x="396" y="60" text-anchor="end" font-size="11" fill="var(--muted)">74.8%</text>
+<rect x="24" y="68" width="372" height="5" rx="2.5" fill="var(--track)"/>
+<rect x="24" y="68" width="278.18" height="5" rx="2.5" fill="var(--accent)" opacity="1.0"/>
+<text x="24" y="97" font-size="12">C</text>
+<text x="396" y="97" text-anchor="end" font-size="11" fill="var(--muted)">14.2%</text>
+<rect x="24" y="105" width="372" height="5" rx="2.5" fill="var(--track)"/>
+<rect x="24" y="105" width="52.79" height="5" rx="2.5" fill="var(--accent)" opacity="0.85"/>
+<text x="24" y="134" font-size="12">TypeScript</text>
+<text x="396" y="134" text-anchor="end" font-size="11" fill="var(--muted)">5.4%</text>
+<rect x="24" y="142" width="372" height="5" rx="2.5" fill="var(--track)"/>
+<rect x="24" y="142" width="20.03" height="5" rx="2.5" fill="var(--accent)" opacity="0.7"/>
+<text x="24" y="171" font-size="12">Java</text>
+<text x="396" y="171" text-anchor="end" font-size="11" fill="var(--muted)">2.7%</text>
+<rect x="24" y="179" width="372" height="5" rx="2.5" fill="var(--track)"/>
+<rect x="24" y="179" width="10.07" height="5" rx="2.5" fill="var(--accent)" opacity="0.55"/>
+<text x="24" y="217" class="muted">Code bytes · public, non-fork repos · top 4</text>
+</svg>
