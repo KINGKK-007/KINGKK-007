@@ -18,15 +18,24 @@
 
 <br />
 
-### A little about me
+<h3 align="center">A little about me</h3>
 
-I'm Kanav — a **Computer Science undergrad at IIIT Bangalore ('28)**. Curious by default; happiest when something complicated finally clicks.
+<p align="center">
+  Hey, I'm Kanav. I'm studying <strong>Computer Science at IIIT Bangalore</strong>, graduating in <strong>2028</strong>.<br />
+  I like asking questions and sticking with something until it finally makes sense.
+</p>
 
-Currently diving deeper into **AI/ML, systems, and backend engineering** — figuring out what happens under the hood, occasionally with a bug as my tour guide.
+<p align="center">
+  Lately, I've been getting deeper into <strong>AI/ML, systems, and backend engineering</strong>.<br />
+  I enjoy figuring out how things work under the hood, even when it means learning from my own bugs.
+</p>
 
-Outside coding: **cricket, gym, travelling, and collecting way too many jerseys**. Also pretending I'll watch “just one more episode” of a series.
+<p align="center">
+  Outside coding, I'm into <strong>cricket, the gym, travelling, and collecting way too many jerseys</strong>.<br />
+  I also keep telling myself I'll watch “just one more episode.”
+</p>
 
-> Ctrl + Z is a lifestyle.
+<p align="center"><sub><em>Ctrl + Z is a lifestyle.</em></sub></p>
 
 <br />
 
@@ -83,12 +92,14 @@ Outside coding: **cricket, gym, travelling, and collecting way too many jerseys*
 
 <br />
 
-### A few things I've built
+<h3 align="center">A few things I've built</h3>
 
-- **[PitchPerfect ↗](https://github.com/COolAlien35/PitchPerfect)** — AI-powered interview practice.
-- **[Mini-Swiggy ↗](https://github.com/KINGKK-007/Mini-Swiggy)** — concurrent order processing in C.
-- **[SignBridge 3D ↗](https://github.com/DayalGupta03/Sign_Bridge1)** — gestures, language, and 3D avatars.
-- **[SmartCampus ↗](https://github.com/Jdsb06/SmartCampus)** — a simpler way to manage campus operations.
+<p align="center">
+  <a href="https://github.com/COolAlien35/PitchPerfect"><img src="./assets/projects/pitchperfect.svg" alt="PitchPerfect — AI-powered interview practice" width="360" /></a>
+  <a href="https://github.com/KINGKK-007/Mini-Swiggy"><img src="./assets/projects/mini-swiggy.svg" alt="Mini-Swiggy — concurrent order processing in C" width="360" /></a>
+  <a href="https://github.com/DayalGupta03/Sign_Bridge1"><img src="./assets/projects/signbridge.svg" alt="SignBridge 3D — gestures, language, and 3D avatars" width="360" /></a>
+  <a href="https://github.com/Jdsb06/SmartCampus"><img src="./assets/projects/smartcampus.svg" alt="SmartCampus — simpler campus management" width="360" /></a>
+</p>
 
 <details>
   <summary>A few milestones along the way</summary>
