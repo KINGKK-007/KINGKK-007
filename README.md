@@ -101,14 +101,13 @@
   <a href="https://github.com/Jdsb06/SmartCampus"><img src="./assets/projects/smartcampus.svg" alt="SmartCampus — simpler campus management" width="360" /></a>
 </p>
 
-<details>
-  <summary>A few milestones along the way</summary>
+<h3 align="center">A few milestones along the way</h3>
 
-- **HackXIOS 2K25** — ranked **7th out of 2,300**.
-- **Meta PyTorch OpenEnv Hackathon 2026** — finalist among **12,000+ teams**.
-- **Novo Nordisk GBS Hackathon 2025** — pre-finalist.
-
-</details>
+<p align="center">
+  <img src="./assets/milestones/hackxios.svg" alt="HackXIOS 2K25 — ranked 7th out of 2,300" width="240" />
+  <img src="./assets/milestones/openenv.svg" alt="Meta PyTorch OpenEnv Hackathon 2026 — finalist among 12,000+ teams" width="240" />
+  <img src="./assets/milestones/novo-nordisk.svg" alt="Novo Nordisk GBS Hackathon 2025 — pre-finalist" width="240" />
+</p>
 
 <br />
 
