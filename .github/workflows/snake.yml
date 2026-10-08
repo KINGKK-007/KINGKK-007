@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Refresh profile visuals
 
 on:
   schedule:
@@ -12,12 +12,13 @@ on:
       - ".github/workflows/snake.yml"
       - "README.md"
       - "assets/**"
+      - "scripts/profile_stats.py"
 
 permissions:
   contents: read
 
 concurrency:
-  group: contribution-snake
+  group: profile-visuals
   cancel-in-progress: false
 
 jobs:
@@ -28,6 +29,9 @@ jobs:
       contents: write
 
     steps:
+      - name: Check out profile scripts
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
       - name: Generate light and dark animations
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
@@ -36,12 +40,20 @@ jobs:
             dist/snake.svg?palette=github-light&color_snake=#287d60&color_dots=#eef2ef,#d4e8dc,#a4ceb7,#69ac8b,#347a5b
             dist/snake-dark.svg?palette=github-dark&color_snake=#c4f0da&color_dots=#161e1a,#243e32,#37644e,#579374,#9bd8bc
 
+      - name: Refresh activity and language cards
+        run: python3 scripts/profile_stats.py --username "$PROFILE_USERNAME" --output dist
+        env:
+          PROFILE_USERNAME: ${{ github.repository_owner }}
+          GH_PROFILE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Verify generated assets
         run: |
           test -s dist/snake.svg
           test -s dist/snake-dark.svg
+          test -s dist/activity.svg
+          test -s dist/languages.svg
 
-      - name: Publish animations to the output branch
+      - name: Publish profile visuals to the output branch
         uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865 # v4
         with:
           target_branch: output
@@ -49,6 +61,6 @@ jobs:
           keep_history: true
           allow_empty_commit: false
           jekyll: false
-          commit_message: "Refresh contribution snake"
+          commit_message: "Refresh contribution snake and profile stats"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

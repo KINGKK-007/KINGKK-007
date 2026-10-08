@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="238" viewBox="0 0 420 238" role="img" aria-labelledby="title desc">
+<title id="title">GitHub activity</title><desc id="desc">92 contributions across 32 active days in the past year.</desc>
+<style>
+:root{--bg:#f7f9f7;--border:#d9e4dd;--text:#182d23;--muted:#526b5d;--accent:#347a5b;--track:#e4ede7;--bar:#69ac8b}
+@media(prefers-color-scheme:dark){:root{--bg:#0d1117;--border:#293830;--text:#e6ede8;--muted:#92a69a;--accent:#9bd8bc;--track:#1b2821;--bar:#76ad91}}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:var(--text)}
+.label{font-size:10px;letter-spacing:1.6px;fill:var(--muted)}
+.muted{font-size:10px;fill:var(--muted)}
+</style>
+<rect x=".5" y=".5" width="419" height="237" rx="10" fill="var(--bg)" stroke="var(--border)"/>
+
+<text x="24" y="30" class="label">A LITTLE EVERY DAY</text>
+<text x="24" y="84" font-size="42" font-weight="600">92</text>
+<text x="24" y="107" font-size="12" fill="var(--muted)">contributions</text>
+<text x="231" y="84" font-size="42" font-weight="600">32</text>
+<text x="231" y="107" font-size="12" fill="var(--muted)">active days</text>
+<path d="M207 53v58" stroke="var(--border)"/>
+<rect x="24.00" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="31.15" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="38.30" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="45.45" y="161.11" width="4.5" height="21.89" rx="1" fill="var(--bar)" opacity="1"/>
+<rect x="52.60" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="59.75" y="180.26" width="4.5" height="2.74" rx="1" fill="var(--bar)" opacity="1"/>
+<rect x="66.90" y="169.32" width="4.5" height="13.68" rx="1" fill="var(--bar)" opacity="1"/>
+<rect x="74.05" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="81.20" y="147.42" width="4.5" height="35.58" rx="1" fill="var(--bar)" opacity="1"/>
+<rect x="88.35" y="174.79" width="4.5" height="8.21" rx="1" fill="var(--bar)" opacity="1"/>
+<rect x="95.50" y="180.26" width="4.5" height="2.74" rx="1" fill="var(--bar)" opacity="1"/>
+<rect x="102.65" y="180.26" width="4.5" height="2.74" rx="1" fill="var(--bar)" opacity="1"/>
+<rect x="109.80" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="116.95" y="180.26" width="4.5" height="2.74" rx="1" fill="var(--bar)" opacity="1"/>
+<rect x="124.10" y="155.63" width="4.5" height="27.37" rx="1" fill="var(--bar)" opacity="1"/>
+<rect x="131.25" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="138.40" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="145.55" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="152.70" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="159.85" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="167.00" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="174.15" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="181.30" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="188.45" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="195.60" y="174.79" width="4.5" height="8.21" rx="1" fill="var(--bar)" opacity="1"/>
+<rect x="202.75" y="174.79" width="4.5" height="8.21" rx="1" fill="var(--bar)" opacity="1"/>
+<rect x="209.90" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="217.05" y="155.63" width="4.5" height="27.37" rx="1" fill="var(--bar)" opacity="1"/>
+<rect x="224.20" y="131.00" width="4.5" height="52.00" rx="1" fill="var(--bar)" opacity="1"/>
+<rect x="231.35" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="238.50" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="245.65" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="252.80" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="259.95" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="267.10" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="274.25" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="281.40" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="288.55" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="295.70" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="302.85" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="310.00" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="317.15" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="324.30" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="331.45" y="174.79" width="4.5" height="8.21" rx="1" fill="var(--bar)" opacity="1"/>
+<rect x="338.60" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="345.75" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="352.90" y="177.53" width="4.5" height="5.47" rx="1" fill="var(--bar)" opacity="1"/>
+<rect x="360.05" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="367.20" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="374.35" y="172.05" width="4.5" height="10.95" rx="1" fill="var(--bar)" opacity="1"/>
+<rect x="381.50" y="183.00" width="4.5" height="1.00" rx="1" fill="var(--bar)" opacity="0.14"/>
+<rect x="388.65" y="169.32" width="4.5" height="13.68" rx="1" fill="var(--bar)" opacity="1"/>
+<text x="24" y="217" class="muted">Weekly contributions · past year</text>
+</svg>
