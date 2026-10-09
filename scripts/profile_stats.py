@@ -13,6 +13,8 @@ from pathlib import Path
 import re
 from urllib.request import Request, urlopen
 
+from typography import outline_svg
+
 
 class ContributionCalendar(HTMLParser):
     """Join GitHub's dated calendar cells to their contribution tooltips."""
@@ -94,8 +96,8 @@ def svg_start(title, description):
 :root{{--bg:#f7f9f7;--border:#d9e4dd;--text:#182d23;--muted:#526b5d;--accent:#347a5b;--track:#e4ede7;--bar:#69ac8b}}
 @media(prefers-color-scheme:dark){{:root{{--bg:#0d1117;--border:#293830;--text:#e6ede8;--muted:#92a69a;--accent:#9bd8bc;--track:#1b2821;--bar:#76ad91}}}}
 text{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:var(--text)}}
-.label{{font-size:10px;letter-spacing:1.6px;fill:var(--muted)}}
-.muted{{font-size:10px;fill:var(--muted)}}
+.label{{fill:var(--muted)}}
+.muted{{fill:var(--muted)}}
 </style>
 <rect x=".5" y=".5" width="419" height="237" rx="10" fill="var(--bg)" stroke="var(--border)"/>
 '''
@@ -114,14 +116,14 @@ def activity_card(counts, today):
         if age < 52:
             weeks[51 - age] += count
     svg = [svg_start("GitHub activity", f"{total} contributions across {active} active days in the past year.")]
-    svg.append('<text x="24" y="30" class="label">A LITTLE EVERY DAY</text>')
+    svg.append('<text x="24" y="30" class="label" font-family="monospace" font-size="10.5" font-weight="500" letter-spacing="1.1">A LITTLE EVERY DAY</text>')
     # Keep tiny or empty headline counters off the card.
     metrics = [(total, "contributions"), (active, "active days")]
     metrics = [(value, label) for value, label in metrics if value >= 10]
     for index, (value, label) in enumerate(metrics):
         x = 24 + index * 207
-        svg.append(f'<text x="{x}" y="84" font-size="42" font-weight="600">{value:,}</text>')
-        svg.append(f'<text x="{x}" y="107" font-size="12" fill="var(--muted)">{label}</text>')
+        svg.append(f'<text x="{x}" y="86" font-size="46" font-weight="600" letter-spacing="-1.5">{value:,}</text>')
+        svg.append(f'<text x="{x}" y="110" font-size="12.5" font-weight="450" class="muted">{label}</text>')
     if len(metrics) == 2:
         svg.append('<path d="M207 53v58" stroke="var(--border)"/>')
     if not metrics:
@@ -131,9 +133,9 @@ def activity_card(counts, today):
         height = 52 * count / maximum
         x = 24 + index * 7.15
         svg.append(f'<rect x="{x:.2f}" y="{183-height:.2f}" width="4.5" height="{max(height, 1):.2f}" rx="1" fill="var(--bar)" opacity="{1 if count else .14}"/>')
-    svg.append('<text x="24" y="217" class="muted">Weekly contributions · past year</text>')
+    svg.append('<text x="24" y="217" class="muted" font-size="11" font-weight="450">Weekly contributions · past year</text>')
     svg.append('</svg>\n')
-    return "\n".join(svg), {"contributions": total, "active_days": active}
+    return outline_svg("\n".join(svg)), {"contributions": total, "active_days": active}
 
 
 def languages_card(totals):
@@ -143,17 +145,17 @@ def languages_card(totals):
     top = totals.most_common(4)
     description = "; ".join(f"{name}: {amount/total:.1%}" for name, amount in top)
     svg = [svg_start("Languages in my repositories", description)]
-    svg.append('<text x="24" y="30" class="label">LANGUAGES IN MY REPOS</text>')
+    svg.append('<text x="24" y="30" class="label" font-family="monospace" font-size="10.5" font-weight="500" letter-spacing="1.1">LANGUAGES IN MY REPOS</text>')
     for index, (name, amount) in enumerate(top):
         y = 60 + index * 37
         ratio = amount / total
-        svg.append(f'<text x="24" y="{y}" font-size="12">{escape(name)}</text>')
-        svg.append(f'<text x="396" y="{y}" text-anchor="end" font-size="11" fill="var(--muted)">{ratio:.1%}</text>')
+        svg.append(f'<text x="24" y="{y}" font-size="13" font-weight="500">{escape(name)}</text>')
+        svg.append(f'<text x="396" y="{y}" text-anchor="end" font-size="12" font-weight="450" class="muted">{ratio:.1%}</text>')
         svg.append(f'<rect x="24" y="{y+8}" width="372" height="5" rx="2.5" fill="var(--track)"/>')
         svg.append(f'<rect x="24" y="{y+8}" width="{372*ratio:.2f}" height="5" rx="2.5" fill="var(--accent)" opacity="{1-index*.15}"/>')
-    svg.append('<text x="24" y="217" class="muted">Code bytes · public, non-fork repos · top 4</text>')
+    svg.append('<text x="24" y="217" class="muted" font-size="10.5" font-weight="450">Code bytes · public, non-fork repos · top 4</text>')
     svg.append('</svg>\n')
-    return "\n".join(svg)
+    return outline_svg("\n".join(svg))
 
 
 def main():

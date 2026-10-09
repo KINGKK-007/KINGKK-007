@@ -12,7 +12,7 @@ on:
       - ".github/workflows/snake.yml"
       - "README.md"
       - "assets/**"
-      - "scripts/profile_stats.py"
+      - "scripts/**"
 
 permissions:
   contents: read
@@ -41,7 +41,10 @@ jobs:
             dist/snake-dark.svg?palette=github-dark&color_snake=#c4f0da&color_dots=#161e1a,#243e32,#37644e,#579374,#9bd8bc
 
       - name: Refresh activity and language cards
-        run: python3 scripts/profile_stats.py --username "$PROFILE_USERNAME" --output dist
+        run: |
+          python3 -m venv "$RUNNER_TEMP/profile-typography"
+          "$RUNNER_TEMP/profile-typography/bin/pip" install --disable-pip-version-check -r scripts/requirements.txt
+          "$RUNNER_TEMP/profile-typography/bin/python" scripts/profile_stats.py --username "$PROFILE_USERNAME" --output dist
         env:
           PROFILE_USERNAME: ${{ github.repository_owner }}
           GH_PROFILE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
