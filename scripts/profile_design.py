@@ -2,8 +2,10 @@
 """Build the charcoal-and-mint profile assets from editable design sources."""
 
 from html import escape
+from hashlib import sha256
 from math import ceil, exp, sin, cos, pi
 from pathlib import Path
+import re
 import xml.etree.ElementTree as ET
 
 from typography import outline_svg, text_width
@@ -282,8 +284,27 @@ def footer():
     write('editorial/footer-mobile.svg',mobile)
 
 
+def version_readme_assets():
+    """Give changed design assets fresh URLs without renaming editable files."""
+    readme = ROOT.parent / 'README.md'
+
+    def version(match):
+        prefix, relative, suffix = match.groups()
+        # The workflow refreshes dated data snapshots independently of the design.
+        if relative.startswith('./assets/stats/'):
+            return prefix + relative + suffix
+        fingerprint = sha256((ROOT.parent / relative).read_bytes()).hexdigest()[:10]
+        return f'{prefix}{relative}?v={fingerprint}{suffix}'
+
+    source = readme.read_text()
+    revised = re.sub(r'((?:src|srcset)=")(\./assets/[^"?]+)(?:\?v=[^"]+)?(")', version, source)
+    if revised != source:
+        readme.write_text(revised)
+
+
 def main():
     socials(); banners(); featured(); projects(); toolkit(); milestones(); footer()
+    version_readme_assets()
     print('Generated hero, featured work, project cards, grouped toolkit, achievements and footer.')
 
 

@@ -93,6 +93,10 @@ GitHub-rendered HTML and GitHub's own styles. The review found and fixed:
    Compact variants preserve readable type instead of merely shrinking the artwork.
 7. Inconsistent hero/panel widths and mobile image upscaling. Intrinsic SVG sizing
    and simple centered markup keep the large panels aligned without custom CSS.
+8. The first live publication loaded old cached graphics at unchanged asset URLs.
+   The design generator now gives static image references content fingerprints,
+   so updated artwork gets a fresh URL. Data snapshots retain their dated, stable
+   URLs and can briefly show the preceding valid snapshot while caches refresh.
 
 The responsive review covers 1440, 1024, 600, 390 and 320px viewports, plus light
 mode and OS-light/GitHub-dark mode. Native headings and paragraphs inherit GitHub's
