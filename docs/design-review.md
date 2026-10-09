@@ -104,6 +104,31 @@ own styles. Fixed-width secondary cards wrap naturally into three, two or one co
 Full-article captures hide only GitHub's sticky navigation to avoid obscuring the
 hero; no extra stylesheet or JavaScript is shipped in the README.
 
+## Published verification
+
+The **actual published profile**, with no replacement README HTML or local asset
+interception, was inspected in Chrome at all five widths and both theme scenarios.
+The complete desktop and mobile captures, compact layouts and narrow-phone output
+were visually reviewed. All 18 displayed images loaded in every case, the expected
+responsive variants were selected, and there was no horizontal page overflow.
+The loaded static artwork matched the committed source files byte for byte.
+
+The final refresh recorded 99 contributions and 33 active days. During the live
+review, the desktop overview briefly served the preceding valid 98-contribution
+snapshot, while compact and mobile showed 99. The cached image was checked against
+its actual previous repository version; it was not treated as a failed fetch or
+claimed to be the newest snapshot. GitHub's image response advertises a 300-second
+cache lifetime. Subsequent contributions and scheduled refreshes can change the
+numbers again.
+
+Validation passed: eight statistics regression tests, Python syntax, all 50 SVGs,
+all 30 README image references, preserved GitHub-sanitized image URLs, stable
+artwork fingerprints, and outlined text bounds. The snake animated in Chrome;
+enabling reduced motion stopped the animation. Both publication workflows passed,
+including the bot's update of the committed snapshots. The final
+[refresh run](https://github.com/KINGKK-007/KINGKK-007/actions/runs/37873539565)
+completed successfully.
+
 ## Remaining platform/account limits
 
 - The actual sidebar bio is a separate account setting. The available GitHub
