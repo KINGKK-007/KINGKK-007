@@ -38,13 +38,14 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake.svg?palette=github-light&color_snake=#287d60&color_dots=#eef2ef,#d4e8dc,#a4ceb7,#69ac8b,#347a5b
-            dist/snake-dark.svg?palette=github-dark&color_snake=#c4f0da&color_dots=#161e1a,#243e32,#37644e,#579374,#9bd8bc
+            dist/snake-dark.svg?palette=github-dark&color_snake=#c5f5df&color_dots=#16221c,#294535,#427056,#6ba287,#9bd8bc
 
       - name: Refresh activity and language cards
         run: |
           python3 -m venv "$RUNNER_TEMP/profile-typography"
           "$RUNNER_TEMP/profile-typography/bin/pip" install --disable-pip-version-check -r scripts/requirements.txt
-          "$RUNNER_TEMP/profile-typography/bin/python" scripts/profile_stats.py --username "$PROFILE_USERNAME" --output dist
+          PYTHONPATH=scripts "$RUNNER_TEMP/profile-typography/bin/python" -m unittest discover -s scripts/tests -v
+          "$RUNNER_TEMP/profile-typography/bin/python" scripts/profile_stats.py --username "$PROFILE_USERNAME" --output dist --snake-dir dist
         env:
           PROFILE_USERNAME: ${{ github.repository_owner }}
           GH_PROFILE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -53,8 +54,12 @@ jobs:
         run: |
           test -s dist/snake.svg
           test -s dist/snake-dark.svg
-          test -s dist/activity.svg
-          test -s dist/languages.svg
+          test -s dist/overview.svg
+          test -s dist/overview-mobile.svg
+          test -s dist/overview-compact.svg
+          test -s dist/contributions.svg
+          test -s dist/contributions-mobile.svg
+          test -s dist/contributions-compact.svg
 
       - name: Publish profile visuals to the output branch
         uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865 # v4
@@ -67,3 +72,23 @@ jobs:
           commit_message: "Refresh contribution snake and profile stats"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update the self-hosted README snapshots
+        env:
+          PROFILE_BRANCH: main
+        run: |
+          # A newer design commit should be rendered by its own workflow run.
+          git fetch origin "$PROFILE_BRANCH"
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse "origin/$PROFILE_BRANCH")" ]; then
+            echo "A newer main commit exists; leave its snapshots to the newer run."
+            exit 0
+          fi
+          cp dist/overview.svg dist/overview-mobile.svg dist/overview-compact.svg dist/contributions.svg dist/contributions-mobile.svg dist/contributions-compact.svg dist/snapshot.json assets/stats/
+          if git diff --quiet -- assets/stats; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats/
+          git commit -m "Refresh public profile snapshots"
+          git push origin "HEAD:$PROFILE_BRANCH"
