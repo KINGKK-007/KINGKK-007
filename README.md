@@ -38,9 +38,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/KINGKK-007/Mini-Swiggy"><img src="./assets/projects/mini-swiggy.svg?v=91a58673bf" alt="Mini-Swiggy — concurrent order processing, safe file access and worker processes. C, pthreads, TCP and IPC. Open the repository." width="254" /></a>
-  <a href="https://github.com/DayalGupta03/Sign_Bridge1"><img src="./assets/projects/signbridge.svg?v=20430ffd30" alt="SignBridge 3D — gesture recognition and 3D avatars for accessible communication. Next.js, Gemini and MediaPipe. Open the repository." width="254" /></a>
   <a href="https://github.com/Jdsb06/SmartCampus"><img src="./assets/projects/smartcampus.svg?v=5d8c197b6d" alt="SmartCampus — course enrollment, notifications and campus events. Spring Boot, MySQL and Flyway. Open the repository." width="254" /></a>
+  <a href="https://github.com/DayalGupta03/Sign_Bridge1"><img src="./assets/projects/signbridge.svg?v=20430ffd30" alt="SignBridge 3D — gesture recognition and 3D avatars for accessible communication. Next.js, Gemini and MediaPipe. Open the repository." width="254" /></a>
+  <a href="https://github.com/KINGKK-007/Mini-Swiggy"><img src="./assets/projects/mini-swiggy.svg?v=91a58673bf" alt="Mini-Swiggy — concurrent order processing, safe file access and worker processes. C, pthreads, TCP and IPC. Open the repository." width="254" /></a>
 </p>
 
 <p align="center">
