@@ -30,30 +30,43 @@
 <p align="center">
   <a href="https://github.com/COolAlien35/PitchPerfect">
     <picture>
-      <source media="(max-width: 480px)" srcset="./assets/projects/pitchperfect-mobile.svg?v=f1fbb037f3" />
-      <source media="(max-width: 1100px)" srcset="./assets/projects/pitchperfect-compact.svg?v=f5041fd432" />
-      <img src="./assets/projects/pitchperfect.svg?v=20842b0eb7" alt="Featured project: PitchPerfect. AI-powered mock interviews tailored to your résumé and role, with live audio/video feedback and post-session reports. Next.js, FastAPI, PostgreSQL, Redis and Docker. Open the repository." />
+      <source media="(max-width: 480px)" srcset="./assets/projects/pitchperfect-mobile.svg?v=b108d518b0" />
+      <source media="(max-width: 1100px)" srcset="./assets/projects/pitchperfect-compact.svg?v=322381a283" />
+      <img src="./assets/projects/pitchperfect.svg?v=546e9d48fc" alt="Featured project: PitchPerfect. AI-powered mock interviews tailored to your résumé and role, with live audio/video feedback and post-session reports. Next.js, FastAPI, PostgreSQL, Redis and Docker. Open the repository." width="100%" />
     </picture>
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/Jdsb06/SmartCampus"><img src="./assets/projects/smartcampus.svg?v=5d8c197b6d" alt="SmartCampus — course enrollment, notifications and campus events. Spring Boot, MySQL and Flyway. Open the repository." width="254" /></a>
-  <a href="https://github.com/DayalGupta03/Sign_Bridge1"><img src="./assets/projects/signbridge.svg?v=20430ffd30" alt="SignBridge 3D — gesture recognition and 3D avatars for accessible communication. Next.js, Gemini and MediaPipe. Open the repository." width="254" /></a>
-  <a href="https://github.com/KINGKK-007/Mini-Swiggy"><img src="./assets/projects/mini-swiggy.svg?v=91a58673bf" alt="Mini-Swiggy — concurrent order processing, safe file access and worker processes. C, pthreads, TCP and IPC. Open the repository." width="254" /></a>
-</p>
+<table align="left">
+  <tr><td>
+    <a href="https://github.com/Jdsb06/SmartCampus"><picture><source media="(max-width: 360px)" srcset="./assets/projects/smartcampus-narrow.svg?v=680409c6f9" /><source media="(max-width: 480px)" srcset="./assets/projects/smartcampus-mobile.svg?v=b6f44bcf17" /><source media="(max-width: 1100px)" srcset="./assets/projects/smartcampus-compact.svg?v=b61a45688c" /><img src="./assets/projects/smartcampus.svg?v=9c8f946c5e" alt="SmartCampus — course enrollment, notifications and campus events. Spring Boot, MySQL and Flyway." align="top" /></picture></a><br />
+    <a href="https://github.com/Jdsb06/SmartCampus"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-narrow.svg?v=b1c6cbee34" /><source media="(max-width: 480px)" srcset="./assets/projects/source-mobile.svg?v=82862bac2f" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-compact.svg?v=56d230f069" /><img src="./assets/projects/source.svg?v=8082b74c12" alt="Open the project repository" align="top" width="100%" /></picture></a>
+  </td></tr>
+</table>
 
-<p align="center">
-  <a href="https://sign-bridge1.vercel.app"><img src="./assets/badges/signbridge-live.svg?v=c0676e3d45" alt="Open the live SignBridge 3D demo" height="36" /></a>
-</p>
+<table align="right">
+  <tr><td>
+    <a href="https://github.com/DayalGupta03/Sign_Bridge1"><picture><source media="(max-width: 360px)" srcset="./assets/projects/signbridge-narrow.svg?v=52f07cc10c" /><source media="(max-width: 480px)" srcset="./assets/projects/signbridge-mobile.svg?v=eca4ab969b" /><source media="(max-width: 1100px)" srcset="./assets/projects/signbridge-compact.svg?v=6cfa76844a" /><img src="./assets/projects/signbridge.svg?v=587aa11d5f" alt="SignBridge 3D — gesture recognition and 3D avatars for accessible communication. Next.js, Gemini and MediaPipe." align="top" /></picture></a><br />
+    <a href="https://github.com/DayalGupta03/Sign_Bridge1"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-half-narrow.svg?v=10eb35861b" /><source media="(max-width: 480px)" srcset="./assets/projects/source-half-mobile.svg?v=dcf365cd58" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-half-compact.svg?v=5e9a548ee2" /><img src="./assets/projects/source-half.svg?v=67368179ff" alt="Open the SignBridge 3D repository" align="top" width="50%" /></picture></a><a href="https://sign-bridge1.vercel.app"><picture><source media="(max-width: 360px)" srcset="./assets/projects/demo-half-narrow.svg?v=5af66071ef" /><source media="(max-width: 480px)" srcset="./assets/projects/demo-half-mobile.svg?v=f9b318fb39" /><source media="(max-width: 1100px)" srcset="./assets/projects/demo-half-compact.svg?v=51fb8a6096" /><img src="./assets/projects/demo-half.svg?v=9337679c3b" alt="Open the live SignBridge 3D demo" align="top" width="50%" /></picture></a>
+  </td></tr>
+</table>
+
+<br clear="all" />
+
+<table align="center">
+  <tr><td>
+    <a href="https://github.com/KINGKK-007/Mini-Swiggy"><picture><source media="(max-width: 360px)" srcset="./assets/projects/mini-swiggy-narrow.svg?v=d7c5fc87d9" /><source media="(max-width: 480px)" srcset="./assets/projects/mini-swiggy-mobile.svg?v=09fd2e6ff3" /><source media="(max-width: 1100px)" srcset="./assets/projects/mini-swiggy-compact.svg?v=bf8168ecbe" /><img src="./assets/projects/mini-swiggy.svg?v=4c4fa10364" alt="Mini-Swiggy — concurrent orders, worker processes and safe file access in C. C, pthreads, TCP and IPC." align="top" /></picture></a><br />
+    <a href="https://github.com/KINGKK-007/Mini-Swiggy"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-narrow.svg?v=b1c6cbee34" /><source media="(max-width: 480px)" srcset="./assets/projects/source-mobile.svg?v=82862bac2f" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-compact.svg?v=56d230f069" /><img src="./assets/projects/source.svg?v=8082b74c12" alt="Open the project repository" align="top" width="100%" /></picture></a>
+  </td></tr>
+</table>
 
 <h3 align="center">My toolkit</h3>
 
 <p align="center">
   <picture>
-    <source media="(max-width: 480px)" srcset="./assets/editorial/toolkit-mobile.svg?v=89dce4fb6c" />
-    <source media="(max-width: 1100px)" srcset="./assets/editorial/toolkit-compact.svg?v=b30fe1d7c3" />
-    <img src="./assets/editorial/toolkit.svg?v=69a1240ed4" alt="Languages: Java, C, C++, Python, SQL, JavaScript. Frameworks: Spring Boot, React, Next.js, FastAPI. Tools and data: Docker, PostgreSQL, MySQL, Git, Linux, Postman." />
+    <source media="(max-width: 480px)" srcset="./assets/editorial/toolkit-mobile.svg?v=e1c16f74cb" />
+    <source media="(max-width: 1100px)" srcset="./assets/editorial/toolkit-compact.svg?v=cde843cd90" />
+    <img src="./assets/editorial/toolkit.svg?v=f0788ef9ec" alt="Languages: Java, C, C++, Python, SQL, JavaScript. Frameworks: Spring Boot, React, Next.js, FastAPI. Tools and data: Docker, PostgreSQL, MySQL, Git, Linux, Postman." />
   </picture>
 </p>
 

@@ -18,12 +18,12 @@ BG, SURFACE, INK, MUTED = '#0d1117', '#111814', '#e6edf3', '#a7b2bc'
 MINT, BRIGHT, BORDER = '#9bd8bc', '#c5f5df', '#28352f'
 
 PROJECTS = [
-    ('mini-swiggy', 'Mini-Swiggy', 'A concurrent order server with safe file access and worker processes.',
-     'C · pthreads · TCP · IPC', 'network'),
+    ('smartcampus', 'SmartCampus', 'Course enrollment, notifications and campus events.',
+     'Spring Boot · MySQL · Flyway', 'campus'),
     ('signbridge', 'SignBridge 3D', 'Gesture recognition and 3D avatars for accessible communication.',
      'Next.js · Gemini · MediaPipe', 'gesture'),
-    ('smartcampus', 'SmartCampus', 'Course enrollment, notifications and campus events in one place.',
-     'Spring Boot · MySQL · Flyway', 'campus'),
+    ('mini-swiggy', 'Mini-Swiggy', 'Concurrent orders, worker processes and safe file access in C.',
+     'C · pthreads · TCP · IPC', 'network'),
 ]
 TECH = [
     ('Languages', [('java', 'Java'), ('c', 'C'), ('cpp', 'C++'), ('python', 'Python'), ('sql', 'SQL'), ('javascript', 'JavaScript')]),
@@ -50,11 +50,14 @@ def write(relative, svg):
     path.write_text(outline_svg(svg + '</svg>'))
 
 
-def wrap(value, width, size=16, weight=450):
+def wrap(value, width, size=16, weight=450, mono=False):
+    """Wrap body copy or whole technology names without orphan separators."""
     lines, line = [], ''
-    for word in value.split():
-        candidate = (line + ' ' + word).strip()
-        if line and text_width(candidate, size, weight) > width:
+    separator = ' · ' if mono else ' '
+    words = value.split(separator) if mono else value.split()
+    for word in words:
+        candidate = separator.join([line,word]) if line else word
+        if line and text_width(candidate, size, weight, 'mono' if mono else 'sans') > width:
             lines.append(line); line = word
         else:
             line = candidate
@@ -98,7 +101,6 @@ def badge(relative, label, mark=None, accent=False):
 def socials():
     for name, label in [('linkedin', 'LinkedIn'), ('email', 'Email'), ('x', 'X'), ('instagram', 'Instagram'), ('dev', 'DEV')]:
         badge(f'badges/{name}.svg', label, name, name in ('linkedin', 'email'))
-    badge('badges/signbridge-live.svg', 'SignBridge · Live demo')
 
 
 def banners():
@@ -161,14 +163,14 @@ def featured():
         h=stack_y+66 if mobile else 244
         svg = start(w, h, 'PitchPerfect — featured project', desc + ' Next.js, FastAPI, PostgreSQL, Redis and Docker. Open the project repository.') + frame(w, h, True)
         x = 22 if mobile else 28
-        svg += text('FEATURED PROJECT', x, 32, 12, MINT, mono=True, spacing=.5)
+        svg += text('FEATURED PROJECT', x, 32, 13, MINT, mono=True, spacing=.35)
         svg += text('PitchPerfect', x, 78 if mobile else 83, 35 if mobile else 37, INK, 700, spacing=-1)
         y = desc_y
         for line in desc_lines:
             svg += text(line, x, y, size, MUTED, 450); y += 25
         y = stack_y
-        svg += text('Next.js · FastAPI · PostgreSQL', x, y, 12.5, MUTED, mono=True)
-        svg += text('Redis · Docker' if mobile else 'Redis · Docker · Gemini · Whisper', x, y+21, 12.5, MUTED, mono=True)
+        svg += text('Next.js · FastAPI · PostgreSQL', x, y, 13.5, MUTED, mono=True)
+        svg += text('Redis · Docker' if mobile else 'Redis · Docker · Gemini · Whisper', x, y+22, 13.5, MUTED, mono=True)
         svg += text('Explore the repository', x, h-17, 13, BRIGHT, 600)
         svg += arrow(x+157, h-27, BRIGHT)
         if mobile or compact:
@@ -186,16 +188,36 @@ def featured():
 
 
 def projects():
-    for filename, title, desc, stack, kind in PROJECTS:
-        svg = start(260, 204, title, desc + ' ' + stack + '. Open the project repository.') + frame(260, 204)
-        svg += icon(kind, 20, 18, 24, MUTED) + arrow(221, 21)
-        svg += text(title, 20, 69, 19, INK, 650, spacing=-.35)
-        y = 97
-        for line in wrap(desc, 220, 14.5):
-            svg += text(line, 20, y, 14.5, MUTED, 450); y += 20
-        svg += text(stack, 20, 166, 11.5, MUTED, mono=True)
-        svg += text('View source', 20, 191, 12.5, MINT, 600)
-        write(f'projects/{filename}.svg', svg)
+    # Native GitHub table cells frame each card and keep its two real links together.
+    # Their 28px total padding gives 400px desktop / 254px compact card widths.
+    for mode, w in [('desktop',372), ('compact',226), ('mobile',280), ('narrow',210)]:
+        suffix = '' if mode=='desktop' else '-'+mode
+        inset = 18 if w>=280 else 12
+        desc_size, stack_size = 16.5, 14
+        description_rows = max(len(wrap(p[2],w-2*inset,desc_size)) for p in PROJECTS)
+        stack_rows = max(len(wrap(p[3],w-2*inset,stack_size,500,mono=True)) for p in PROJECTS)
+        stack_y = 80+(description_rows-1)*24+33
+        height = stack_y+(stack_rows-1)*22+23
+        for filename, title, desc, stack, kind in PROJECTS:
+            svg = start(w,height,title,desc+' '+stack+'. Open the repository.')
+            svg += f'<rect width="{w}" height="{height}" fill="{BG}"/>'
+            svg += icon(kind,inset,20,22,MUTED)
+            svg += text(title,inset+32,39,24 if w>=280 else 21,INK,650,spacing=-.45)
+            for i,line in enumerate(wrap(desc,w-2*inset,desc_size)):
+                svg += text(line,inset,80+i*24,desc_size,MUTED,450)
+            for i,line in enumerate(wrap(stack,w-2*inset,stack_size,500,mono=True)):
+                svg += text(line,inset,stack_y+i*22,stack_size,MUTED,mono=True)
+            write(f'projects/{filename}{suffix}.svg',svg)
+
+        for name,label,half in [('source','View source',False),('source-half','Source',True),('demo-half','Live demo',True)]:
+            width = w/2 if half else w
+            svg = start(width,46,label,'Open the live SignBridge demo.' if name=='demo-half' else 'Open the project repository.')
+            svg += f'<rect width="{width}" height="46" fill="{BG}"/><path d="M0 .5h{width}" stroke="{BORDER}"/>'
+            if name=='demo-half':svg += f'<path d="M.5 0v46" stroke="{BORDER}"/>'
+            x = 12 if half else inset
+            svg += text(label,x,29,14,MINT,600)
+            svg += arrow(width-22,19,MINT)
+            write(f'projects/{name}{suffix}.svg',svg)
 
 
 def tech_logo(name, x, y):
@@ -208,45 +230,24 @@ def tech_logo(name, x, y):
 def toolkit():
     for mode in ('desktop','compact','mobile'):
         mobile, compact=mode=='mobile',mode=='compact'
-        w, h = (320,334) if mobile else ((600,264) if compact else (800, 204))
+        w = 320 if mobile else (600 if compact else 800)
+        category_columns = [2 if mobile else (2 if compact and len(items)==4 else 3 if compact else len(items)) for _,items in TECH]
+        left = 20 if mobile else 24
+        top = 0
+        row_heights = [54+ceil(len(items)/columns)*32 for (_,items),columns in zip(TECH,category_columns)]
+        h = sum(row_heights)
         svg = start(w, h, 'My toolkit', '; '.join(category + ': ' + ', '.join(label for _,label in items) for category,items in TECH)) + frame(w, h)
-        for row, (category, items) in enumerate(TECH):
-            if mobile:
-                top = (0,116,208)[row]
-                svg += text(category.upper(), 20, top+25, 13, MINT if row==1 else MUTED, mono=True)
-                cols = 2
-                for i, (name, label) in enumerate(items):
-                    x = 20 + (i%cols)*144
-                    y = top+42+(i//cols)*24
-                    svg += tech_logo(name,x,y)
-                    svg += text(label,x+25,y+14,15,INK,550 if row==1 else 450)
-                if row<2:svg += f'<path d="M20 {(112,204)[row]}h280" stroke="{BORDER}"/>'
-            elif compact:
-                top=(0,98,166)[row]
-                svg+=text(category.upper(),24,top+(52 if row!=1 else 39),12,MINT if row==1 else MUTED,mono=True)
-                if row==1:
-                    widths=[25+text_width(label,14.5,550) for _,label in items]
-                    gap=(424-sum(widths))/3
-                    x=150
-                    for (name,label),width in zip(items,widths):
-                        svg+=tech_logo(name,x,top+25)+text(label,x+25,top+39,14.5,INK,550)
-                        x+=width+gap
-                else:
-                    for i,(name,label) in enumerate(items):
-                        x=150+(i%3)*143;y=top+24+(i//3)*31
-                        svg+=tech_logo(name,x,y)+text(label,x+25,y+14,14.5,INK,450)
-                if row<2:svg+=f'<path d="M24 {(98,166)[row]}h552" stroke="{BORDER}"/>'
-            else:
-                top = row*68
-                svg += text(category.upper(),24,top+39,12,MINT if row==1 else MUTED,mono=True)
-                widths = [25+text_width(label,14.5,550 if row==1 else 450) for _,label in items]
-                gap = (600-sum(widths))/(len(items)-1)
-                x=174
-                for (name,label), width in zip(items,widths):
-                    svg += tech_logo(name,x,top+25)
-                    svg += text(label,x+25,top+39,14.5,INK,550 if row==1 else 450)
-                    x += width+gap
-                if row<2:svg += f'<path d="M24 {top+68}h752" stroke="{BORDER}"/>'
+        for row,(category,items) in enumerate(TECH):
+            columns = category_columns[row]
+            svg += text(category.upper(),left,top+28,14,MINT if row==1 else MUTED,mono=True,spacing=.15)
+            cell = (w-2*left)/columns
+            for i,(name,label) in enumerate(items):
+                x = left+(i%columns)*cell
+                y = top+46+(i//columns)*32
+                svg += tech_logo(name,x,y)
+                svg += text(label,x+25,y+14,16,INK,550 if row==1 else 450)
+            top += row_heights[row]
+            if row<2:svg += f'<path d="M{left} {top}h{w-2*left}" stroke="{BORDER}"/>'
         write(f'editorial/toolkit{"" if mode=="desktop" else "-"+mode}.svg',svg)
 
 

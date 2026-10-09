@@ -113,7 +113,7 @@ were visually reviewed. All 18 displayed images loaded in every case, the expect
 responsive variants were selected, and there was no horizontal page overflow.
 The loaded static artwork matched the committed source files byte for byte.
 
-The final refresh recorded 99 contributions and 33 active days. During the live
+The first redesign's final refresh recorded 99 contributions and 33 active days. During the live
 review, the desktop overview briefly served the preceding valid 98-contribution
 snapshot, while compact and mobile showed 99. The cached image was checked against
 its actual previous repository version; it was not treated as a failed fetch or
@@ -128,6 +128,34 @@ enabling reduced motion stopped the animation. Both publication workflows passed
 including the bot's update of the committed snapshots. The final
 [refresh run](https://github.com/KINGKK-007/KINGKK-007/actions/runs/37873539565)
 completed successfully.
+
+## Wider project cards and readable details
+
+The follow-up replaces the three narrow secondary tiles with two 400px desktop
+cards: SmartCampus and SignBridge on the first row, then Mini-Swiggy centered below.
+PitchPerfect spans the full README column. Each secondary card uses its own native
+GitHub table container, allowing the complete card and its actions to wrap together
+on phones rather than making a fixed two-column table scroll horizontally.
+
+SignBridge now has separate, genuine **Source** and **Live demo** links inside its
+footer. The old detached demo badge was removed. The footer graphics are adjacent
+without whitespace so their two 50%-width actions stay on the same line.
+Native GitHub styles provide the secondary cards' frames; the SVG content and
+actions retain charcoal backgrounds, pale mint accents and the existing fonts.
+
+Secondary descriptions use 16.5px type, technology lines use 14px, and actions use
+14px. Dedicated compact, phone and narrow-phone assets preserve readable type.
+Technology names wrap as complete items without trailing dot separators.
+PitchPerfect's metadata increased to 13.5px. Toolkit category labels increased to
+14px and technology names to 16px, with category headings above their items and
+32px row spacing. Compact and phone layouts use more rows instead of compressing
+all the items into one line.
+
+The GitHub-sanitized preview was inspected in the actual profile DOM at 1440, 1024,
+600, 390 and 320px, including light and mixed themes. Checks confirmed two secondary
+columns above 480px, one column on phones, aligned source/demo actions, no card or
+page horizontal overflow, and no clipped SVG text. All 54 local image references
+resolve, and regenerating the artwork produces the same files and URL fingerprints.
 
 ## Remaining platform/account limits
 
