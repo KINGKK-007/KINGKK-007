@@ -1,0 +1,26 @@
+{
+  "snapshot_date": "2026-10-09",
+  "calendar_start": "2025-10-05",
+  "calendar_end": "2026-10-09",
+  "contributions": 98,
+  "active_days": 33,
+  "languages": [
+    [
+      "Python",
+      0.7467771533968134
+    ],
+    [
+      "C",
+      0.14249302628589686
+    ],
+    [
+      "TypeScript",
+      0.05406871740715805
+    ],
+    [
+      "Java",
+      0.027189445391331953
+    ]
+  ],
+  "language_basis": "Code bytes in owned public non-fork project repos; excludes the profile repository."
+}
