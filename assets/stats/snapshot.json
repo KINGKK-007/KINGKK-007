@@ -1,6 +1,8 @@
 {
   "snapshot_date": "2026-10-09",
-  "contributions": 97,
+  "calendar_start": "2025-10-05",
+  "calendar_end": "2026-10-09",
+  "contributions": 98,
   "active_days": 33,
   "languages": [
     [
@@ -20,7 +22,5 @@
       0.027189445391331953
     ]
   ],
-  "language_basis": "Code bytes in owned public non-fork project repos; excludes the profile repository.",
-  "calendar_start": "2025-10-05",
-  "calendar_end": "2026-10-09"
+  "language_basis": "Code bytes in owned public non-fork project repos; excludes the profile repository."
 }
