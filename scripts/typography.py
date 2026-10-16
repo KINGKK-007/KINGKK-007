@@ -1,7 +1,9 @@
 """Render bundled fonts as SVG paths, preserving editable text in metadata."""
 
 from functools import cache
+from decimal import Decimal
 from pathlib import Path
+import re
 import xml.etree.ElementTree as ET
 
 from fontTools.pens.svgPathPen import SVGPathPen
@@ -11,6 +13,95 @@ from fontTools.ttLib import TTFont
 SVG = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVG)
 FONT_ROOT = Path(__file__).resolve().parents[1] / "assets" / "fonts"
+PATH_NUMBER = re.compile(r"[-+]?(?:\d+\.?\d*|\.\d+)(?:[eE][-+]?\d+)?")
+PATH_TOKEN = re.compile(r"[A-Za-z]|" + PATH_NUMBER.pattern)
+
+
+def compact_path_numbers(path):
+    """Shorten decimal spellings without rounding or changing SVG geometry.
+
+    Keep separators and exponent spellings intact. Repositioning outlined
+    glyphs into symbols can change browser antialiasing, so paths retain their
+    original absolute coordinates and grouping.
+    """
+    def compact(match):
+        number = match.group()
+        if "." in number and "e" not in number.lower():
+            number = number.rstrip("0").rstrip(".")
+            number = re.sub(r"^(-?)0\.", r"\1.", number)
+        return number
+
+    return PATH_NUMBER.sub(compact, path)
+
+
+def compact_quadratic_commands(path):
+    """Use SVG's smooth quadratic shorthand for exact reflected controls.
+
+    Decimal arithmetic preserves every existing coordinate. Only absolute
+    contours are rewritten; relative artwork and arcs retain their source.
+    Browser float arithmetic can give shorthand curves slightly different
+    antialiasing, but their source geometry is unchanged.
+    """
+    arity = {"M": 2, "L": 2, "H": 1, "V": 1, "Q": 4,
+             "T": 2, "C": 6, "S": 4, "Z": 0}
+    tokens = PATH_TOKEN.findall(path)
+    if any(token.isalpha() and token not in arity for token in tokens):
+        return path
+    output = []
+    index = 0
+    command = previous = None
+    point = start = (Decimal(0), Decimal(0))
+    control = None
+    while index < len(tokens):
+        if tokens[index].isalpha():
+            command = tokens[index]
+            index += 1
+        if command == "Z":
+            output.append("Z")
+            point, control, previous, command = start, None, "Z", None
+            continue
+        if command not in arity:
+            return path
+        count = arity[command]
+        chunk = tokens[index:index + count]
+        if len(chunk) != count or any(token.isalpha() for token in chunk):
+            return path
+        values = list(map(Decimal, chunk))
+        index += count
+        emitted = command
+        if command == "M":
+            point = start = (values[0], values[1])
+        elif command == "L":
+            point = (values[0], values[1])
+        elif command == "H":
+            point = (values[0], point[1])
+        elif command == "V":
+            point = (point[0], values[0])
+        elif command == "Q":
+            next_control = (values[0], values[1])
+            if previous in ("Q", "T"):
+                reflected = tuple(2 * coordinate - old for coordinate, old in zip(point, control))
+                if next_control == reflected:
+                    emitted, chunk = "T", chunk[2:]
+            control = next_control
+            point = (values[2], values[3])
+        elif command == "T":
+            control = (tuple(2 * coordinate - old for coordinate, old in zip(point, control))
+                       if previous in ("Q", "T") else point)
+            point = (values[0], values[1])
+        elif command == "C":
+            point = (values[4], values[5])
+        elif command == "S":
+            point = (values[2], values[3])
+        output.append(emitted + " ".join(chunk))
+        previous = command
+        if command not in ("Q", "T"):
+            control = None
+        # Subsequent coordinate pairs after a moveto are implicit lineto.
+        if command == "M":
+            command = "L"
+    compact = "".join(output)
+    return compact if len(compact) < len(path) else path
 
 
 @cache
@@ -120,6 +211,9 @@ def outline_svg(svg):
                 visit(child, attributes)
 
     visit(root, {})
+    for path in root.iter(f"{{{SVG}}}path"):
+        if "d" in path.attrib:
+            path.set("d", compact_quadratic_commands(compact_path_numbers(path.get("d"))))
     return ET.tostring(root, encoding="unicode") + "\n"
 
 
