@@ -236,51 +236,50 @@ def socials():
         badge(f'badges/{name}.svg', label, name, True)
 
 def banners():
-    for dark in (True, False):
-        suffix = 'dark' if dark else 'light'
-        bg = BG if dark else '#f7faf8'
-        ink = INK if dark else '#182b23'
-        muted = MUTED if dark else '#52665a'
-        accent = MINT if dark else '#35745a'
-        border = BORDER if dark else '#d5e1d9'
-        for mode in ('desktop', 'compact', 'mobile'):
-            mobile, compact = mode=='mobile', mode=='compact'
-            w, h = (360, 270) if mobile else ((600,252) if compact else (800, 280))
-            cx, cy, r = (300, 75, 34) if mobile else ((500,109,45) if compact else (660, 115, 55))
-            rx, ry = (50, 16) if mobile else ((73,23) if compact else (91, 29))
-            svg = start(w, h, 'Kanav Kumar', 'CSE at IIIT Bangalore, class of 2028. Backend engineering, systems and applied AI. A mint planet above a restrained contour landscape.')
-            svg += f'<defs><clipPath id="frame"><rect x="1" y="1" width="{w-2}" height="{h-2}" rx="12"/></clipPath><radialGradient id="glow"><stop stop-color="{accent}" stop-opacity=".1"/><stop offset="1" stop-color="{accent}" stop-opacity="0"/></radialGradient><linearGradient id="planet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="{BRIGHT if dark else "#c4ddce"}"/><stop offset=".5" stop-color="{accent}"/><stop offset="1" stop-color="{ "#315d46" if dark else "#446c54"}"/></linearGradient></defs>'
-            svg += f'<g clip-path="url(#frame)"><rect width="{w}" height="{h}" fill="{bg}"/><ellipse cx="{cx}" cy="{cy}" rx="{r*3}" ry="{r*2.4}" fill="url(#glow)"/>'
-            stars=[(232, 25), (345, 135), (249, 122)] if mobile else ([(460,32),(564,168),(413,83)] if compact else [(590, 38), (756, 174), (543, 89), (735, 49)])
-            for sx, sy in stars:
-                svg += f'<circle cx="{sx}" cy="{sy}" r="1.1" fill="{muted}" opacity=".55"/>'
-            svg += f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" transform="rotate(-26 {cx} {cy})" fill="none" stroke="{accent}" stroke-opacity=".35"/><circle cx="{cx}" cy="{cy}" r="{r}" fill="url(#planet)"/>'
-            angle = -26*pi/180
-            left_point = (cx-rx*cos(angle), cy-rx*sin(angle))
-            right_point = (cx+rx*cos(angle), cy+rx*sin(angle))
-            svg += f'<path d="M{left_point[0]:.2f} {left_point[1]:.2f}A{rx} {ry} -26 0 0 {right_point[0]:.2f} {right_point[1]:.2f}" fill="none" stroke="{accent}" stroke-opacity=".75" stroke-width="1.1"/>'
-            # Twelve crisp contours; no dense moire or decorative microtext.
-            left = 210 if mobile else (360 if compact else 450)
+    hero=PROFILE['hero']
+    for dark in (True,False):
+        suffix='dark' if dark else 'light'
+        for mode,w in WIDTHS.items():
+            mobile=mode=='mobile';compact=mode=='compact';h=288 if mobile else 280
+            cx,cy,r=(270,78,29) if mobile else ((500,113,43) if compact else (660,115,55))
+            rx,ry=(43,14) if mobile else ((69,22) if compact else (91,29))
+            svg=start(w,h,hero['name'],hero['description'])+card(w,h)+motion_style()
+            svg+=f'<defs><clipPath id="scene"><rect x="1" y="1" width="{w-2}" height="{h-2}" rx="12"/></clipPath><pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".7" fill="{MINT}"/></pattern><radialGradient id="glow"><stop stop-color="{MINT}" stop-opacity=".1"/><stop offset="1" stop-color="{MINT}" stop-opacity="0"/></radialGradient><linearGradient id="planet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="{BRIGHT}"/><stop offset=".5" stop-color="{MINT}"/><stop offset="1" stop-color="{DEEP}"/></linearGradient></defs>'
+            svg+=f'<g clip-path="url(#scene)"><rect x="1" y="1" width="{w-2}" height="{h-2}" fill="url(#dots)" opacity=".04"/>'
+            for i in range(3):svg+=f'<circle cx="{(22 if mobile else 28)+i*10}" cy="20" r="2" fill="{MINT}" opacity="{.35+i*.12}"/>'
+            svg+=f'<ellipse cx="{cx}" cy="{cy}" rx="{r*3}" ry="{r*2.4}" fill="url(#glow)"/>'
+            stars=[(212,48),(301,147),(237,126)] if mobile else ([(460,50),(563,179),(414,88)] if compact else [(590,52),(756,174),(543,89)])
+            for i,(sx,sy) in enumerate(stars):svg+=f'<circle class="star" cx="{sx}" cy="{sy}" r="1.1" fill="{MINT}" style="animation-duration:{6+i}s;animation-delay:-{i*2}s"/>'
+            svg+=f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" transform="rotate(-26 {cx} {cy})" fill="none" stroke="{MINT}" stroke-opacity=".35"/><circle cx="{cx}" cy="{cy}" r="{r}" fill="url(#planet)"/>'
+            angle=-26*pi/180;lx,ly=cx-rx*cos(angle),cy-rx*sin(angle);rrx,rry=cx+rx*cos(angle),cy+rx*sin(angle)
+            svg+=f'<path d="M{lx:.2f} {ly:.2f}A{rx} {ry} -26 0 0 {rrx:.2f} {rry:.2f}" fill="none" stroke="{MINT}" stroke-opacity=".75" stroke-width="1.1"/>'
+            left=180 if mobile else (360 if compact else 450)
             for row in range(12):
-                points = []
+                points=[]
                 for col in range(65):
-                    x = left + col*(w-left)/64
-                    y = h-22+row*3-20*exp(-((x-(w-55))/42)**2)+7*sin((x-left)/48)
-                    points.append(f'{x:.1f},{y:.1f}')
-                svg += f'<polyline points="{" ".join(points)}" fill="none" stroke="{accent}" stroke-width=".7" opacity="{.16-row*.006:.3f}"/>'
-            x = 22 if mobile else (28 if compact else 38)
-            svg += text('/ KINGKK-007', x, 34 if mobile else 43, 14 if mobile else 12.5, muted, mono=True, spacing=.3)
-            name_size=40 if mobile else (46 if compact else 59)
-            name_y=139 if mobile else (122 if compact else 128)
-            svg += text('Kanav Kumar', x-2, name_y, name_size, ink, 750, spacing=-1.9)
-            name_width = text_width('Kanav Kumar', name_size, 750, spacing=-1.9)
-            svg += text('.', x-2+name_width+2, name_y, name_size, accent, 750)
-            svg += text('Backend. Systems.' if mobile else 'Backend. Systems. Applied AI.', x, 175 if mobile else (161 if compact else 169), 17.5 if mobile else (18 if compact else 20), muted, 500)
-            if mobile:
-                svg += text('Applied AI.', x, 200, 17.5, muted, 500)
-            svg += text('CSE @ IIIT Bangalore · 2028', x, 238 if mobile else (216 if compact else 229), 14 if mobile else 16, muted, 500)
-            svg += f'</g><rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="12" fill="none" stroke="{border}"/>'
-            write(f'header-{suffix}{"" if mode=="desktop" else "-"+mode}.svg', svg)
+                    xx=left+col*(w-left)/64;yy=h-22+row*3-20*exp(-((xx-(w-55))/42)**2)+7*sin((xx-left)/48);points.append(f'{xx:.1f},{yy:.1f}')
+                svg+=f'<polyline points="{" ".join(points)}" fill="none" stroke="{MINT}" stroke-width=".7" opacity="{.16-row*.006:.3f}"/>'
+            x=22 if mobile else 28;label_y=53
+            svg+=text(hero['label'],x,label_y,13,MUTED,500,mono=True,spacing=.4)
+            cursor_x=x+text_width(hero['label'],13,500,'mono',spacing=.4)+8
+            svg+=f'<rect class="cursor" x="{cursor_x}" y="{label_y-11}" width="4" height="13" fill="{MINT}"/>'
+            name_size=40 if mobile else (46 if compact else 59);name_y=140 if mobile else 135
+            svg+=text(hero['name'],x-2,name_y,name_size,INK,750,spacing=-1.9)
+            name_width=text_width(hero['name'],name_size,750,spacing=-1.9)
+            svg+=text('.',x+name_width,name_y,name_size,MINT,750)
+            for i,line in enumerate(hero['mobile_tagline'] if mobile else [hero['tagline']]):svg+=text(line,x,(178 if mobile else 179)+i*25,17.5 if mobile else (18 if compact else 20),INK2)
+            svg+=text(hero['college'],x,245 if mobile else 230,14 if mobile else 16,MUTED)
+            if PROFILE['availability_text']:
+                label=PROFILE['availability_text'];lines=wrap(label,w-2*x-24,13,500)
+                # This opt-in status occupies its own appended row, below college.
+                yy=h+8;status_h=30+18*len(lines)
+                svg+=f'<circle class="status-dot" cx="{x+4}" cy="{yy+12}" r="3" fill="{MINT}"/>'
+                for i,line in enumerate(lines):svg+=text(line,x+16,yy+16+i*18,13,MINT)
+                # Extend the viewBox/card together rather than clipping optional copy.
+                svg=svg.replace(f'height="{h}" viewBox="0 0 {w} {h}"',f'height="{h+status_h}" viewBox="0 0 {w} {h+status_h}"',1)
+                svg=svg.replace(f'width="{w-1}" height="{h-1}" rx="12"',f'width="{w-1}" height="{h+status_h-1}" rx="12"',1)
+                svg=svg.replace(f'height="{h-2}" rx="12"',f'height="{h+status_h-2}" rx="12"',1)
+            svg+='</g>';write(f'header-{suffix}{"" if mode=="desktop" else "-"+mode}.svg',svg)
 
 def featured():
     desc = 'Mock interviews tailored to your résumé and role, with live audio/video feedback and post-session reports.'

@@ -1,8 +1,8 @@
 <p align="center">
 <picture>
-  <source media="(max-width: 480px)" srcset="./assets/header-dark-mobile.svg?v=4b7921806c" />
-  <source media="(max-width: 1100px)" srcset="./assets/header-dark-compact.svg?v=8adb9a37dd" />
-  <img src="./assets/header-dark.svg?v=373a9d3476" alt="Kanav Kumar — Ghost in the Terminal. Backend engineering, systems and applied AI. CS at IIIT Bangalore, class of 2028." width="100%" />
+  <source media="(max-width: 480px)" srcset="./assets/header-dark-mobile.svg?v=b07661e122" />
+  <source media="(max-width: 1100px)" srcset="./assets/header-dark-compact.svg?v=dfd34918ab" />
+  <img src="./assets/header-dark.svg?v=bb911f7137" alt="/ KINGKK-007. Kanav Kumar. Backend. Systems. Applied AI. CSE @ IIIT Bangalore · 2028." width="100%" />
 </picture>
 </p>
 
