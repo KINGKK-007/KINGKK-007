@@ -1,14 +1,14 @@
 <p align="center">
 <picture>
-  <source media="(max-width: 480px)" srcset="./assets/header-dark-mobile.svg?v=85476883bd" />
-  <source media="(max-width: 1100px)" srcset="./assets/header-dark-compact.svg?v=f63324c7c4" />
-  <img src="./assets/header-dark.svg?v=8eb11818ba" alt="Kanav Kumar — Ghost in the Terminal. Backend engineering, systems and applied AI. CS at IIIT Bangalore, class of 2028." />
+  <source media="(max-width: 480px)" srcset="./assets/header-dark-mobile.svg?v=d7566c8c94" />
+  <source media="(max-width: 1100px)" srcset="./assets/header-dark-compact.svg?v=c42c92c89f" />
+  <img src="./assets/header-dark.svg?v=7ec90b8131" alt="Kanav Kumar — Ghost in the Terminal. Backend engineering, systems and applied AI. CS at IIIT Bangalore, class of 2028." />
 </picture>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/kanavkumar007/"><img src="./assets/badges/linkedin.svg?v=505c4fa886" alt="LinkedIn" height="36" /></a>
-  <a href="mailto:kanav.kumar@iiitb.ac.in"><img src="./assets/badges/email.svg?v=f4e08e08c0" alt="Email Kanav" height="36" /></a>
+  <a href="mailto:kanav.kumar@iiitb.ac.in?subject=Hey%20Kanav!"><img src="./assets/badges/email.svg?v=f4e08e08c0" alt="Email Kanav" height="36" /></a>
   <a href="https://x.com/KanavKumar007"><img src="./assets/badges/x.svg?v=2f74b3a056" alt="X" height="36" /></a>
   <a href="https://www.instagram.com/kanavvkumarr"><img src="./assets/badges/instagram.svg?v=b8e94557f2" alt="Instagram" height="36" /></a>
   <a href="https://dev.to/kingkk007"><img src="./assets/badges/dev.svg?v=e35b840fee" alt="DEV" height="36" /></a>
@@ -21,7 +21,6 @@
 </p>
 
 <p align="center">
-  Away from the keyboard: cricket, gym, travelling and far too many jerseys.<br />
   Usually followed by “just one more episode.”
 </p>
 

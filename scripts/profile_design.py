@@ -116,7 +116,7 @@ def banners():
             w, h = (360, 270) if mobile else ((600,252) if compact else (800, 280))
             cx, cy, r = (300, 75, 34) if mobile else ((500,109,45) if compact else (660, 115, 55))
             rx, ry = (50, 16) if mobile else ((73,23) if compact else (91, 29))
-            svg = start(w, h, 'Kanav Kumar — Ghost in the Terminal', 'CS at IIIT Bangalore, class of 2028. Backend engineering, systems and applied AI. A mint planet above a restrained contour landscape.')
+            svg = start(w, h, 'Kanav Kumar', 'CSE at IIIT Bangalore, class of 2028. Backend engineering, systems and applied AI. A mint planet above a restrained contour landscape.')
             svg += f'<defs><clipPath id="frame"><rect x="1" y="1" width="{w-2}" height="{h-2}" rx="12"/></clipPath><radialGradient id="glow"><stop stop-color="{accent}" stop-opacity=".1"/><stop offset="1" stop-color="{accent}" stop-opacity="0"/></radialGradient><linearGradient id="planet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="{BRIGHT if dark else "#c4ddce"}"/><stop offset=".5" stop-color="{accent}"/><stop offset="1" stop-color="{ "#315d46" if dark else "#446c54"}"/></linearGradient></defs>'
             svg += f'<g clip-path="url(#frame)"><rect width="{w}" height="{h}" fill="{bg}"/><ellipse cx="{cx}" cy="{cy}" rx="{r*3}" ry="{r*2.4}" fill="url(#glow)"/>'
             stars=[(232, 25), (345, 135), (249, 122)] if mobile else ([(460,32),(564,168),(413,83)] if compact else [(590, 38), (756, 174), (543, 89), (735, 49)])
@@ -137,7 +137,6 @@ def banners():
                     points.append(f'{x:.1f},{y:.1f}')
                 svg += f'<polyline points="{" ".join(points)}" fill="none" stroke="{accent}" stroke-width=".7" opacity="{.16-row*.006:.3f}"/>'
             x = 22 if mobile else (28 if compact else 38)
-            svg += text('> GHOST IN THE TERMINAL' if mobile else '> KINGKK-007 / GHOST IN THE TERMINAL', x, 34 if mobile else 43, 14 if mobile else 12.5, muted, mono=True, spacing=.3)
             name_size=40 if mobile else (46 if compact else 59)
             name_y=139 if mobile else (122 if compact else 128)
             svg += text('Kanav Kumar', x-2, name_y, name_size, ink, 750, spacing=-1.9)
@@ -146,7 +145,7 @@ def banners():
             svg += text('Backend. Systems.' if mobile else 'Backend. Systems. Applied AI.', x, 175 if mobile else (161 if compact else 169), 17.5 if mobile else (18 if compact else 20), muted, 500)
             if mobile:
                 svg += text('Applied AI.', x, 200, 17.5, muted, 500)
-            svg += text('CS @ IIIT Bangalore · 2028', x, 238 if mobile else (216 if compact else 229), 14 if mobile else 16, muted, 500)
+            svg += text('CSE @ IIIT Bangalore · 2028', x, 238 if mobile else (216 if compact else 229), 14 if mobile else 16, muted, 500)
             svg += f'</g><rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="12" fill="none" stroke="{border}"/>'
             write(f'header-{suffix}{"" if mode=="desktop" else "-"+mode}.svg', svg)
 
