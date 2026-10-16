@@ -28,6 +28,8 @@ The Tools & Data label used a different rendering path from its neighboring labe
   frameworks receive a restrained accent; every technology retains its name and
   monochrome icon. Small screens use a readable two-column arrangement.
 - All social badges share a consistent mint-accented style. All existing social destinations remain.
+- Section titles use outlined JetBrains Mono terminal headings (`> ...`) with cursor indicators, replacing system h3 tags.
+- Single-line toolkit rows use equal-gap horizontal distribution, ensuring balanced spacing between wide labels like PostgreSQL and MySQL.
 - Dated activity and language snapshots share one visual system with the framed,
   annual snake. The calendar includes truthful month positions and a mint legend;
   empty days remain empty. Reduced-motion users receive the unchanged static cells.

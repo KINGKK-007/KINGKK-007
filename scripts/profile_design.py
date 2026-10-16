@@ -26,7 +26,7 @@ PROJECTS = [
      'C · pthreads · TCP · IPC', 'network'),
 ]
 TECH = [
-    ('Languages', [('java', 'Java'), ('c', 'C'), ('cpp', 'C++'), ('python', 'Python'), ('sql', 'SQL'), ('javascript', 'JavaScript')]),
+    ('Languages', [('java', 'Java'), ('cpp', 'C++'), ('c', 'C'), ('python', 'Python'), ('sql', 'SQL'), ('javascript', 'JavaScript')]),
     ('Frameworks', [('spring', 'Spring Boot'), ('react', 'React'), ('nextjs', 'Next.js'), ('fastapi', 'FastAPI')]),
     ('Tools & data', [('docker', 'Docker'), ('postgresql', 'PostgreSQL'), ('mysql', 'MySQL'), ('git', 'Git'), ('linux', 'Linux'), ('postman', 'Postman')]),
 ]
@@ -240,12 +240,22 @@ def toolkit():
         for row,(category,items) in enumerate(TECH):
             columns = category_columns[row]
             svg += text(category.upper(),left,top+28,14,MINT if row==1 else MUTED,mono=True,spacing=.15)
-            cell = (w-2*left)/columns
-            for i,(name,label) in enumerate(items):
-                x = left+(i%columns)*cell
-                y = top+46+(i//columns)*32
-                svg += tech_logo(name,x,y)
-                svg += text(label,x+25,y+14,16,INK,550 if row==1 else 450)
+            if columns == len(items):
+                widths = [25 + text_width(label, 16, 550 if row==1 else 450) for _, label in items]
+                gap = (w - 2*left - sum(widths)) / (len(items) - 1)
+                x = left
+                for (name, label), width in zip(items, widths):
+                    y = top + 46
+                    svg += tech_logo(name, round(x), y)
+                    svg += text(label, round(x + 25), y + 14, 16, INK, 550 if row==1 else 450)
+                    x += width + gap
+            else:
+                cell = (w-2*left)/columns
+                for i,(name,label) in enumerate(items):
+                    x = left+(i%columns)*cell
+                    y = top+46+(i//columns)*32
+                    svg += tech_logo(name,x,y)
+                    svg += text(label,x+25,y+14,16,INK,550 if row==1 else 450)
             top += row_heights[row]
             if row<2:svg += f'<path d="M{left} {top}h{w-2*left}" stroke="{BORDER}"/>'
         write(f'editorial/toolkit{"" if mode=="desktop" else "-"+mode}.svg',svg)
@@ -285,6 +295,36 @@ def footer():
     write('editorial/footer-mobile.svg',mobile)
 
 
+SECTIONS = [
+    ('selected-work', 'SELECTED WORK', 'Selected work'),
+    ('toolkit', 'MY TOOLKIT', 'My toolkit'),
+    ('on-github', 'ON GITHUB', 'On GitHub'),
+    ('along-the-way', 'ALONG THE WAY', 'Along the way'),
+]
+
+
+def sections():
+    for filename, label, desc in SECTIONS:
+        for dark in (True, False):
+            suffix = '' if dark else '-light'
+            accent = MINT if dark else '#35745a'
+            ink = INK if dark else '#182b23'
+            prompt_w = text_width('> ', 14.5, 600, 'mono', spacing=0.3)
+            label_w = text_width(label, 14.5, 600, 'mono', spacing=0.3)
+            cursor_w = 4
+            gap = 6
+            width = ceil(prompt_w + label_w + gap + cursor_w + 12)
+            height = 32
+            svg = start(width, height, desc, desc)
+            x = 6
+            y = 21
+            svg += text('>', x, y, 14.5, accent, 600, mono=True, spacing=0.3)
+            svg += text(label, round(x + prompt_w), y, 14.5, ink, 600, mono=True, spacing=0.3)
+            cursor_x = round(x + prompt_w + label_w + gap)
+            svg += f'<rect x="{cursor_x}" y="{y-12}" width="{cursor_w}" height="14" fill="{accent}" opacity=".75"/>'
+            write(f'sections/{filename}{suffix}.svg', svg)
+
+
 def version_readme_assets():
     """Give changed design assets fresh URLs without renaming editable files."""
     readme = ROOT.parent / 'README.md'
@@ -304,9 +344,9 @@ def version_readme_assets():
 
 
 def main():
-    socials(); banners(); featured(); projects(); toolkit(); milestones(); footer()
+    socials(); banners(); featured(); projects(); toolkit(); milestones(); footer(); sections()
     version_readme_assets()
-    print('Generated hero, featured work, project cards, grouped toolkit, achievements and footer.')
+    print('Generated hero, featured work, project cards, grouped toolkit, achievements, footer and section headers.')
 
 
 if __name__=='__main__':main()

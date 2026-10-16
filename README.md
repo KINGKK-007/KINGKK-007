@@ -25,7 +25,13 @@
   Usually followed by “just one more episode.”
 </p>
 
-<h3 align="center">Selected work</h3>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/selected-work.svg?v=8fe4dcc5a1" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light.svg?v=85e657c334" />
+    <img src="./assets/sections/selected-work.svg?v=8fe4dcc5a1" alt="Selected work" />
+  </picture>
+</p>
 
 <p align="center">
   <a href="https://github.com/COolAlien35/PitchPerfect">
@@ -60,17 +66,29 @@
   </td></tr>
 </table>
 
-<h3 align="center">My toolkit</h3>
-
 <p align="center">
   <picture>
-    <source media="(max-width: 480px)" srcset="./assets/editorial/toolkit-mobile.svg?v=e1c16f74cb" />
-    <source media="(max-width: 1100px)" srcset="./assets/editorial/toolkit-compact.svg?v=cde843cd90" />
-    <img src="./assets/editorial/toolkit.svg?v=f0788ef9ec" alt="Languages: Java, C, C++, Python, SQL, JavaScript. Frameworks: Spring Boot, React, Next.js, FastAPI. Tools and data: Docker, PostgreSQL, MySQL, Git, Linux, Postman." />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/toolkit.svg?v=550342068a" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light.svg?v=66c746629f" />
+    <img src="./assets/sections/toolkit.svg?v=550342068a" alt="My toolkit" />
   </picture>
 </p>
 
-<h3 align="center">On GitHub</h3>
+<p align="center">
+  <picture>
+    <source media="(max-width: 480px)" srcset="./assets/editorial/toolkit-mobile.svg?v=3b81d9d525" />
+    <source media="(max-width: 1100px)" srcset="./assets/editorial/toolkit-compact.svg?v=f18f11c2ab" />
+    <img src="./assets/editorial/toolkit.svg?v=03fb7ec1d8" alt="Languages: Java, C++, C, Python, SQL, JavaScript. Frameworks: Spring Boot, React, Next.js, FastAPI. Tools and data: Docker, PostgreSQL, MySQL, Git, Linux, Postman." />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/on-github.svg?v=f0b45707a5" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/on-github-light.svg?v=f326bf797c" />
+    <img src="./assets/sections/on-github.svg?v=f0b45707a5" alt="On GitHub" />
+  </picture>
+</p>
 
 <p align="center">
   <picture>
@@ -90,7 +108,13 @@
   </a>
 </p>
 
-<h3 align="center">Along the way</h3>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way.svg?v=d6528635d6" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light.svg?v=e6dfa406e5" />
+    <img src="./assets/sections/along-the-way.svg?v=d6528635d6" alt="Along the way" />
+  </picture>
+</p>
 
 <p align="center">
   <img src="./assets/milestones/hackxios.svg?v=2d7aa7390f" alt="HackXIOS 2K25 — ranked 7th out of 2,300" width="260" />
