@@ -2,13 +2,13 @@
 <picture>
   <source media="(max-width: 480px)" srcset="./assets/header-dark-mobile.svg?v=4b7921806c" />
   <source media="(max-width: 1100px)" srcset="./assets/header-dark-compact.svg?v=8adb9a37dd" />
-  <img src="./assets/header-dark.svg?v=373a9d3476" alt="Kanav Kumar — Ghost in the Terminal. Backend engineering, systems and applied AI. CS at IIIT Bangalore, class of 2028." />
+  <img src="./assets/header-dark.svg?v=373a9d3476" alt="Kanav Kumar — Ghost in the Terminal. Backend engineering, systems and applied AI. CS at IIIT Bangalore, class of 2028." width="100%" />
 </picture>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/kanavkumar007/" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/linkedin.svg?v=505c4fa886" alt="LinkedIn" height="36" /></a>
-  <a href="mailto:kanav.kumar@iiitb.ac.in?subject=Hey%20Kanav!"><img src="./assets/badges/email.svg?v=f4e08e08c0" alt="Email Kanav" height="36" /></a>
+  <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kumarkanav1510%40gmail.com&amp;su=Hey%20Kanav%21" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/email.svg?v=f4e08e08c0" alt="Email Kanav" height="36" /></a>
   <a href="https://x.com/KanavKumar007" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/x.svg?v=2f74b3a056" alt="X" height="36" /></a>
   <a href="https://www.instagram.com/kanavvkumarr" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/instagram.svg?v=b8e94557f2" alt="Instagram" height="36" /></a>
   <a href="https://dev.to/kingkk007" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/dev.svg?v=e35b840fee" alt="DEV" height="36" /></a>
@@ -25,13 +25,17 @@
   Usually followed by “just one more episode.”
 </p>
 
-<p align="center">
+<h3 align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/selected-work.svg?v=8fe4dcc5a1" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light.svg?v=85e657c334" />
-    <img src="./assets/sections/selected-work.svg?v=8fe4dcc5a1" alt="Selected work" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/selected-work-mobile.svg?v=c258dbda3d" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light-mobile.svg?v=e45562395c" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/selected-work-compact.svg?v=b8bd2c4b67" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light-compact.svg?v=0726af1756" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/selected-work.svg?v=69da293a49" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light.svg?v=7bbb27b777" />
+    <img src="./assets/sections/selected-work.svg?v=69da293a49" alt="Selected work" width="100%" />
   </picture>
-</p>
+</h3>
 
 <p align="center">
   <a href="https://github.com/COolAlien35/PitchPerfect">
@@ -66,35 +70,43 @@
   </td></tr>
 </table>
 
-<p align="center">
+<h3 align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/toolkit.svg?v=550342068a" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light.svg?v=66c746629f" />
-    <img src="./assets/sections/toolkit.svg?v=550342068a" alt="My toolkit" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/toolkit-mobile.svg?v=5f7adb50a1" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light-mobile.svg?v=29af6ff4e0" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/toolkit-compact.svg?v=7d654b5db6" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light-compact.svg?v=cc37ca50d0" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/toolkit.svg?v=853c19de5d" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light.svg?v=32c9544595" />
+    <img src="./assets/sections/toolkit.svg?v=853c19de5d" alt="My toolkit" width="100%" />
   </picture>
-</p>
+</h3>
 
 <p align="center">
   <picture>
     <source media="(max-width: 480px)" srcset="./assets/editorial/toolkit-mobile.svg?v=3b81d9d525" />
     <source media="(max-width: 1100px)" srcset="./assets/editorial/toolkit-compact.svg?v=f18f11c2ab" />
-    <img src="./assets/editorial/toolkit.svg?v=03fb7ec1d8" alt="Languages: Java, C++, C, Python, SQL, JavaScript. Frameworks: Spring Boot, React, Next.js, FastAPI. Tools and data: Docker, PostgreSQL, MySQL, Git, Linux, Postman." />
+    <img src="./assets/editorial/toolkit.svg?v=03fb7ec1d8" alt="Languages: Java, C++, C, Python, SQL, JavaScript. Frameworks: Spring Boot, React, Next.js, FastAPI. Tools and data: Docker, PostgreSQL, MySQL, Git, Linux, Postman." width="100%" />
   </picture>
 </p>
 
-<p align="center">
+<h3 align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/on-github.svg?v=f0b45707a5" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/on-github-light.svg?v=f326bf797c" />
-    <img src="./assets/sections/on-github.svg?v=f0b45707a5" alt="On GitHub" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/on-github-mobile.svg?v=10e7e7487a" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/on-github-light-mobile.svg?v=9ff928fc92" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/on-github-compact.svg?v=2663a53966" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/on-github-light-compact.svg?v=0bab846f5d" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/on-github.svg?v=7a19e5b234" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/on-github-light.svg?v=e2c49b8a5f" />
+    <img src="./assets/sections/on-github.svg?v=7a19e5b234" alt="On GitHub" width="100%" />
   </picture>
-</p>
+</h3>
 
 <p align="center">
   <picture>
     <source media="(max-width: 480px)" srcset="./assets/stats/overview-mobile.svg" />
     <source media="(max-width: 1100px)" srcset="./assets/stats/overview-compact.svg" />
-    <img src="./assets/stats/overview.svg" alt="GitHub activity in the past year and substantive language shares measured by code bytes in owned public, non-fork project repositories. The dated snapshot refreshes automatically." />
+    <img src="./assets/stats/overview.svg" alt="GitHub activity in the past year and substantive language shares measured by code bytes in owned public, non-fork project repositories. The dated snapshot refreshes automatically." width="100%" />
   </picture>
 </p>
 
@@ -103,18 +115,22 @@
     <picture>
       <source media="(max-width: 480px)" srcset="./assets/stats/contributions-mobile.svg" />
       <source media="(max-width: 1100px)" srcset="./assets/stats/contributions-compact.svg" />
-      <img src="./assets/stats/contributions.svg" alt="Contribution trail: the actual annual GitHub calendar in mint and charcoal, with the original snake animation. Empty days remain empty. Open the full graphic." />
+      <img src="./assets/stats/contributions.svg" alt="Contribution trail: the actual annual GitHub calendar in mint and charcoal, with the original snake animation. Empty days remain empty. Open the full graphic." width="100%" />
     </picture>
   </a>
 </p>
 
-<p align="center">
+<h3 align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way.svg?v=d6528635d6" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light.svg?v=e6dfa406e5" />
-    <img src="./assets/sections/along-the-way.svg?v=d6528635d6" alt="Along the way" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way-mobile.svg?v=d1367cc1a0" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light-mobile.svg?v=f04387fe3d" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way-compact.svg?v=57e5af0511" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light-compact.svg?v=e5817fb0da" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way.svg?v=2042a64b82" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light.svg?v=ca55cecf82" />
+    <img src="./assets/sections/along-the-way.svg?v=2042a64b82" alt="Along the way" width="100%" />
   </picture>
-</p>
+</h3>
 
 <p align="center">
   <img src="./assets/milestones/hackxios.svg?v=2d7aa7390f" alt="HackXIOS 2K25 — ranked 7th out of 2,300" width="260" />
@@ -126,6 +142,6 @@
   <picture>
     <source media="(max-width: 480px)" srcset="./assets/editorial/footer-mobile.svg?v=20b87c684f" />
     <source media="(max-width: 1100px)" srcset="./assets/editorial/footer-compact.svg?v=b20c57d013" />
-    <img src="./assets/editorial/footer.svg?v=74c87dd0f6" alt="Always curious. Always building." />
+    <img src="./assets/editorial/footer.svg?v=74c87dd0f6" alt="Always curious. Always building." width="100%" />
   </picture>
 </p>
