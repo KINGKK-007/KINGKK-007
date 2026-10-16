@@ -1,8 +1,8 @@
 <p align="center">
 <picture>
-  <source media="(max-width: 480px)" srcset="./assets/header-dark-mobile.svg?v=d7566c8c94" />
-  <source media="(max-width: 1100px)" srcset="./assets/header-dark-compact.svg?v=c42c92c89f" />
-  <img src="./assets/header-dark.svg?v=7ec90b8131" alt="Kanav Kumar — Ghost in the Terminal. Backend engineering, systems and applied AI. CS at IIIT Bangalore, class of 2028." />
+  <source media="(max-width: 480px)" srcset="./assets/header-dark-mobile.svg?v=4b7921806c" />
+  <source media="(max-width: 1100px)" srcset="./assets/header-dark-compact.svg?v=8adb9a37dd" />
+  <img src="./assets/header-dark.svg?v=373a9d3476" alt="Kanav Kumar — Ghost in the Terminal. Backend engineering, systems and applied AI. CS at IIIT Bangalore, class of 2028." />
 </picture>
 </p>
 
@@ -21,6 +21,7 @@
 </p>
 
 <p align="center">
+  Away from the keyboard: cricket, gym, travelling.<br />
   Usually followed by “just one more episode.”
 </p>
 

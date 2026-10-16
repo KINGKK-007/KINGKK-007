@@ -137,6 +137,7 @@ def banners():
                     points.append(f'{x:.1f},{y:.1f}')
                 svg += f'<polyline points="{" ".join(points)}" fill="none" stroke="{accent}" stroke-width=".7" opacity="{.16-row*.006:.3f}"/>'
             x = 22 if mobile else (28 if compact else 38)
+            svg += text('/ KINGKK-007', x, 34 if mobile else 43, 14 if mobile else 12.5, muted, mono=True, spacing=.3)
             name_size=40 if mobile else (46 if compact else 59)
             name_y=139 if mobile else (122 if compact else 128)
             svg += text('Kanav Kumar', x-2, name_y, name_size, ink, 750, spacing=-1.9)
