@@ -332,36 +332,17 @@ def projects():
             write(f'projects/{name}{suffix}.svg',svg)
 
 def toolkit():
-    for mode in ('desktop','compact','mobile'):
-        mobile, compact=mode=='mobile',mode=='compact'
-        w = 320 if mobile else (600 if compact else 800)
-        category_columns = [2 if mobile else (2 if compact and len(items)==4 else 3 if compact else len(items)) for _,items in TECH]
-        left = 20 if mobile else 24
-        top = 0
-        row_heights = [54+ceil(len(items)/columns)*32 for (_,items),columns in zip(TECH,category_columns)]
-        h = sum(row_heights)
-        svg = start(w, h, 'My toolkit', '; '.join(category + ': ' + ', '.join(label for _,label in items) for category,items in TECH)) + frame(w, h)
-        for row,(category,items) in enumerate(TECH):
-            columns = category_columns[row]
-            svg += text(category.upper(),left,top+28,14,MINT if row==1 else MUTED,mono=True,spacing=.15)
-            if columns == len(items):
-                widths = [25 + text_width(label, 16, 550 if row==1 else 450) for _, label in items]
-                gap = (w - 2*left - sum(widths)) / (len(items) - 1)
-                x = left
-                for (name, label), width in zip(items, widths):
-                    y = top + 46
-                    svg += tech_logo(name, round(x), y)
-                    svg += text(label, round(x + 25), y + 14, 16, INK, 550 if row==1 else 450)
-                    x += width + gap
-            else:
-                cell = (w-2*left)/columns
-                for i,(name,label) in enumerate(items):
-                    x = left+(i%columns)*cell
-                    y = top+46+(i//columns)*32
-                    svg += tech_logo(name,x,y)
-                    svg += text(label,x+25,y+14,16,INK,550 if row==1 else 450)
-            top += row_heights[row]
-            if row<2:svg += f'<path d="M{left} {top}h{w-2*left}" stroke="{BORDER}"/>'
+    for mode,w in WIDTHS.items():
+        inset=22 if mode=='mobile' else 28;top=0;blocks=[]
+        for category,items in PROFILE['technologies']:
+            placements,height=flow(items,w-2*inset,size=14,gap=10,logos=True)
+            blocks.append((category,items,height));top+=48+height+24
+        svg=start(w,top,PROFILE['toolkit_title'],'; '.join(category+': '+', '.join(label for _,label in items) for category,items,_ in blocks))+card(w,top)
+        top=0
+        for category,items,height in blocks:
+            svg+=f'<g fill-opacity=".8">'+text('› '+category.upper(),inset,top+29,13,MINT,500,mono=True,spacing=.4)+'</g>'
+            body,_=chips(items,inset,top+48,w-2*inset,size=14,gap=10,logos=True);svg+=body
+            top+=48+height+24
         write(f'editorial/toolkit{"" if mode=="desktop" else "-"+mode}.svg',svg)
 
 def milestones():

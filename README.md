@@ -93,9 +93,9 @@
 
 <p align="center">
   <picture>
-    <source media="(max-width: 480px)" srcset="./assets/editorial/toolkit-mobile.svg?v=3b81d9d525" />
-    <source media="(max-width: 1100px)" srcset="./assets/editorial/toolkit-compact.svg?v=f18f11c2ab" />
-    <img src="./assets/editorial/toolkit.svg?v=03fb7ec1d8" alt="Languages: Java, C++, C, Python, SQL, JavaScript. Frameworks: Spring Boot, React, Next.js, FastAPI. Tools and data: Docker, PostgreSQL, MySQL, Git, Linux, Postman." width="100%" />
+    <source media="(max-width: 480px)" srcset="./assets/editorial/toolkit-mobile.svg?v=3eaebe0549" />
+    <source media="(max-width: 1100px)" srcset="./assets/editorial/toolkit-compact.svg?v=8321cbb413" />
+    <img src="./assets/editorial/toolkit.svg?v=3e735aabfb" alt="Languages: Java, C++, C, Python, SQL, JavaScript. Frameworks: Spring Boot, React, Next.js, FastAPI. Tools and data: Docker, PostgreSQL, MySQL, Git, Linux, Postman." width="100%" />
   </picture>
 </p>
 
