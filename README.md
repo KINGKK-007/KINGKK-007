@@ -2,7 +2,7 @@
 <picture>
   <source media="(max-width: 480px)" srcset="./assets/header-dark-mobile.svg?v=4b7921806c" />
   <source media="(max-width: 1100px)" srcset="./assets/header-dark-compact.svg?v=8adb9a37dd" />
-  <img src="./assets/header-dark.svg?v=373a9d3476" alt="Kanav Kumar — Ghost in the Terminal. Backend engineering, systems and applied AI. CS at IIIT Bangalore, class of 2028." />
+  <img src="./assets/header-dark.svg?v=373a9d3476" alt="Kanav Kumar — Ghost in the Terminal. Backend engineering, systems and applied AI. CS at IIIT Bangalore, class of 2028." width="100%" />
 </picture>
 </p>
 
@@ -78,7 +78,7 @@
   <picture>
     <source media="(max-width: 480px)" srcset="./assets/editorial/toolkit-mobile.svg?v=3b81d9d525" />
     <source media="(max-width: 1100px)" srcset="./assets/editorial/toolkit-compact.svg?v=f18f11c2ab" />
-    <img src="./assets/editorial/toolkit.svg?v=03fb7ec1d8" alt="Languages: Java, C++, C, Python, SQL, JavaScript. Frameworks: Spring Boot, React, Next.js, FastAPI. Tools and data: Docker, PostgreSQL, MySQL, Git, Linux, Postman." />
+    <img src="./assets/editorial/toolkit.svg?v=03fb7ec1d8" alt="Languages: Java, C++, C, Python, SQL, JavaScript. Frameworks: Spring Boot, React, Next.js, FastAPI. Tools and data: Docker, PostgreSQL, MySQL, Git, Linux, Postman." width="100%" />
   </picture>
 </p>
 
@@ -94,7 +94,7 @@
   <picture>
     <source media="(max-width: 480px)" srcset="./assets/stats/overview-mobile.svg" />
     <source media="(max-width: 1100px)" srcset="./assets/stats/overview-compact.svg" />
-    <img src="./assets/stats/overview.svg" alt="GitHub activity in the past year and substantive language shares measured by code bytes in owned public, non-fork project repositories. The dated snapshot refreshes automatically." />
+    <img src="./assets/stats/overview.svg" alt="GitHub activity in the past year and substantive language shares measured by code bytes in owned public, non-fork project repositories. The dated snapshot refreshes automatically." width="100%" />
   </picture>
 </p>
 
@@ -103,7 +103,7 @@
     <picture>
       <source media="(max-width: 480px)" srcset="./assets/stats/contributions-mobile.svg" />
       <source media="(max-width: 1100px)" srcset="./assets/stats/contributions-compact.svg" />
-      <img src="./assets/stats/contributions.svg" alt="Contribution trail: the actual annual GitHub calendar in mint and charcoal, with the original snake animation. Empty days remain empty. Open the full graphic." />
+      <img src="./assets/stats/contributions.svg" alt="Contribution trail: the actual annual GitHub calendar in mint and charcoal, with the original snake animation. Empty days remain empty. Open the full graphic." width="100%" />
     </picture>
   </a>
 </p>
@@ -126,6 +126,6 @@
   <picture>
     <source media="(max-width: 480px)" srcset="./assets/editorial/footer-mobile.svg?v=20b87c684f" />
     <source media="(max-width: 1100px)" srcset="./assets/editorial/footer-compact.svg?v=b20c57d013" />
-    <img src="./assets/editorial/footer.svg?v=74c87dd0f6" alt="Always curious. Always building." />
+    <img src="./assets/editorial/footer.svg?v=74c87dd0f6" alt="Always curious. Always building." width="100%" />
   </picture>
 </p>
