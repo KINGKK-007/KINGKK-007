@@ -40,35 +40,44 @@
 <p align="center">
   <a href="https://github.com/COolAlien35/PitchPerfect">
     <picture>
-      <source media="(max-width: 480px)" srcset="./assets/projects/pitchperfect-mobile.svg?v=b108d518b0" />
-      <source media="(max-width: 1100px)" srcset="./assets/projects/pitchperfect-compact.svg?v=322381a283" />
-      <img src="./assets/projects/pitchperfect.svg?v=546e9d48fc" alt="Featured project: PitchPerfect. AI-powered mock interviews tailored to your résumé and role, with live audio/video feedback and post-session reports. Next.js, FastAPI, PostgreSQL, Redis and Docker. Open the repository." width="100%" />
+      <source media="(max-width: 480px)" srcset="./assets/projects/pitchperfect-mobile.svg?v=9e8348b8ed" />
+      <source media="(max-width: 1100px)" srcset="./assets/projects/pitchperfect-compact.svg?v=e790d4190a" />
+      <img src="./assets/projects/pitchperfect.svg?v=253c324414" alt="Featured project: PitchPerfect. AI-powered mock interviews tailored to your résumé and role, with live audio/video feedback and post-session reports. Next.js, FastAPI, PostgreSQL, Redis and Docker. Open the repository." width="100%" />
     </picture>
   </a>
 </p>
 
 <table align="left">
   <tr><td>
-    <a href="https://github.com/Jdsb06/SmartCampus"><picture><source media="(max-width: 360px)" srcset="./assets/projects/smartcampus-narrow.svg?v=680409c6f9" /><source media="(max-width: 480px)" srcset="./assets/projects/smartcampus-mobile.svg?v=b6f44bcf17" /><source media="(max-width: 1100px)" srcset="./assets/projects/smartcampus-compact.svg?v=b61a45688c" /><img src="./assets/projects/smartcampus.svg?v=9c8f946c5e" alt="SmartCampus — course enrollment, notifications and campus events. Spring Boot, MySQL and Flyway." align="top" /></picture></a><br />
-    <a href="https://github.com/Jdsb06/SmartCampus"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-narrow.svg?v=b1c6cbee34" /><source media="(max-width: 480px)" srcset="./assets/projects/source-mobile.svg?v=82862bac2f" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-compact.svg?v=56d230f069" /><img src="./assets/projects/source.svg?v=8082b74c12" alt="Open the project repository" align="top" width="100%" /></picture></a>
+    <a href="https://github.com/Jdsb06/SmartCampus"><picture><source media="(max-width: 360px)" srcset="./assets/projects/smartcampus-narrow.svg?v=370878899f" /><source media="(max-width: 480px)" srcset="./assets/projects/smartcampus-mobile.svg?v=c80feb467a" /><source media="(max-width: 1100px)" srcset="./assets/projects/smartcampus-compact.svg?v=33c7ad6da7" /><img src="./assets/projects/smartcampus.svg?v=00ba58344d" alt="SmartCampus — course enrollment, notifications and campus events. Spring Boot, MySQL and Flyway." align="top" /></picture></a><br />
+    <a href="https://github.com/Jdsb06/SmartCampus"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-narrow.svg?v=067ce9c828" /><source media="(max-width: 480px)" srcset="./assets/projects/source-mobile.svg?v=9845f75bca" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-compact.svg?v=2c843e5179" /><img src="./assets/projects/source.svg?v=fa30e527d3" alt="Open the project repository" align="top" width="100%" /></picture></a>
   </td></tr>
 </table>
 
 <table align="right">
   <tr><td>
-    <a href="https://github.com/DayalGupta03/Sign_Bridge1"><picture><source media="(max-width: 360px)" srcset="./assets/projects/signbridge-narrow.svg?v=52f07cc10c" /><source media="(max-width: 480px)" srcset="./assets/projects/signbridge-mobile.svg?v=eca4ab969b" /><source media="(max-width: 1100px)" srcset="./assets/projects/signbridge-compact.svg?v=6cfa76844a" /><img src="./assets/projects/signbridge.svg?v=587aa11d5f" alt="SignBridge 3D — gesture recognition and 3D avatars for accessible communication. Next.js, Gemini and MediaPipe." align="top" /></picture></a><br />
-    <a href="https://github.com/DayalGupta03/Sign_Bridge1"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-half-narrow.svg?v=10eb35861b" /><source media="(max-width: 480px)" srcset="./assets/projects/source-half-mobile.svg?v=dcf365cd58" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-half-compact.svg?v=5e9a548ee2" /><img src="./assets/projects/source-half.svg?v=67368179ff" alt="Open the SignBridge 3D repository" align="top" width="50%" /></picture></a><a href="https://sign-bridge1.vercel.app"><picture><source media="(max-width: 360px)" srcset="./assets/projects/demo-half-narrow.svg?v=5af66071ef" /><source media="(max-width: 480px)" srcset="./assets/projects/demo-half-mobile.svg?v=f9b318fb39" /><source media="(max-width: 1100px)" srcset="./assets/projects/demo-half-compact.svg?v=51fb8a6096" /><img src="./assets/projects/demo-half.svg?v=9337679c3b" alt="Open the live SignBridge 3D demo" align="top" width="50%" /></picture></a>
+    <a href="https://github.com/DayalGupta03/Sign_Bridge1"><picture><source media="(max-width: 360px)" srcset="./assets/projects/signbridge-narrow.svg?v=b0d4ad7a52" /><source media="(max-width: 480px)" srcset="./assets/projects/signbridge-mobile.svg?v=281ca4ba8a" /><source media="(max-width: 1100px)" srcset="./assets/projects/signbridge-compact.svg?v=a1861c83e7" /><img src="./assets/projects/signbridge.svg?v=718d707910" alt="SignBridge 3D — gesture recognition and 3D avatars for accessible communication. Next.js, Gemini and MediaPipe." align="top" /></picture></a><br />
+    <a href="https://github.com/DayalGupta03/Sign_Bridge1"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-half-narrow.svg?v=a66db185a0" /><source media="(max-width: 480px)" srcset="./assets/projects/source-half-mobile.svg?v=48cdb18504" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-half-compact.svg?v=1896295b2a" /><img src="./assets/projects/source-half.svg?v=05078631ad" alt="Open the SignBridge 3D repository" align="top" width="50%" /></picture></a><a href="https://sign-bridge1.vercel.app"><picture><source media="(max-width: 360px)" srcset="./assets/projects/demo-half-narrow.svg?v=00768719cc" /><source media="(max-width: 480px)" srcset="./assets/projects/demo-half-mobile.svg?v=0d0b110a89" /><source media="(max-width: 1100px)" srcset="./assets/projects/demo-half-compact.svg?v=95ddf5a6e2" /><img src="./assets/projects/demo-half.svg?v=2746519931" alt="Open the live SignBridge 3D demo" align="top" width="50%" /></picture></a>
   </td></tr>
 </table>
 
 <br clear="all" />
 
-<table align="center">
+<table align="left">
   <tr><td>
-    <a href="https://github.com/KINGKK-007/Mini-Swiggy"><picture><source media="(max-width: 360px)" srcset="./assets/projects/mini-swiggy-narrow.svg?v=d7c5fc87d9" /><source media="(max-width: 480px)" srcset="./assets/projects/mini-swiggy-mobile.svg?v=09fd2e6ff3" /><source media="(max-width: 1100px)" srcset="./assets/projects/mini-swiggy-compact.svg?v=bf8168ecbe" /><img src="./assets/projects/mini-swiggy.svg?v=4c4fa10364" alt="Mini-Swiggy — concurrent orders, worker processes and safe file access in C. C, pthreads, TCP and IPC." align="top" /></picture></a><br />
-    <a href="https://github.com/KINGKK-007/Mini-Swiggy"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-narrow.svg?v=b1c6cbee34" /><source media="(max-width: 480px)" srcset="./assets/projects/source-mobile.svg?v=82862bac2f" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-compact.svg?v=56d230f069" /><img src="./assets/projects/source.svg?v=8082b74c12" alt="Open the project repository" align="top" width="100%" /></picture></a>
+    <a href="https://github.com/KINGKK-007/Mini-Swiggy"><picture><source media="(max-width: 360px)" srcset="./assets/projects/mini-swiggy-narrow.svg?v=dd422c78f6" /><source media="(max-width: 480px)" srcset="./assets/projects/mini-swiggy-mobile.svg?v=4f1fe0c51b" /><source media="(max-width: 1100px)" srcset="./assets/projects/mini-swiggy-compact.svg?v=73cbac5f1d" /><img src="./assets/projects/mini-swiggy.svg?v=8124ee6a0a" alt="Mini-Swiggy — concurrent orders, worker processes and safe file access in C. C, pthreads, TCP and IPC." align="top" /></picture></a><br />
+    <a href="https://github.com/KINGKK-007/Mini-Swiggy"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-narrow.svg?v=067ce9c828" /><source media="(max-width: 480px)" srcset="./assets/projects/source-mobile.svg?v=9845f75bca" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-compact.svg?v=2c843e5179" /><img src="./assets/projects/source.svg?v=fa30e527d3" alt="Open the project repository" align="top" width="100%" /></picture></a>
   </td></tr>
 </table>
+
+<table align="right">
+  <tr><td>
+    <a href="https://github.com/COolAlien35/AIC"><picture><source media="(max-width: 360px)" srcset="./assets/projects/aic-narrow.svg?v=1934af80f7" /><source media="(max-width: 480px)" srcset="./assets/projects/aic-mobile.svg?v=9cd647b913" /><source media="(max-width: 1100px)" srcset="./assets/projects/aic-compact.svg?v=ba4860d21f" /><img src="./assets/projects/aic.svg?v=be058426e3" alt="AIC — OpenEnv incident-response environment with verifiable rewards and 0-1 task graders. FastAPI, OpenEnv, TRL GRPO, Unsloth." align="top" /></picture></a><br />
+    <a href="https://github.com/COolAlien35/AIC"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-narrow.svg?v=067ce9c828" /><source media="(max-width: 480px)" srcset="./assets/projects/source-mobile.svg?v=9845f75bca" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-compact.svg?v=2c843e5179" /><img src="./assets/projects/source.svg?v=fa30e527d3" alt="Open the AIC repository" align="top" width="100%" /></picture></a>
+  </td></tr>
+</table>
+
+<br clear="all" />
 
 <h3 align="center">
   <picture>

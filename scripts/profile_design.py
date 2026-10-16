@@ -284,70 +284,51 @@ def banners():
             svg+='</g>';write(f'header-{suffix}{"" if mode=="desktop" else "-"+mode}.svg',svg)
 
 def featured():
-    desc = 'Mock interviews tailored to your résumé and role, with live audio/video feedback and post-session reports.'
-    for mode in ('desktop','compact','mobile'):
-        mobile, compact=mode=='mobile',mode=='compact'
-        w = 320 if mobile else (600 if compact else 800)
-        size = 17.5 if mobile else 17
-        desc_lines=wrap(desc,w-44 if mobile else (544 if compact else 470),size)
-        desc_y=114 if mobile else 117
-        stack_y=desc_y+25*len(desc_lines)+18 if mobile else 183
-        h=stack_y+66 if mobile else 244
-        svg = start(w, h, 'PitchPerfect — featured project', desc + ' Next.js, FastAPI, PostgreSQL, Redis and Docker. Open the project repository.') + frame(w, h, True)
-        x = 22 if mobile else 28
-        svg += text('FEATURED PROJECT', x, 32, 13, MINT, mono=True, spacing=.35)
-        svg += text('PitchPerfect', x, 78 if mobile else 83, 35 if mobile else 37, INK, 700, spacing=-1)
-        y = desc_y
-        for line in desc_lines:
-            svg += text(line, x, y, size, MUTED, 450); y += 25
-        y = stack_y
-        svg += text('Next.js · FastAPI · PostgreSQL', x, y, 13.5, MUTED, mono=True)
-        svg += text('Redis · Docker' if mobile else 'Redis · Docker · Gemini · Whisper', x, y+22, 13.5, MUTED, mono=True)
-        svg += text('Explore the repository', x, h-17, 13, BRIGHT, 600)
-        svg += arrow(x+157, h-27, BRIGHT)
-        if mobile or compact:
-            svg += icon('mic', w-48, 21, 24)
+    p=PROFILE['featured']
+    for mode,w in WIDTHS.items():
+        mobile=mode=='mobile';compact=mode=='compact';x=22 if mobile else 28
+        size=17.5 if mobile else 17;body_width=w-2*x if mobile or compact else 470
+        lines=wrap(p['description'],body_width,size);desc_y=114
+        stack_y=desc_y+25*len(lines)+8
+        # Desktop leaves the microphone illustration separate from the chips.
+        chip_width=body_width;stack=p['mobile_stack'] if mobile else p['stack']
+        stack_svg,stack_h=chips(stack,x,stack_y,chip_width)
+        action_y=stack_y+stack_h+24;h=action_y+36+24
+        svg=start(w,h,p['title']+' — featured project',p['description']+' '+', '.join(stack)+'. '+p['action']+'.')+card(w,h,True)
+        svg+=text(p['label'],x,34,13,MINT,500,mono=True,spacing=.4)+text(p['title'],x,82,35 if mobile else 37,INK,700,spacing=-1)
+        for i,line in enumerate(lines):svg+=text(line,x,desc_y+i*25,size,INK2,450)
+        svg+=stack_svg+action_pill(p['action'],x,action_y)
+        if mobile or compact:svg+=icon_tile('mic',w-x-36,20)
         else:
-            # An interview-specific illustration, not a fake product screenshot.
-            svg += '<rect x="551" y="40" width="219" height="164" rx="9" fill="#0d1511" stroke="#28352f"/>'
-            svg += '<path d="M551 67h219" stroke="#28352f"/>'
-            for i in range(3):svg += f'<circle cx="{568+i*9}" cy="54" r="2" fill="#5c7969"/>'
-            svg += icon('mic', 586, 93, 31, MINT)
-            for i, bar in enumerate([8, 15, 25, 11, 34, 22, 40, 18, 29, 12]):
-                svg += f'<rect x="{634+i*10}" y="{116-bar/2}" width="3" height="{bar}" rx="1.5" fill="{MINT}" opacity=".75"/>'
-            svg += text('listen / reflect / improve', 660, 172, 11.5, MUTED, mono=True, anchor='middle')
-        write(f'projects/pitchperfect{"" if mode=="desktop" else "-"+mode}.svg', svg)
+            svg+=f'<g transform="translate(551 56)">'+card(219,164,uid='illustration')
+            svg+=f'<path d="M1 27h217" stroke="{BORDER}"/>'
+            for i in range(3):svg+=f'<circle cx="{17+i*9}" cy="14" r="2" fill="{MINT}" opacity=".5"/>'
+            svg+=icon('mic',24,55,31)
+            for i,bar in enumerate([8,15,25,11,34,22,40,18,29,12]):svg+=f'<rect x="{78+i*10}" y="{76-bar/2}" width="3" height="{bar}" rx="1.5" fill="{MINT}" opacity=".75"/>'
+            svg+=text(p['illustration_caption'],109.5,135,13,MUTED,mono=True,anchor='middle')+'</g>'
+        write(f'projects/pitchperfect{"" if mode=="desktop" else "-"+mode}.svg',svg)
 
 def projects():
-    # Native GitHub table cells frame each card and keep its two real links together.
-    # Their 28px total padding gives 400px desktop / 254px compact card widths.
-    for mode, w in [('desktop',372), ('compact',226), ('mobile',280), ('narrow',210)]:
-        suffix = '' if mode=='desktop' else '-'+mode
-        inset = 18 if w>=280 else 12
-        desc_size, stack_size = 16.5, 14
-        description_rows = max(len(wrap(p[2],w-2*inset,desc_size)) for p in PROJECTS)
-        stack_rows = max(len(wrap(p[3],w-2*inset,stack_size,500,mono=True)) for p in PROJECTS)
-        stack_y = 80+(description_rows-1)*24+33
-        height = stack_y+(stack_rows-1)*22+23
-        for filename, title, desc, stack, kind in PROJECTS:
-            svg = start(w,height,title,desc+' '+stack+'. Open the repository.')
-            svg += f'<rect width="{w}" height="{height}" fill="{BG}"/>'
-            svg += icon(kind,inset,20,22,MUTED)
-            svg += text(title,inset+32,39,24 if w>=280 else 21,INK,650,spacing=-.45)
-            for i,line in enumerate(wrap(desc,w-2*inset,desc_size)):
-                svg += text(line,inset,80+i*24,desc_size,MUTED,450)
-            for i,line in enumerate(wrap(stack,w-2*inset,stack_size,500,mono=True)):
-                svg += text(line,inset,stack_y+i*22,stack_size,MUTED,mono=True)
+    entries=[p for p in PROFILE['projects'] if p[0]!='aic' or PROFILE['include_aic']]
+    for mode,w in [('desktop',372),('compact',226),('mobile',280),('narrow',210)]:
+        suffix='' if mode=='desktop' else '-'+mode;inset=22 if mode in ('mobile','narrow') else 28
+        available=w-2*inset;desc_size=16.5
+        rows=max(len(wrap(p[2],available,desc_size)) for p in entries)
+        stack_y=86+(rows-1)*24+24
+        max_chip_h=max(flow(p[3],available)[1] for p in entries)
+        h=stack_y+max_chip_h+24
+        for filename,title,desc,stack,kind,url in entries:
+            svg=start(w,h,title,desc+' '+', '.join(stack)+'.')+card(w,h)
+            svg+=icon_tile(kind,inset,20)
+            title_size=24 if w>=280 else 18
+            svg+=text(title,inset+46,44,title_size,INK,650,spacing=-.45)
+            for i,line in enumerate(wrap(desc,available,desc_size)):svg+=text(line,inset,86+i*24,desc_size,INK2,450)
+            stack_svg,_=chips(stack,inset,stack_y,available);svg+=stack_svg
             write(f'projects/{filename}{suffix}.svg',svg)
-
-        for name,label,half in [('source','View source',False),('source-half','Source',True),('demo-half','Live demo',True)]:
-            width = w/2 if half else w
-            svg = start(width,46,label,'Open the live SignBridge demo.' if name=='demo-half' else 'Open the project repository.')
-            svg += f'<rect width="{width}" height="46" fill="{BG}"/><path d="M0 .5h{width}" stroke="{BORDER}"/>'
-            if name=='demo-half':svg += f'<path d="M.5 0v46" stroke="{BORDER}"/>'
-            x = 12 if half else inset
-            svg += text(label,x,29,14,MINT,600)
-            svg += arrow(width-22,19,MINT)
+        for name,label,half in PROFILE['project_actions']:
+            width=w/2 if half else w
+            svg=start(width,60,label)+card(width,60,uid='action')
+            svg+=action_pill(label,8,12,width-16)
             write(f'projects/{name}{suffix}.svg',svg)
 
 def toolkit():
