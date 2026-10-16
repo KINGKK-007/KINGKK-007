@@ -35,11 +35,43 @@ class ProfileStatsTests(unittest.TestCase):
         self.assertEqual(s['contributions'],36)
         self.assertEqual(s['active_days'],12)
 
-    def test_small_language_shares_are_hidden_without_renormalizing(self):
+    def test_substantive_language_selection_is_unchanged_without_renormalizing(self):
         s=stats.summarize(self.days,self.today,self.totals)
         self.assertEqual([n for n,_ in s['languages']],['Python','C','TypeScript','Java'])
         self.assertEqual(s['languages'][0][1],.75)
         self.assertLess(sum(v for _,v in s['languages']),1)
+
+    def test_language_remainder_is_visible_and_displayed_shares_total_100(self):
+        summary = stats.summarize(self.days, self.today, self.totals)
+        segments = stats.language_segments(summary)
+        self.assertEqual(segments[-1][0], 'Other')
+        self.assertAlmostEqual(segments[-1][1], .025)
+        self.assertAlmostEqual(sum(share for _, share in segments), 1)
+        self.assertAlmostEqual(sum(stats.language_percentages(segments)), 100)
+        # Percent rounding must total 100 even when independent rounding would not.
+        segments = [('A', .3334), ('B', .3334), ('Other', .3332)]
+        self.assertEqual(stats.language_percentages(segments), [33.4, 33.3, 33.3])
+
+    def test_overview_bar_and_stat_tiles_match_the_truthful_summary(self):
+        summary = stats.summarize(self.days, self.today, self.totals)
+        for options, width in [({}, 800), ({'compact': True}, 600), ({'mobile': True}, 320)]:
+            with self.subTest(options=options):
+                root = ET.fromstring(stats.overview(summary, **options))
+                self.assertEqual(float(root.get('width')), width)
+                tiles = [node for node in root.iter() if node.get('data-stat-tile')]
+                self.assertEqual(len(tiles), 2)
+                # Both metric tiles share a row, rather than one metric per row.
+                self.assertEqual([tile.find(SVG+'rect').get('y') for tile in tiles], ['64', '64'])
+                segments = [node for node in root.iter(SVG+'rect') if node.get('data-language')]
+                self.assertEqual(segments[-1].get('data-language'), 'Other')
+                self.assertAlmostEqual(sum(float(node.get('data-share')) for node in segments), 1)
+                segment_positions = [(float(node.get('x')), float(node.get('width'))) for node in segments]
+                for (left, size), (next_left, _) in zip(segment_positions, segment_positions[1:]):
+                    self.assertAlmostEqual(left+size, next_left, places=6)
+                self.assertTrue(all(node.get('height') == '8' for node in segments))
+                labels = [node for node in root.iter() if node.get('data-text')]
+                self.assertTrue(all(float(node.get('data-size')) >= 13 for node in labels))
+                self.assertTrue(any('updated' in node.get('data-text') for node in labels))
 
     def test_sparse_headline_metrics_do_not_leave_an_empty_activity_card(self):
         s=stats.summarize(self.days,self.today,self.totals)
@@ -78,6 +110,32 @@ class ProfileStatsTests(unittest.TestCase):
             return [tuple(e.get(k) for k in ['x','y','width','height','class']) for e in root.iter(SVG+'rect') if 'c' in e.get('class','').split()]
         self.assertEqual(cells(original),cells(framed))
         self.assertIn('prefers-reduced-motion:reduce',ET.tostring(framed,encoding='unicode'))
+
+    def test_trail_removes_progress_stack_and_keeps_calendar_in_frame(self):
+        source = (ROOT/'assets/snake.svg').read_text()
+        original = ET.fromstring(source)
+        original_height = float(original.get('viewBox').split()[3])
+        for options, width in [({}, 800), ({'compact': True}, 600), ({'mobile': True}, 320)]:
+            with self.subTest(options=options):
+                root = ET.fromstring(stats.contribution_frame(source, date(2025, 10, 5), self.today, **options))
+                self.assertFalse(any('u' in node.get('class', '').split() for node in root.iter()))
+                css = ''.join(node.text or '' for node in root.iter(SVG+'style'))
+                self.assertNotIn('.u{', css)
+                self.assertNotIn('@keyframes u', css)
+                self.assertIn('@keyframes s0', css)
+                self.assertIn('.c{animation:none!important}', css)
+                self.assertIn('.s{animation:none!important;opacity:0}', css)
+                graph = next(node for node in root.iter(SVG+'svg') if node.get('data-calendar'))
+                vx, vy, vw, vh = map(float, graph.get('viewBox').split())
+                self.assertLess(vh, original_height)
+                self.assertGreaterEqual(float(graph.get('x')), 22)
+                self.assertLessEqual(float(graph.get('x'))+float(graph.get('width')), width-22)
+                self.assertLess(float(graph.get('y'))+float(graph.get('height')), float(root.get('height'))-32)
+                labels = [node for node in root.iter() if node.get('data-text')]
+                for label in ('PAST YEAR', 'Less', 'More'):
+                    self.assertIn(label, [node.get('data-text') for node in labels])
+                self.assertTrue(all(float(node.get('data-size')) >= 13 for node in labels))
+                self.assertTrue(all(vy <= float(node.get('y', 0)) <= vy+vh for node in graph.iter(SVG+'rect') if 'c' in node.get('class', '').split()))
 
 
 if __name__=='__main__':unittest.main()
