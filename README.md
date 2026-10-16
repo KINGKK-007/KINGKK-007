@@ -151,8 +151,8 @@
 
 <p align="center">
   <picture>
-    <source media="(max-width: 480px)" srcset="./assets/editorial/footer-mobile.svg?v=20b87c684f" />
-    <source media="(max-width: 1100px)" srcset="./assets/editorial/footer-compact.svg?v=b20c57d013" />
-    <img src="./assets/editorial/footer.svg?v=74c87dd0f6" alt="Always curious. Always building." width="100%" />
+    <source media="(max-width: 480px)" srcset="./assets/editorial/footer-mobile.svg?v=c2b875af23" />
+    <source media="(max-width: 1100px)" srcset="./assets/editorial/footer-compact.svg?v=77747e9f36" />
+    <img src="./assets/editorial/footer.svg?v=2029d08a6d" alt="> Always curious. Always building. Ctrl + Z is a lifestyle." width="100%" />
   </picture>
 </p>

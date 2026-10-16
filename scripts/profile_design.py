@@ -365,23 +365,14 @@ def milestones():
         write(f'milestones/strip{"" if mode=="desktop" else "-"+mode}.svg',svg)
 
 def footer():
-    svg=start(800,80,'Always curious. Always building.','A quiet terminal sign-off. Ctrl + Z is a lifestyle.')
-    svg+=f'<rect width="800" height="80" fill="{BG}"/><path d="M0 .5h800" stroke="{BORDER}"/>'
-    svg+=text('> Always curious. Always building.',400,38,15,INK,mono=True,anchor='middle')
-    svg+=f'<rect x="563" y="26" width="5" height="14" fill="{MINT}" opacity=".75"/>'
-    svg+=text('Ctrl + Z is a lifestyle.',400,62,12.5,MUTED,mono=True,anchor='middle')
-    write('editorial/footer.svg',svg)
-    compact=start(600,80,'Always curious. Always building.','Ctrl + Z is a lifestyle.')
-    compact+=f'<rect width="600" height="80" fill="{BG}"/><path d="M0 .5h600" stroke="{BORDER}"/>'
-    compact+=text('> Always curious. Always building.',300,38,15,INK,mono=True,anchor='middle')
-    compact+=f'<rect x="463" y="26" width="5" height="14" fill="{MINT}" opacity=".75"/>'
-    compact+=text('Ctrl + Z is a lifestyle.',300,62,12.5,MUTED,mono=True,anchor='middle')
-    write('editorial/footer-compact.svg',compact)
-    mobile=start(360,80,'Always curious. Always building.','Ctrl + Z is a lifestyle.')
-    mobile+=f'<rect width="360" height="80" fill="{BG}"/><path d="M0 .5h360" stroke="{BORDER}"/>'
-    mobile+=text('> Always curious. Always building.',180,38,14.5,INK,mono=True,anchor='middle')
-    mobile+=text('Ctrl + Z is a lifestyle.',180,62,12.5,MUTED,mono=True,anchor='middle')
-    write('editorial/footer-mobile.svg',mobile)
+    for mode,w in WIDTHS.items():
+        size=13 if mode=='mobile' else 15
+        svg=start(w,96,PROFILE['footer'][0],PROFILE['footer'][1])+card(w,96)+motion_style()
+        svg+=text(PROFILE['footer'][0],w/2,38,size,INK,mono=True,anchor='middle')
+        line_width=text_width(PROFILE['footer'][0],size,500,'mono')
+        svg+=f'<rect class="cursor" x="{w/2+line_width/2+6}" y="26" width="4" height="14" fill="{MINT}"/>'
+        svg+=text(PROFILE['footer'][1],w/2,66,13,MUTED,mono=True,anchor='middle')
+        write(f'editorial/footer{"" if mode=="desktop" else "-"+mode}.svg',svg)
 
 def sections():
     for filename,label,desc in PROFILE['sections']:
