@@ -100,7 +100,7 @@ def badge(relative, label, mark=None, accent=False):
 
 def socials():
     for name, label in [('linkedin', 'LinkedIn'), ('email', 'Email'), ('x', 'X'), ('instagram', 'Instagram'), ('dev', 'DEV')]:
-        badge(f'badges/{name}.svg', label, name, name in ('linkedin', 'email'))
+        badge(f'badges/{name}.svg', label, name, True)
 
 
 def banners():

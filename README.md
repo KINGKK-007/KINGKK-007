@@ -9,9 +9,9 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/kanavkumar007/"><img src="./assets/badges/linkedin.svg?v=505c4fa886" alt="LinkedIn" height="36" /></a>
   <a href="mailto:kanav.kumar@iiitb.ac.in"><img src="./assets/badges/email.svg?v=f4e08e08c0" alt="Email Kanav" height="36" /></a>
-  <a href="https://x.com/KanavKumar007"><img src="./assets/badges/x.svg?v=b754487015" alt="X" height="36" /></a>
-  <a href="https://www.instagram.com/kanavvkumarr"><img src="./assets/badges/instagram.svg?v=e65b90343e" alt="Instagram" height="36" /></a>
-  <a href="https://dev.to/kingkk007"><img src="./assets/badges/dev.svg?v=f2f6f136ad" alt="DEV" height="36" /></a>
+  <a href="https://x.com/KanavKumar007"><img src="./assets/badges/x.svg?v=2f74b3a056" alt="X" height="36" /></a>
+  <a href="https://www.instagram.com/kanavvkumarr"><img src="./assets/badges/instagram.svg?v=b8e94557f2" alt="Instagram" height="36" /></a>
+  <a href="https://dev.to/kingkk007"><img src="./assets/badges/dev.svg?v=e35b840fee" alt="DEV" height="36" /></a>
 </p>
 
 <p align="center">

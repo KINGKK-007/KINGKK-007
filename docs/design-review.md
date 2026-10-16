@@ -27,7 +27,7 @@ The Tools & Data label used a different rendering path from its neighboring labe
 - The toolkit is a single capability panel with three categories. The primary
   frameworks receive a restrained accent; every technology retains its name and
   monochrome icon. Small screens use a readable two-column arrangement.
-- LinkedIn and email have higher priority. All existing social destinations remain.
+- All social badges share a consistent mint-accented style. All existing social destinations remain.
 - Dated activity and language snapshots share one visual system with the framed,
   annual snake. The calendar includes truthful month positions and a mint legend;
   empty days remain empty. Reduced-motion users receive the unchanged static cells.
