@@ -346,17 +346,23 @@ def toolkit():
         write(f'editorial/toolkit{"" if mode=="desktop" else "-"+mode}.svg',svg)
 
 def milestones():
-    data=[('hackxios','HackXIOS 2K25','7 / 2,300','Ranked 7th overall',True),
-          ('openenv','Meta PyTorch OpenEnv','Finalist','12,000+ teams · 2026',False),
-          ('novo-nordisk','Novo Nordisk GBS','Pre-finalist','Hackathon 2025',False)]
-    for name,title,result,caption,main in data:
-        svg=start(260,120,title,result+'. '+caption)+frame(260,120)
-        svg+=icon('trophy',20,19,22,MINT if main else MUTED)
-        svg+=text(title,50,35,13.4,INK,600)
-        svg+=text(result,20,77,27 if main else 24,BRIGHT if main else INK,650,spacing=-.7)
-        svg+=text(caption,20,104,12.5,MUTED,450)
-        if main:svg+=f'<path d="M1 20v80" stroke="{MINT}" stroke-width="2"/>'
-        write(f'milestones/{name}.svg',svg)
+    entries=PROFILE['milestones'];desc='; '.join(' / '.join(p) for p in entries)
+    for mode,w in WIDTHS.items():
+        mobile=mode=='mobile';cw=w if mobile else (w-32)/3;ch=96 if mobile else 120;h=312 if mobile else 120
+        svg=start(w,h,PROFILE['milestones_title'],desc)
+        for i,(title,result,caption) in enumerate(entries):
+            x,y=(0,i*108) if mobile else (i*(cw+16),0)
+            svg+=f'<g transform="translate({x} {y})">'+card(cw,ch,uid=f'milestone-{i}')
+            xx=22 if mobile else 16
+            svg+=icon('trophy',xx,15,18)
+            # Compact titles can wrap; their event wording never changes.
+            title_lines=wrap(title,cw-xx-46,13,600)
+            for j,line in enumerate(title_lines):svg+=text(line,xx+26,24+j*16,13,INK,600)
+            svg+=text(result,xx,64 if mobile else 77,24,INK,650,spacing=-.7)
+            svg+=text(caption,xx,85 if mobile else 104,13,MUTED,450)
+            svg+=f'<circle cx="{cw-18}" cy="{61 if mobile else 74}" r="3" fill="{MINT}"/>'
+            svg+='</g>'
+        write(f'milestones/strip{"" if mode=="desktop" else "-"+mode}.svg',svg)
 
 def footer():
     svg=start(800,80,'Always curious. Always building.','A quiet terminal sign-off. Ctrl + Z is a lifestyle.')
