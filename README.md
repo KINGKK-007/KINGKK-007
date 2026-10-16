@@ -25,13 +25,17 @@
   Usually followed by “just one more episode.”
 </p>
 
-<p align="center">
+<h3 align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/selected-work.svg?v=8fe4dcc5a1" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light.svg?v=85e657c334" />
-    <img src="./assets/sections/selected-work.svg?v=8fe4dcc5a1" alt="Selected work" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/selected-work-mobile.svg?v=c258dbda3d" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light-mobile.svg?v=e45562395c" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/selected-work-compact.svg?v=b8bd2c4b67" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light-compact.svg?v=0726af1756" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/selected-work.svg?v=69da293a49" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light.svg?v=7bbb27b777" />
+    <img src="./assets/sections/selected-work.svg?v=69da293a49" alt="Selected work" width="100%" />
   </picture>
-</p>
+</h3>
 
 <p align="center">
   <a href="https://github.com/COolAlien35/PitchPerfect">
@@ -66,13 +70,17 @@
   </td></tr>
 </table>
 
-<p align="center">
+<h3 align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/toolkit.svg?v=550342068a" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light.svg?v=66c746629f" />
-    <img src="./assets/sections/toolkit.svg?v=550342068a" alt="My toolkit" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/toolkit-mobile.svg?v=5f7adb50a1" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light-mobile.svg?v=29af6ff4e0" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/toolkit-compact.svg?v=7d654b5db6" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light-compact.svg?v=cc37ca50d0" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/toolkit.svg?v=853c19de5d" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light.svg?v=32c9544595" />
+    <img src="./assets/sections/toolkit.svg?v=853c19de5d" alt="My toolkit" width="100%" />
   </picture>
-</p>
+</h3>
 
 <p align="center">
   <picture>
@@ -82,13 +90,17 @@
   </picture>
 </p>
 
-<p align="center">
+<h3 align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/on-github.svg?v=f0b45707a5" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/on-github-light.svg?v=f326bf797c" />
-    <img src="./assets/sections/on-github.svg?v=f0b45707a5" alt="On GitHub" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/on-github-mobile.svg?v=10e7e7487a" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/on-github-light-mobile.svg?v=9ff928fc92" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/on-github-compact.svg?v=2663a53966" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/on-github-light-compact.svg?v=0bab846f5d" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/on-github.svg?v=7a19e5b234" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/on-github-light.svg?v=e2c49b8a5f" />
+    <img src="./assets/sections/on-github.svg?v=7a19e5b234" alt="On GitHub" width="100%" />
   </picture>
-</p>
+</h3>
 
 <p align="center">
   <picture>
@@ -108,13 +120,17 @@
   </a>
 </p>
 
-<p align="center">
+<h3 align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way.svg?v=d6528635d6" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light.svg?v=e6dfa406e5" />
-    <img src="./assets/sections/along-the-way.svg?v=d6528635d6" alt="Along the way" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way-mobile.svg?v=d1367cc1a0" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light-mobile.svg?v=f04387fe3d" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way-compact.svg?v=57e5af0511" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light-compact.svg?v=e5817fb0da" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way.svg?v=2042a64b82" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light.svg?v=ca55cecf82" />
+    <img src="./assets/sections/along-the-way.svg?v=2042a64b82" alt="Along the way" width="100%" />
   </picture>
-</p>
+</h3>
 
 <p align="center">
   <img src="./assets/milestones/hackxios.svg?v=2d7aa7390f" alt="HackXIOS 2K25 — ranked 7th out of 2,300" width="260" />

@@ -415,25 +415,18 @@ def footer():
     write('editorial/footer-mobile.svg',mobile)
 
 def sections():
-    for filename, label, desc in SECTIONS:
-        for dark in (True, False):
-            suffix = '' if dark else '-light'
-            accent = MINT if dark else '#35745a'
-            ink = INK if dark else '#182b23'
-            prompt_w = text_width('> ', 14.5, 600, 'mono', spacing=0.3)
-            label_w = text_width(label, 14.5, 600, 'mono', spacing=0.3)
-            cursor_w = 4
-            gap = 6
-            width = ceil(prompt_w + label_w + gap + cursor_w + 12)
-            height = 32
-            svg = start(width, height, desc, desc)
-            x = 6
-            y = 21
-            svg += text('>', x, y, 14.5, accent, 600, mono=True, spacing=0.3)
-            svg += text(label, round(x + prompt_w), y, 14.5, ink, 600, mono=True, spacing=0.3)
-            cursor_x = round(x + prompt_w + label_w + gap)
-            svg += f'<rect x="{cursor_x}" y="{y-12}" width="{cursor_w}" height="14" fill="{accent}" opacity=".75"/>'
-            write(f'sections/{filename}{suffix}.svg', svg)
+    for filename,label,desc in PROFILE['sections']:
+        for mode,w in WIDTHS.items():
+            for dark in (True,False):
+                suffix='' if dark else '-light';variant='' if mode=='desktop' else '-'+mode
+                accent=MINT if dark else '#35745a';ink=INK if dark else '#182b23'
+                width=text_width('> '+label,13,600,'mono',spacing=.4);left=(w-width)/2
+                svg=start(w,44,desc)
+                rule_w=max(0,left-16)
+                svg+=section_rule(0,22,rule_w,'left-rule',not dark,True)+section_rule(w-rule_w,22,rule_w,'right-rule',not dark)
+                svg+=text('>',left,27,13,accent,600,mono=True,spacing=.4)
+                svg+=text(label,left+text_width('> ',13,600,'mono',spacing=.4),27,13,ink,600,mono=True,spacing=.4)
+                write(f'sections/{filename}{suffix}{variant}.svg',svg)
 
 def version_readme_assets():
     """Give changed design assets fresh URLs without renaming editable files."""
@@ -453,9 +446,13 @@ def version_readme_assets():
         readme.write_text(revised)
 
 def main():
-    socials(); banners(); featured(); projects(); toolkit(); milestones(); footer(); sections()
+    generators={'socials':socials,'banners':banners,'featured':featured,'projects':projects,'toolkit':toolkit,'milestones':milestones,'footer':footer,'sections':sections}
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--only',choices=generators)
+    args=parser.parse_args()
+    for name,generate in generators.items():
+        if not args.only or args.only==name:generate()
     version_readme_assets()
-    print('Generated hero, featured work, project cards, grouped toolkit, achievements, footer and section headers.')
+    print('Generated '+(args.only or 'all static profile artwork')+'.')
 
 if __name__ == '__main__':
     main()
