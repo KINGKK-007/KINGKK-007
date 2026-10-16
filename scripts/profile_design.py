@@ -232,8 +232,10 @@ def badge(relative, label, mark=None, accent=False):
     write(relative, svg)
 
 def socials():
-    for name, label in [('linkedin', 'LinkedIn'), ('email', 'Email'), ('x', 'X'), ('instagram', 'Instagram'), ('dev', 'DEV')]:
-        badge(f'badges/{name}.svg', label, name, True)
+    for name,label in PROFILE['socials']:
+        svg=start(120,36,label)+card(120,36,True,radius=SOCIAL_RADIUS)
+        svg+=tech_logo(name,14,9)+text(label,42,23,12,BRIGHT,500,mono=True)
+        write(f'badges/{name}.svg',svg)
 
 def banners():
     hero=PROFILE['hero']
