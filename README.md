@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/kanavkumar007/" target="_blank" rel="noopener noreferrer"><picture><source media="(max-width: 480px)" srcset="./assets/badges/linkedin.svg?v=7b2e2a0f0b 1.07x" /><img src="./assets/badges/linkedin.svg?v=7b2e2a0f0b" alt="LinkedIn" /></picture></a>
-  <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kumarkanav1510%40gmail.com&amp;su=Hey%20Kanav%21" target="_blank" rel="noopener noreferrer"><picture><source media="(max-width: 480px)" srcset="./assets/badges/email.svg?v=62c26a87d1 1.07x" /><img src="./assets/badges/email.svg?v=62c26a87d1" alt="Email Kanav" /></picture></a>
+  <a href="mailto:kumarkanav1510@gmail.com"><picture><source media="(max-width: 480px)" srcset="./assets/badges/email.svg?v=62c26a87d1 1.07x" /><img src="./assets/badges/email.svg?v=62c26a87d1" alt="Email Kanav" /></picture></a>
   <a href="https://x.com/KanavKumar007" target="_blank" rel="noopener noreferrer"><picture><source media="(max-width: 480px)" srcset="./assets/badges/x.svg?v=3e68ed7cd4 1.07x" /><img src="./assets/badges/x.svg?v=3e68ed7cd4" alt="X" /></picture></a>
   <a href="https://www.instagram.com/kanavvkumarr" target="_blank" rel="noopener noreferrer"><picture><source media="(max-width: 480px)" srcset="./assets/badges/instagram.svg?v=59bbfff916 1.07x" /><img src="./assets/badges/instagram.svg?v=59bbfff916" alt="Instagram" /></picture></a>
   <a href="https://dev.to/kingkk007" target="_blank" rel="noopener noreferrer"><picture><source media="(max-width: 480px)" srcset="./assets/badges/dev.svg?v=35c34c3fcd 1.07x" /><img src="./assets/badges/dev.svg?v=35c34c3fcd" alt="DEV" /></picture></a>
@@ -27,13 +27,13 @@
 
 <h3 align="center">
   <picture>
-    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/selected-work-mobile.svg?v=9e3ad48af6" />
-    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light-mobile.svg?v=f40f81260c" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/selected-work-compact.svg?v=f19f4c2a3a" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light-compact.svg?v=67b0eed5b0" />
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/selected-work.svg?v=c866517c80" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light.svg?v=8c42bbaa20" />
-    <img src="./assets/sections/selected-work.svg?v=c866517c80" alt="Selected work" width="100%" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/selected-work-mobile.svg?v=25804399af" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light-mobile.svg?v=0193fbdfcc" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/selected-work-compact.svg?v=98296b48aa" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light-compact.svg?v=6787d34720" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/selected-work.svg?v=58b6e749da" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light.svg?v=47681a3224" />
+    <img src="./assets/sections/selected-work.svg?v=58b6e749da" alt="Selected work" width="100%" />
   </picture>
 </h3>
 
@@ -81,13 +81,13 @@
 
 <h3 align="center">
   <picture>
-    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/toolkit-mobile.svg?v=44cd90a6a9" />
-    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light-mobile.svg?v=73b639670e" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/toolkit-compact.svg?v=9103bf6ee6" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light-compact.svg?v=eee95d49f8" />
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/toolkit.svg?v=90adac242f" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light.svg?v=3f219f7c35" />
-    <img src="./assets/sections/toolkit.svg?v=90adac242f" alt="My toolkit" width="100%" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/toolkit-mobile.svg?v=7da2f0347c" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light-mobile.svg?v=5610d28907" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/toolkit-compact.svg?v=d1c120ba76" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light-compact.svg?v=c1790723d5" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/toolkit.svg?v=220695a949" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light.svg?v=496e7f36fa" />
+    <img src="./assets/sections/toolkit.svg?v=220695a949" alt="My toolkit" width="100%" />
   </picture>
 </h3>
 
@@ -101,13 +101,13 @@
 
 <h3 align="center">
   <picture>
-    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/on-github-mobile.svg?v=73381ad931" />
-    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/on-github-light-mobile.svg?v=eafd72bb8d" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/on-github-compact.svg?v=98af4aa8e4" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/on-github-light-compact.svg?v=36337d0f31" />
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/on-github.svg?v=2526bf58ec" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/on-github-light.svg?v=92170b16db" />
-    <img src="./assets/sections/on-github.svg?v=2526bf58ec" alt="On GitHub" width="100%" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/on-github-mobile.svg?v=81d756d68c" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/on-github-light-mobile.svg?v=8fca0c5a92" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/on-github-compact.svg?v=05aa159233" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/on-github-light-compact.svg?v=f668c5609b" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/on-github.svg?v=f5f4a06b13" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/on-github-light.svg?v=1fde084b51" />
+    <img src="./assets/sections/on-github.svg?v=f5f4a06b13" alt="On GitHub" width="100%" />
   </picture>
 </h3>
 
@@ -131,13 +131,13 @@
 
 <h3 align="center">
   <picture>
-    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way-mobile.svg?v=1c582dd0aa" />
-    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light-mobile.svg?v=3add68802d" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way-compact.svg?v=955f4222fb" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light-compact.svg?v=df6b2fd63e" />
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way.svg?v=da9304714f" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light.svg?v=cca97f7cb8" />
-    <img src="./assets/sections/along-the-way.svg?v=da9304714f" alt="Along the way" width="100%" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way-mobile.svg?v=3ec8a25c92" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light-mobile.svg?v=2a7fa674d8" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way-compact.svg?v=8a95587a3b" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light-compact.svg?v=16b5edcac4" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way.svg?v=dc3216ce9b" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light.svg?v=8c8ea36f47" />
+    <img src="./assets/sections/along-the-way.svg?v=dc3216ce9b" alt="Along the way" width="100%" />
   </picture>
 </h3>
 

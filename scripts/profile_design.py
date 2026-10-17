@@ -63,6 +63,7 @@ PROFILE = {
     ],
     'footer': ['> Always curious. Always building.', 'Ctrl + Z is a lifestyle.'],
     'sections': [('selected-work', 'SELECTED WORK', 'Selected work'), ('toolkit', 'MY TOOLKIT', 'My toolkit'), ('on-github', 'ON GITHUB', 'On GitHub'), ('along-the-way', 'ALONG THE WAY', 'Along the way')],
+    'section_label_scale': 0.7,
     'alts': {'assets/header-dark.svg': '/ KINGKK-007. Kanav Kumar. Backend. Systems. Applied AI. CSE @ IIIT '
                                'Bangalore · 2028.',
      'assets/badges/linkedin.svg': 'LinkedIn',
@@ -409,17 +410,19 @@ def footer():
         write(f'editorial/footer{"" if mode=="desktop" else "-"+mode}.svg',svg)
 
 def sections():
+    scale=PROFILE['section_label_scale']
+    size,spacing,baseline=13*scale,.4*scale,22+5*scale
     for filename,label,desc in PROFILE['sections']:
         for mode,w in WIDTHS.items():
             for dark in (True,False):
                 suffix='' if dark else '-light';variant='' if mode=='desktop' else '-'+mode
                 accent=MINT if dark else '#35745a';ink=INK if dark else '#182b23'
-                width=text_width('> '+label,13,600,'mono',spacing=.4);left=(w-width)/2
+                width=text_width('> '+label,size,600,'mono',spacing=spacing);left=(w-width)/2
                 svg=start(w,44,desc)
                 rule_w=max(0,left-16)
                 svg+=section_rule(0,22,rule_w,'left-rule',not dark,True)+section_rule(w-rule_w,22,rule_w,'right-rule',not dark)
-                svg+=text('>',left,27,13,accent,600,mono=True,spacing=.4)
-                svg+=text(label,left+text_width('> ',13,600,'mono',spacing=.4),27,13,ink,600,mono=True,spacing=.4)
+                svg+=text('>',left,baseline,size,accent,600,mono=True,spacing=spacing)
+                svg+=text(label,left+text_width('> ',size,600,'mono',spacing=spacing),baseline,size,ink,600,mono=True,spacing=spacing)
                 write(f'sections/{filename}{suffix}{variant}.svg',svg)
 
 def version_readme_assets():
