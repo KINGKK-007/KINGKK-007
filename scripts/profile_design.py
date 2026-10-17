@@ -140,7 +140,7 @@ def action_pill(label,x,y,width=None):
 def section_rule(x,y,width,uid,light=False,reverse=False):
     color='#c9d6ce' if light else BORDER
     a,b=('0','1') if reverse else ('1','0')
-    return f'<defs><linearGradient id="{uid}"><stop stop-color="{color}" stop-opacity="{a}"/><stop offset="1" stop-color="{color}" stop-opacity="{b}"/></linearGradient></defs><path d="M{x} {y}h{width}" stroke="url(#{uid})"/>'
+    return f'<defs><linearGradient id="{uid}" gradientUnits="userSpaceOnUse" x1="{x}" y1="{y}" x2="{x+width}" y2="{y}"><stop stop-color="{color}" stop-opacity="{a}"/><stop offset="1" stop-color="{color}" stop-opacity="{b}"/></linearGradient></defs><path d="M{x} {y}h{width}" stroke="url(#{uid})"/>'
 
 
 def write(relative, svg):

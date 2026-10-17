@@ -27,13 +27,13 @@
 
 <h3 align="center">
   <picture>
-    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/selected-work-mobile.svg?v=a6e53f5e2c" />
-    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light-mobile.svg?v=f18c3bd4ea" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/selected-work-compact.svg?v=dff67e4453" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light-compact.svg?v=f5abfc5814" />
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/selected-work.svg?v=cd170e4bf3" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light.svg?v=e3f35b690c" />
-    <img src="./assets/sections/selected-work.svg?v=cd170e4bf3" alt="Selected work" width="100%" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/selected-work-mobile.svg?v=9e3ad48af6" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light-mobile.svg?v=f40f81260c" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/selected-work-compact.svg?v=f19f4c2a3a" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light-compact.svg?v=67b0eed5b0" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/selected-work.svg?v=c866517c80" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light.svg?v=8c42bbaa20" />
+    <img src="./assets/sections/selected-work.svg?v=c866517c80" alt="Selected work" width="100%" />
   </picture>
 </h3>
 
@@ -81,13 +81,13 @@
 
 <h3 align="center">
   <picture>
-    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/toolkit-mobile.svg?v=b773445d2b" />
-    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light-mobile.svg?v=dbd2b13b9a" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/toolkit-compact.svg?v=1b93b7221f" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light-compact.svg?v=e91c39ca63" />
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/toolkit.svg?v=db3522b6fc" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light.svg?v=4e210c9ccb" />
-    <img src="./assets/sections/toolkit.svg?v=db3522b6fc" alt="My toolkit" width="100%" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/toolkit-mobile.svg?v=44cd90a6a9" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light-mobile.svg?v=73b639670e" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/toolkit-compact.svg?v=9103bf6ee6" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light-compact.svg?v=eee95d49f8" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/toolkit.svg?v=90adac242f" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light.svg?v=3f219f7c35" />
+    <img src="./assets/sections/toolkit.svg?v=90adac242f" alt="My toolkit" width="100%" />
   </picture>
 </h3>
 
@@ -101,13 +101,13 @@
 
 <h3 align="center">
   <picture>
-    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/on-github-mobile.svg?v=8d1a45a28e" />
-    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/on-github-light-mobile.svg?v=f0172ab50b" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/on-github-compact.svg?v=44f17304dc" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/on-github-light-compact.svg?v=9d82e29f7a" />
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/on-github.svg?v=fdc5b818c4" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/on-github-light.svg?v=ef917ef2b2" />
-    <img src="./assets/sections/on-github.svg?v=fdc5b818c4" alt="On GitHub" width="100%" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/on-github-mobile.svg?v=73381ad931" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/on-github-light-mobile.svg?v=eafd72bb8d" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/on-github-compact.svg?v=98af4aa8e4" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/on-github-light-compact.svg?v=36337d0f31" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/on-github.svg?v=2526bf58ec" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/on-github-light.svg?v=92170b16db" />
+    <img src="./assets/sections/on-github.svg?v=2526bf58ec" alt="On GitHub" width="100%" />
   </picture>
 </h3>
 
@@ -131,13 +131,13 @@
 
 <h3 align="center">
   <picture>
-    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way-mobile.svg?v=9c5c906ef1" />
-    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light-mobile.svg?v=41fcdc5338" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way-compact.svg?v=3a9779398a" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light-compact.svg?v=2e8670cef8" />
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way.svg?v=21c234910e" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light.svg?v=85925644ff" />
-    <img src="./assets/sections/along-the-way.svg?v=21c234910e" alt="Along the way" width="100%" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way-mobile.svg?v=1c582dd0aa" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light-mobile.svg?v=3add68802d" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way-compact.svg?v=955f4222fb" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light-compact.svg?v=df6b2fd63e" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way.svg?v=da9304714f" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light.svg?v=cca97f7cb8" />
+    <img src="./assets/sections/along-the-way.svg?v=da9304714f" alt="Along the way" width="100%" />
   </picture>
 </h3>
 
