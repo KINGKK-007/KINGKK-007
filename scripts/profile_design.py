@@ -357,13 +357,15 @@ def milestones():
         for i,(title,result,caption) in enumerate(entries):
             x,y=(0,i*108) if mobile else (i*(cw+16),0)
             svg+=f'<g transform="translate({x} {y})">'+card(cw,ch,uid=f'milestone-{i}')
-            xx=22 if mobile else 16
+            xx=22 if mobile else 28
             svg+=icon('trophy',xx,15,18)
             # Compact titles can wrap; their event wording never changes.
             title_lines=wrap(title,cw-xx-46,13,600)
             for j,line in enumerate(title_lines):svg+=text(line,xx+26,24+j*16,13,INK,600)
             svg+=text(result,xx,64 if mobile else 77,24,INK,650,spacing=-.7)
-            svg+=text(caption,xx,85 if mobile else 104,13,MUTED,450)
+            caption_lines=wrap(caption,cw-2*xx,13,450)
+            caption_y=85 if mobile else (94 if len(caption_lines)>1 else 104)
+            for j,line in enumerate(caption_lines):svg+=text(line,xx,caption_y+j*16,13,MUTED,450)
             svg+=f'<circle cx="{cw-18}" cy="{61 if mobile else 74}" r="3" fill="{MINT}"/>'
             svg+='</g>'
         write(f'milestones/strip{"" if mode=="desktop" else "-"+mode}.svg',svg)

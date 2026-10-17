@@ -144,8 +144,8 @@
 <p align="center">
   <picture>
     <source media="(max-width: 480px)" srcset="./assets/milestones/strip-mobile.svg?v=44d946b7e8" />
-    <source media="(max-width: 1100px)" srcset="./assets/milestones/strip-compact.svg?v=3d2d8e6d64" />
-    <img src="./assets/milestones/strip.svg?v=9c83ec66a9" alt="HackXIOS 2K25: 7 / 2,300, Ranked 7th overall. Meta PyTorch OpenEnv: Finalist, 12,000+ teams · 2026. Novo Nordisk GBS: Pre-finalist, Hackathon 2025." width="100%" />
+    <source media="(max-width: 1100px)" srcset="./assets/milestones/strip-compact.svg?v=e2454d1133" />
+    <img src="./assets/milestones/strip.svg?v=b1ab241981" alt="HackXIOS 2K25: 7 / 2,300, Ranked 7th overall. Meta PyTorch OpenEnv: Finalist, 12,000+ teams · 2026. Novo Nordisk GBS: Pre-finalist, Hackathon 2025." width="100%" />
   </picture>
 </p>
 
