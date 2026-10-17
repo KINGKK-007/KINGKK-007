@@ -310,7 +310,7 @@ def featured():
 
 def projects():
     entries=[p for p in PROFILE['projects'] if p[0]!='aic' or PROFILE['include_aic']]
-    for mode,w in [('desktop',372),('compact',226),('mobile',280),('narrow',210)]:
+    for mode,w in [('desktop',306),('compact',226),('mobile',280),('narrow',210)]:
         suffix='' if mode=='desktop' else '-'+mode;inset=22 if mode in ('mobile','narrow') else 28
         available=w-2*inset;desc_size=16.5
         rows=max(len(wrap(p[2],available,desc_size)) for p in entries)
