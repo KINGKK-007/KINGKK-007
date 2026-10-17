@@ -340,7 +340,9 @@ def featured():
 
 def projects():
     entries=[p for p in PROFILE['projects'] if p[0]!='aic' or PROFILE['include_aic']]
-    for mode,w in [('desktop',306),('compact',226),('mobile',280),('narrow',210)]:
+    # Native table cells add 28px around each image. These widths leave a 16px
+    # two-column gap at 684/600px, or fill the 358px content area on a phone.
+    for mode,w in [('desktop',306),('compact',264),('mobile',330),('narrow',210)]:
         suffix='' if mode=='desktop' else '-'+mode;inset=22 if mode in ('mobile','narrow') else 28
         available=w-2*inset;desc_size=16.5
         rows=max(len(wrap(p[2],available,desc_size)) for p in entries)
