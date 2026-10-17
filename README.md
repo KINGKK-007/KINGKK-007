@@ -1,17 +1,17 @@
 <p align="center">
 <picture>
-  <source media="(max-width: 480px)" srcset="./assets/header-dark-mobile.svg?v=b07661e122" />
-  <source media="(max-width: 1100px)" srcset="./assets/header-dark-compact.svg?v=dfd34918ab" />
-  <img src="./assets/header-dark.svg?v=bb911f7137" alt="/ KINGKK-007. Kanav Kumar. Backend. Systems. Applied AI. CSE @ IIIT Bangalore · 2028." width="100%" />
+  <source media="(max-width: 480px)" srcset="./assets/header-dark-mobile.svg?v=6ebed2e9ca" />
+  <source media="(max-width: 1100px)" srcset="./assets/header-dark-compact.svg?v=b389e81e33" />
+  <img src="./assets/header-dark.svg?v=32dc1e1fef" alt="/ KINGKK-007. Kanav Kumar. Backend. Systems. Applied AI. CSE @ IIIT Bangalore · 2028." width="100%" />
 </picture>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/kanavkumar007/" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/linkedin.svg?v=2a2a7f23b3" alt="LinkedIn" height="36" /></a>
-  <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kumarkanav1510%40gmail.com&amp;su=Hey%20Kanav%21" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/email.svg?v=3b043dd34a" alt="Email Kanav" height="36" /></a>
-  <a href="https://x.com/KanavKumar007" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/x.svg?v=f00a46cdcf" alt="X" height="36" /></a>
-  <a href="https://www.instagram.com/kanavvkumarr" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/instagram.svg?v=b522986139" alt="Instagram" height="36" /></a>
-  <a href="https://dev.to/kingkk007" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/dev.svg?v=7c5255431d" alt="DEV" height="36" /></a>
+  <a href="https://www.linkedin.com/in/kanavkumar007/" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/linkedin.svg?v=7b2e2a0f0b" alt="LinkedIn" height="36" /></a>
+  <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kumarkanav1510%40gmail.com&amp;su=Hey%20Kanav%21" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/email.svg?v=62c26a87d1" alt="Email Kanav" height="36" /></a>
+  <a href="https://x.com/KanavKumar007" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/x.svg?v=3e68ed7cd4" alt="X" height="36" /></a>
+  <a href="https://www.instagram.com/kanavvkumarr" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/instagram.svg?v=59bbfff916" alt="Instagram" height="36" /></a>
+  <a href="https://dev.to/kingkk007" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/dev.svg?v=35c34c3fcd" alt="DEV" height="36" /></a>
 </p>
 
 <p align="center">
@@ -27,37 +27,37 @@
 
 <h3 align="center">
   <picture>
-    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/selected-work-mobile.svg?v=c258dbda3d" />
-    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light-mobile.svg?v=e45562395c" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/selected-work-compact.svg?v=b8bd2c4b67" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light-compact.svg?v=0726af1756" />
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/selected-work.svg?v=69da293a49" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light.svg?v=7bbb27b777" />
-    <img src="./assets/sections/selected-work.svg?v=69da293a49" alt="Selected work" width="100%" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/selected-work-mobile.svg?v=a6e53f5e2c" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light-mobile.svg?v=f18c3bd4ea" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/selected-work-compact.svg?v=dff67e4453" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light-compact.svg?v=f5abfc5814" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/selected-work.svg?v=cd170e4bf3" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light.svg?v=e3f35b690c" />
+    <img src="./assets/sections/selected-work.svg?v=cd170e4bf3" alt="Selected work" width="100%" />
   </picture>
 </h3>
 
 <p align="center">
   <a href="https://github.com/COolAlien35/PitchPerfect">
     <picture>
-      <source media="(max-width: 480px)" srcset="./assets/projects/pitchperfect-mobile.svg?v=9e8348b8ed" />
-      <source media="(max-width: 1100px)" srcset="./assets/projects/pitchperfect-compact.svg?v=e790d4190a" />
-      <img src="./assets/projects/pitchperfect.svg?v=253c324414" alt="Featured project: PitchPerfect. AI-powered mock interviews tailored to your résumé and role, with live audio/video feedback and post-session reports. Next.js, FastAPI, PostgreSQL, Redis and Docker. Open the repository." width="100%" />
+      <source media="(max-width: 480px)" srcset="./assets/projects/pitchperfect-mobile.svg?v=89d26684c2" />
+      <source media="(max-width: 1100px)" srcset="./assets/projects/pitchperfect-compact.svg?v=502ec99879" />
+      <img src="./assets/projects/pitchperfect.svg?v=58dc5d773e" alt="Featured project: PitchPerfect. AI-powered mock interviews tailored to your résumé and role, with live audio/video feedback and post-session reports. Next.js, FastAPI, PostgreSQL, Redis and Docker. Open the repository." width="100%" />
     </picture>
   </a>
 </p>
 
 <table align="left">
   <tr><td>
-    <a href="https://github.com/Jdsb06/SmartCampus"><picture><source media="(max-width: 360px)" srcset="./assets/projects/smartcampus-narrow.svg?v=370878899f" /><source media="(max-width: 480px)" srcset="./assets/projects/smartcampus-mobile.svg?v=c80feb467a" /><source media="(max-width: 1100px)" srcset="./assets/projects/smartcampus-compact.svg?v=33c7ad6da7" /><img src="./assets/projects/smartcampus.svg?v=00ba58344d" alt="SmartCampus — course enrollment, notifications and campus events. Spring Boot, MySQL and Flyway." align="top" /></picture></a><br />
-    <a href="https://github.com/Jdsb06/SmartCampus"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-narrow.svg?v=067ce9c828" /><source media="(max-width: 480px)" srcset="./assets/projects/source-mobile.svg?v=9845f75bca" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-compact.svg?v=2c843e5179" /><img src="./assets/projects/source.svg?v=fa30e527d3" alt="Open the project repository" align="top" width="100%" /></picture></a>
+    <a href="https://github.com/Jdsb06/SmartCampus"><picture><source media="(max-width: 360px)" srcset="./assets/projects/smartcampus-narrow.svg?v=02c0c8735d" /><source media="(max-width: 480px)" srcset="./assets/projects/smartcampus-mobile.svg?v=2f64dfe4a0" /><source media="(max-width: 1100px)" srcset="./assets/projects/smartcampus-compact.svg?v=70791f8367" /><img src="./assets/projects/smartcampus.svg?v=758a2a35d1" alt="SmartCampus — course enrollment, notifications and campus events. Spring Boot, MySQL and Flyway." align="top" /></picture></a><br />
+    <a href="https://github.com/Jdsb06/SmartCampus"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-narrow.svg?v=4956203aab" /><source media="(max-width: 480px)" srcset="./assets/projects/source-mobile.svg?v=7daf8c3a4b" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-compact.svg?v=d2828b9714" /><img src="./assets/projects/source.svg?v=308629756d" alt="Open the project repository" align="top" width="100%" /></picture></a>
   </td></tr>
 </table>
 
 <table align="right">
   <tr><td>
-    <a href="https://github.com/DayalGupta03/Sign_Bridge1"><picture><source media="(max-width: 360px)" srcset="./assets/projects/signbridge-narrow.svg?v=b0d4ad7a52" /><source media="(max-width: 480px)" srcset="./assets/projects/signbridge-mobile.svg?v=281ca4ba8a" /><source media="(max-width: 1100px)" srcset="./assets/projects/signbridge-compact.svg?v=a1861c83e7" /><img src="./assets/projects/signbridge.svg?v=718d707910" alt="SignBridge 3D — gesture recognition and 3D avatars for accessible communication. Next.js, Gemini and MediaPipe." align="top" /></picture></a><br />
-    <a href="https://github.com/DayalGupta03/Sign_Bridge1"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-half-narrow.svg?v=a66db185a0" /><source media="(max-width: 480px)" srcset="./assets/projects/source-half-mobile.svg?v=48cdb18504" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-half-compact.svg?v=1896295b2a" /><img src="./assets/projects/source-half.svg?v=05078631ad" alt="Open the SignBridge 3D repository" align="top" width="50%" /></picture></a><a href="https://sign-bridge1.vercel.app"><picture><source media="(max-width: 360px)" srcset="./assets/projects/demo-half-narrow.svg?v=00768719cc" /><source media="(max-width: 480px)" srcset="./assets/projects/demo-half-mobile.svg?v=0d0b110a89" /><source media="(max-width: 1100px)" srcset="./assets/projects/demo-half-compact.svg?v=95ddf5a6e2" /><img src="./assets/projects/demo-half.svg?v=2746519931" alt="Open the live SignBridge 3D demo" align="top" width="50%" /></picture></a>
+    <a href="https://github.com/DayalGupta03/Sign_Bridge1"><picture><source media="(max-width: 360px)" srcset="./assets/projects/signbridge-narrow.svg?v=c624724adb" /><source media="(max-width: 480px)" srcset="./assets/projects/signbridge-mobile.svg?v=aac07425c1" /><source media="(max-width: 1100px)" srcset="./assets/projects/signbridge-compact.svg?v=5a4e019c35" /><img src="./assets/projects/signbridge.svg?v=c4af2ba6d7" alt="SignBridge 3D — gesture recognition and 3D avatars for accessible communication. Next.js, Gemini and MediaPipe." align="top" /></picture></a><br />
+    <a href="https://github.com/DayalGupta03/Sign_Bridge1"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-half-narrow.svg?v=656f4f1259" /><source media="(max-width: 480px)" srcset="./assets/projects/source-half-mobile.svg?v=82810dfa8a" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-half-compact.svg?v=93a39b16eb" /><img src="./assets/projects/source-half.svg?v=30d17f8ecf" alt="Open the SignBridge 3D repository" align="top" width="50%" /></picture></a><a href="https://sign-bridge1.vercel.app"><picture><source media="(max-width: 360px)" srcset="./assets/projects/demo-half-narrow.svg?v=9313e81ba7" /><source media="(max-width: 480px)" srcset="./assets/projects/demo-half-mobile.svg?v=840688340a" /><source media="(max-width: 1100px)" srcset="./assets/projects/demo-half-compact.svg?v=500011be3a" /><img src="./assets/projects/demo-half.svg?v=2b5dd5f75c" alt="Open the live SignBridge 3D demo" align="top" width="50%" /></picture></a>
   </td></tr>
 </table>
 
@@ -65,15 +65,15 @@
 
 <table align="left">
   <tr><td>
-    <a href="https://github.com/KINGKK-007/Mini-Swiggy"><picture><source media="(max-width: 360px)" srcset="./assets/projects/mini-swiggy-narrow.svg?v=dd422c78f6" /><source media="(max-width: 480px)" srcset="./assets/projects/mini-swiggy-mobile.svg?v=4f1fe0c51b" /><source media="(max-width: 1100px)" srcset="./assets/projects/mini-swiggy-compact.svg?v=73cbac5f1d" /><img src="./assets/projects/mini-swiggy.svg?v=8124ee6a0a" alt="Mini-Swiggy — concurrent orders, worker processes and safe file access in C. C, pthreads, TCP and IPC." align="top" /></picture></a><br />
-    <a href="https://github.com/KINGKK-007/Mini-Swiggy"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-narrow.svg?v=067ce9c828" /><source media="(max-width: 480px)" srcset="./assets/projects/source-mobile.svg?v=9845f75bca" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-compact.svg?v=2c843e5179" /><img src="./assets/projects/source.svg?v=fa30e527d3" alt="Open the project repository" align="top" width="100%" /></picture></a>
+    <a href="https://github.com/KINGKK-007/Mini-Swiggy"><picture><source media="(max-width: 360px)" srcset="./assets/projects/mini-swiggy-narrow.svg?v=7630ad254e" /><source media="(max-width: 480px)" srcset="./assets/projects/mini-swiggy-mobile.svg?v=721bfb0eae" /><source media="(max-width: 1100px)" srcset="./assets/projects/mini-swiggy-compact.svg?v=3aa7f8ba9d" /><img src="./assets/projects/mini-swiggy.svg?v=e0e08ea340" alt="Mini-Swiggy — concurrent orders, worker processes and safe file access in C. C, pthreads, TCP and IPC." align="top" /></picture></a><br />
+    <a href="https://github.com/KINGKK-007/Mini-Swiggy"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-narrow.svg?v=4956203aab" /><source media="(max-width: 480px)" srcset="./assets/projects/source-mobile.svg?v=7daf8c3a4b" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-compact.svg?v=d2828b9714" /><img src="./assets/projects/source.svg?v=308629756d" alt="Open the project repository" align="top" width="100%" /></picture></a>
   </td></tr>
 </table>
 
 <table align="right">
   <tr><td>
-    <a href="https://github.com/COolAlien35/AIC"><picture><source media="(max-width: 360px)" srcset="./assets/projects/aic-narrow.svg?v=1934af80f7" /><source media="(max-width: 480px)" srcset="./assets/projects/aic-mobile.svg?v=9cd647b913" /><source media="(max-width: 1100px)" srcset="./assets/projects/aic-compact.svg?v=ba4860d21f" /><img src="./assets/projects/aic.svg?v=be058426e3" alt="AIC — OpenEnv incident-response environment with verifiable rewards and 0-1 task graders. FastAPI, OpenEnv, TRL GRPO, Unsloth." align="top" /></picture></a><br />
-    <a href="https://github.com/COolAlien35/AIC"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-narrow.svg?v=067ce9c828" /><source media="(max-width: 480px)" srcset="./assets/projects/source-mobile.svg?v=9845f75bca" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-compact.svg?v=2c843e5179" /><img src="./assets/projects/source.svg?v=fa30e527d3" alt="Open the AIC repository" align="top" width="100%" /></picture></a>
+    <a href="https://github.com/COolAlien35/AIC"><picture><source media="(max-width: 360px)" srcset="./assets/projects/aic-narrow.svg?v=1bbdfc205c" /><source media="(max-width: 480px)" srcset="./assets/projects/aic-mobile.svg?v=0cececdfad" /><source media="(max-width: 1100px)" srcset="./assets/projects/aic-compact.svg?v=090fe5a460" /><img src="./assets/projects/aic.svg?v=c14bd5bf73" alt="AIC — OpenEnv incident-response environment with verifiable rewards and 0-1 task graders. FastAPI, OpenEnv, TRL GRPO, Unsloth." align="top" /></picture></a><br />
+    <a href="https://github.com/COolAlien35/AIC"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-narrow.svg?v=4956203aab" /><source media="(max-width: 480px)" srcset="./assets/projects/source-mobile.svg?v=7daf8c3a4b" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-compact.svg?v=d2828b9714" /><img src="./assets/projects/source.svg?v=308629756d" alt="Open the AIC repository" align="top" width="100%" /></picture></a>
   </td></tr>
 </table>
 
@@ -81,33 +81,33 @@
 
 <h3 align="center">
   <picture>
-    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/toolkit-mobile.svg?v=5f7adb50a1" />
-    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light-mobile.svg?v=29af6ff4e0" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/toolkit-compact.svg?v=7d654b5db6" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light-compact.svg?v=cc37ca50d0" />
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/toolkit.svg?v=853c19de5d" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light.svg?v=32c9544595" />
-    <img src="./assets/sections/toolkit.svg?v=853c19de5d" alt="My toolkit" width="100%" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/toolkit-mobile.svg?v=b773445d2b" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light-mobile.svg?v=dbd2b13b9a" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/toolkit-compact.svg?v=1b93b7221f" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light-compact.svg?v=e91c39ca63" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/toolkit.svg?v=db3522b6fc" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light.svg?v=4e210c9ccb" />
+    <img src="./assets/sections/toolkit.svg?v=db3522b6fc" alt="My toolkit" width="100%" />
   </picture>
 </h3>
 
 <p align="center">
   <picture>
-    <source media="(max-width: 480px)" srcset="./assets/editorial/toolkit-mobile.svg?v=3eaebe0549" />
-    <source media="(max-width: 1100px)" srcset="./assets/editorial/toolkit-compact.svg?v=8321cbb413" />
-    <img src="./assets/editorial/toolkit.svg?v=3e735aabfb" alt="Languages: Java, C++, C, Python, SQL, JavaScript. Frameworks: Spring Boot, React, Next.js, FastAPI. Tools and data: Docker, PostgreSQL, MySQL, Git, Linux, Postman." width="100%" />
+    <source media="(max-width: 480px)" srcset="./assets/editorial/toolkit-mobile.svg?v=98a07685d8" />
+    <source media="(max-width: 1100px)" srcset="./assets/editorial/toolkit-compact.svg?v=257a1eb61a" />
+    <img src="./assets/editorial/toolkit.svg?v=4a8f5f8831" alt="Languages: Java, C++, C, Python, SQL, JavaScript. Frameworks: Spring Boot, React, Next.js, FastAPI. Tools and data: Docker, PostgreSQL, MySQL, Git, Linux, Postman." width="100%" />
   </picture>
 </p>
 
 <h3 align="center">
   <picture>
-    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/on-github-mobile.svg?v=10e7e7487a" />
-    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/on-github-light-mobile.svg?v=9ff928fc92" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/on-github-compact.svg?v=2663a53966" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/on-github-light-compact.svg?v=0bab846f5d" />
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/on-github.svg?v=7a19e5b234" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/on-github-light.svg?v=e2c49b8a5f" />
-    <img src="./assets/sections/on-github.svg?v=7a19e5b234" alt="On GitHub" width="100%" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/on-github-mobile.svg?v=8d1a45a28e" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/on-github-light-mobile.svg?v=f0172ab50b" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/on-github-compact.svg?v=44f17304dc" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/on-github-light-compact.svg?v=9d82e29f7a" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/on-github.svg?v=fdc5b818c4" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/on-github-light.svg?v=ef917ef2b2" />
+    <img src="./assets/sections/on-github.svg?v=fdc5b818c4" alt="On GitHub" width="100%" />
   </picture>
 </h3>
 
@@ -131,28 +131,28 @@
 
 <h3 align="center">
   <picture>
-    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way-mobile.svg?v=d1367cc1a0" />
-    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light-mobile.svg?v=f04387fe3d" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way-compact.svg?v=57e5af0511" />
-    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light-compact.svg?v=e5817fb0da" />
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way.svg?v=2042a64b82" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light.svg?v=ca55cecf82" />
-    <img src="./assets/sections/along-the-way.svg?v=2042a64b82" alt="Along the way" width="100%" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way-mobile.svg?v=9c5c906ef1" />
+    <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light-mobile.svg?v=41fcdc5338" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way-compact.svg?v=3a9779398a" />
+    <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light-compact.svg?v=2e8670cef8" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way.svg?v=21c234910e" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light.svg?v=85925644ff" />
+    <img src="./assets/sections/along-the-way.svg?v=21c234910e" alt="Along the way" width="100%" />
   </picture>
 </h3>
 
 <p align="center">
   <picture>
-    <source media="(max-width: 480px)" srcset="./assets/milestones/strip-mobile.svg?v=cd1ee31bff" />
-    <source media="(max-width: 1100px)" srcset="./assets/milestones/strip-compact.svg?v=7e0c9bed8d" />
-    <img src="./assets/milestones/strip.svg?v=f0c4344f1d" alt="HackXIOS 2K25: 7 / 2,300, Ranked 7th overall. Meta PyTorch OpenEnv: Finalist, 12,000+ teams · 2026. Novo Nordisk GBS: Pre-finalist, Hackathon 2025." width="100%" />
+    <source media="(max-width: 480px)" srcset="./assets/milestones/strip-mobile.svg?v=44d946b7e8" />
+    <source media="(max-width: 1100px)" srcset="./assets/milestones/strip-compact.svg?v=3d2d8e6d64" />
+    <img src="./assets/milestones/strip.svg?v=9c83ec66a9" alt="HackXIOS 2K25: 7 / 2,300, Ranked 7th overall. Meta PyTorch OpenEnv: Finalist, 12,000+ teams · 2026. Novo Nordisk GBS: Pre-finalist, Hackathon 2025." width="100%" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(max-width: 480px)" srcset="./assets/editorial/footer-mobile.svg?v=c2b875af23" />
-    <source media="(max-width: 1100px)" srcset="./assets/editorial/footer-compact.svg?v=77747e9f36" />
-    <img src="./assets/editorial/footer.svg?v=2029d08a6d" alt="> Always curious. Always building. Ctrl + Z is a lifestyle." width="100%" />
+    <source media="(max-width: 480px)" srcset="./assets/editorial/footer-mobile.svg?v=9e1a5495ae" />
+    <source media="(max-width: 1100px)" srcset="./assets/editorial/footer-compact.svg?v=d1d5d22f22" />
+    <img src="./assets/editorial/footer.svg?v=99bc2dd967" alt="> Always curious. Always building. Ctrl + Z is a lifestyle." width="100%" />
   </picture>
 </p>

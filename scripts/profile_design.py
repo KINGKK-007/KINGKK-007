@@ -89,7 +89,7 @@ def text(value, x, y, size=16, color=INK, weight=500, mono=False, anchor='start'
 
 
 def top_highlight(width, uid='card'):
-    return f'<defs><linearGradient id="{uid}-edge"><stop stop-color="{MINT}" stop-opacity="0"/><stop offset=".5" stop-color="{MINT}" stop-opacity=".3"/><stop offset="1" stop-color="{MINT}" stop-opacity="0"/></linearGradient></defs><path d="M12 1H{width-12}" stroke="url(#{uid}-edge)"/>'
+    return f'<defs><linearGradient id="{uid}-edge" gradientUnits="userSpaceOnUse" x1="12" y1="1" x2="{width-12}" y2="1"><stop stop-color="{MINT}" stop-opacity="0"/><stop offset=".5" stop-color="{MINT}" stop-opacity=".3"/><stop offset="1" stop-color="{MINT}" stop-opacity="0"/></linearGradient></defs><path d="M12 1H{width-12}" stroke="url(#{uid}-edge)"/>'
 
 
 def card(width, height, featured=False, radius=RADIUS, uid='card'):
