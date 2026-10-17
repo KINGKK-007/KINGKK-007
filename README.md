@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/kanavkumar007/" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/linkedin.svg?v=7b2e2a0f0b" alt="LinkedIn" height="36" /></a>
-  <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kumarkanav1510%40gmail.com&amp;su=Hey%20Kanav%21" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/email.svg?v=62c26a87d1" alt="Email Kanav" height="36" /></a>
-  <a href="https://x.com/KanavKumar007" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/x.svg?v=3e68ed7cd4" alt="X" height="36" /></a>
-  <a href="https://www.instagram.com/kanavvkumarr" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/instagram.svg?v=59bbfff916" alt="Instagram" height="36" /></a>
-  <a href="https://dev.to/kingkk007" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/dev.svg?v=35c34c3fcd" alt="DEV" height="36" /></a>
+  <a href="https://www.linkedin.com/in/kanavkumar007/" target="_blank" rel="noopener noreferrer"><picture><source media="(max-width: 480px)" srcset="./assets/badges/linkedin.svg?v=7b2e2a0f0b 1.07x" /><img src="./assets/badges/linkedin.svg?v=7b2e2a0f0b" alt="LinkedIn" /></picture></a>
+  <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kumarkanav1510%40gmail.com&amp;su=Hey%20Kanav%21" target="_blank" rel="noopener noreferrer"><picture><source media="(max-width: 480px)" srcset="./assets/badges/email.svg?v=62c26a87d1 1.07x" /><img src="./assets/badges/email.svg?v=62c26a87d1" alt="Email Kanav" /></picture></a>
+  <a href="https://x.com/KanavKumar007" target="_blank" rel="noopener noreferrer"><picture><source media="(max-width: 480px)" srcset="./assets/badges/x.svg?v=3e68ed7cd4 1.07x" /><img src="./assets/badges/x.svg?v=3e68ed7cd4" alt="X" /></picture></a>
+  <a href="https://www.instagram.com/kanavvkumarr" target="_blank" rel="noopener noreferrer"><picture><source media="(max-width: 480px)" srcset="./assets/badges/instagram.svg?v=59bbfff916 1.07x" /><img src="./assets/badges/instagram.svg?v=59bbfff916" alt="Instagram" /></picture></a>
+  <a href="https://dev.to/kingkk007" target="_blank" rel="noopener noreferrer"><picture><source media="(max-width: 480px)" srcset="./assets/badges/dev.svg?v=35c34c3fcd 1.07x" /><img src="./assets/badges/dev.svg?v=35c34c3fcd" alt="DEV" /></picture></a>
 </p>
 
 <p align="center">

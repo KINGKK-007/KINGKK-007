@@ -401,7 +401,7 @@ def version_readme_assets():
         return f'{prefix}{relative}?v={fingerprint}{suffix}'
 
     source = readme.read_text()
-    revised = re.sub(r'((?:src|srcset)=")(\./assets/[^"?]+)(?:\?v=[^"]+)?(")', version, source)
+    revised = re.sub(r'((?:src|srcset)=")(\./assets/[^"?\s]+)(?:\?v=[^"\s]+)?((?:\s+[^" ]+)?")', version, source)
     if revised != source:
         readme.write_text(revised)
 
