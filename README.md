@@ -42,7 +42,7 @@
     <picture>
       <source media="(max-width: 480px)" srcset="./assets/projects/pitchperfect-mobile.svg?v=89d26684c2" />
       <source media="(max-width: 1100px)" srcset="./assets/projects/pitchperfect-compact.svg?v=502ec99879" />
-      <img src="./assets/projects/pitchperfect.svg?v=58dc5d773e" alt="Featured project: PitchPerfect. AI-powered mock interviews tailored to your résumé and role, with live audio/video feedback and post-session reports. Next.js, FastAPI, PostgreSQL, Redis and Docker. Open the repository." width="100%" />
+      <img src="./assets/projects/pitchperfect.svg?v=58dc5d773e" alt="Featured project: PitchPerfect. Mock interviews tailored to your résumé and role, with live audio/video feedback and post-session reports. Desktop stack: Next.js, FastAPI, PostgreSQL, Redis, Docker, Gemini, Whisper; mobile: Next.js, FastAPI, PostgreSQL, Redis, Docker. Explore the repository." width="100%" />
     </picture>
   </a>
 </p>
@@ -50,7 +50,7 @@
 <table align="left">
   <tr><td>
     <a href="https://github.com/Jdsb06/SmartCampus"><picture><source media="(max-width: 360px)" srcset="./assets/projects/smartcampus-narrow.svg?v=02c0c8735d" /><source media="(max-width: 480px)" srcset="./assets/projects/smartcampus-mobile.svg?v=2f64dfe4a0" /><source media="(max-width: 1100px)" srcset="./assets/projects/smartcampus-compact.svg?v=70791f8367" /><img src="./assets/projects/smartcampus.svg?v=c19f5962f0" alt="SmartCampus — course enrollment, notifications and campus events. Spring Boot, MySQL and Flyway." align="top" /></picture></a><br />
-    <a href="https://github.com/Jdsb06/SmartCampus"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-narrow.svg?v=4956203aab" /><source media="(max-width: 480px)" srcset="./assets/projects/source-mobile.svg?v=7daf8c3a4b" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-compact.svg?v=d2828b9714" /><img src="./assets/projects/source.svg?v=2d4eb14789" alt="Open the project repository" align="top" width="100%" /></picture></a>
+    <a href="https://github.com/Jdsb06/SmartCampus"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-narrow.svg?v=4956203aab" /><source media="(max-width: 480px)" srcset="./assets/projects/source-mobile.svg?v=7daf8c3a4b" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-compact.svg?v=d2828b9714" /><img src="./assets/projects/source.svg?v=2d4eb14789" alt="View source repository" align="top" width="100%" /></picture></a>
   </td></tr>
 </table>
 
@@ -66,14 +66,14 @@
 <table align="left">
   <tr><td>
     <a href="https://github.com/KINGKK-007/Mini-Swiggy"><picture><source media="(max-width: 360px)" srcset="./assets/projects/mini-swiggy-narrow.svg?v=7630ad254e" /><source media="(max-width: 480px)" srcset="./assets/projects/mini-swiggy-mobile.svg?v=721bfb0eae" /><source media="(max-width: 1100px)" srcset="./assets/projects/mini-swiggy-compact.svg?v=3aa7f8ba9d" /><img src="./assets/projects/mini-swiggy.svg?v=7e474b522f" alt="Mini-Swiggy — concurrent orders, worker processes and safe file access in C. C, pthreads, TCP and IPC." align="top" /></picture></a><br />
-    <a href="https://github.com/KINGKK-007/Mini-Swiggy"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-narrow.svg?v=4956203aab" /><source media="(max-width: 480px)" srcset="./assets/projects/source-mobile.svg?v=7daf8c3a4b" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-compact.svg?v=d2828b9714" /><img src="./assets/projects/source.svg?v=2d4eb14789" alt="Open the project repository" align="top" width="100%" /></picture></a>
+    <a href="https://github.com/KINGKK-007/Mini-Swiggy"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-narrow.svg?v=4956203aab" /><source media="(max-width: 480px)" srcset="./assets/projects/source-mobile.svg?v=7daf8c3a4b" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-compact.svg?v=d2828b9714" /><img src="./assets/projects/source.svg?v=2d4eb14789" alt="View source repository" align="top" width="100%" /></picture></a>
   </td></tr>
 </table>
 
 <table align="right">
   <tr><td>
     <a href="https://github.com/COolAlien35/AIC"><picture><source media="(max-width: 360px)" srcset="./assets/projects/aic-narrow.svg?v=1bbdfc205c" /><source media="(max-width: 480px)" srcset="./assets/projects/aic-mobile.svg?v=0cececdfad" /><source media="(max-width: 1100px)" srcset="./assets/projects/aic-compact.svg?v=090fe5a460" /><img src="./assets/projects/aic.svg?v=e263ac0513" alt="AIC — OpenEnv incident-response environment with verifiable rewards and 0-1 task graders. FastAPI, OpenEnv, TRL GRPO, Unsloth." align="top" /></picture></a><br />
-    <a href="https://github.com/COolAlien35/AIC"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-narrow.svg?v=4956203aab" /><source media="(max-width: 480px)" srcset="./assets/projects/source-mobile.svg?v=7daf8c3a4b" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-compact.svg?v=d2828b9714" /><img src="./assets/projects/source.svg?v=2d4eb14789" alt="Open the AIC repository" align="top" width="100%" /></picture></a>
+    <a href="https://github.com/COolAlien35/AIC"><picture><source media="(max-width: 360px)" srcset="./assets/projects/source-narrow.svg?v=4956203aab" /><source media="(max-width: 480px)" srcset="./assets/projects/source-mobile.svg?v=7daf8c3a4b" /><source media="(max-width: 1100px)" srcset="./assets/projects/source-compact.svg?v=d2828b9714" /><img src="./assets/projects/source.svg?v=2d4eb14789" alt="View source repository" align="top" width="100%" /></picture></a>
   </td></tr>
 </table>
 
@@ -115,7 +115,7 @@
   <picture>
     <source media="(max-width: 480px)" srcset="./assets/stats/overview-mobile.svg" />
     <source media="(max-width: 1100px)" srcset="./assets/stats/overview-compact.svg" />
-    <img src="./assets/stats/overview.svg" alt="GitHub activity in the past year and substantive language shares measured by code bytes in owned public, non-fork project repositories. The dated snapshot refreshes automatically." width="100%" />
+    <img src="./assets/stats/overview.svg" alt="GitHub activity: Contributions and Active days. Public activity in the past 12 months, with update date. Repository languages: code-byte shares in owned public, non-fork project repositories, including Other." width="100%" />
   </picture>
 </p>
 

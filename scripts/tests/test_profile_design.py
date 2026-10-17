@@ -74,6 +74,25 @@ class ProfileDesignTests(unittest.TestCase):
             self.assertRegex(first, r'a\.svg\?v=[0-9a-f]{10} 1\.07x')
             self.assertEqual(first, readme.read_text())
 
+    def test_shared_source_art_has_a_generic_alt_without_changing_repository_targets(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root/'assets/projects').mkdir(parents=True)
+            (root/'assets/projects/source.svg').write_text('<svg/>')
+            readme = root/'README.md'
+            targets = [entry[-1] for entry in design.PROFILE['projects']]
+            readme.write_text(''.join(
+                f'<a href="{target}"><img src="./assets/projects/source.svg" alt="stale" /></a>'
+                for target in targets))
+            with patch.object(design, 'ROOT', root/'assets'):
+                design.version_readme_assets()
+                first = readme.read_text()
+                design.version_readme_assets()
+            self.assertEqual(first, readme.read_text())
+            for target in targets:
+                self.assertIn(f'href="{target}"', first)
+            self.assertEqual(first.count('alt="View source repository"'), len(targets))
+
 
 if __name__ == '__main__':
     unittest.main()

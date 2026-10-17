@@ -63,6 +63,47 @@ PROFILE = {
     ],
     'footer': ['> Always curious. Always building.', 'Ctrl + Z is a lifestyle.'],
     'sections': [('selected-work', 'SELECTED WORK', 'Selected work'), ('toolkit', 'MY TOOLKIT', 'My toolkit'), ('on-github', 'ON GITHUB', 'On GitHub'), ('along-the-way', 'ALONG THE WAY', 'Along the way')],
+    'alts': {'assets/header-dark.svg': '/ KINGKK-007. Kanav Kumar. Backend. Systems. Applied AI. CSE @ IIIT '
+                               'Bangalore · 2028.',
+     'assets/badges/linkedin.svg': 'LinkedIn',
+     'assets/badges/email.svg': 'Email Kanav',
+     'assets/badges/x.svg': 'X',
+     'assets/badges/instagram.svg': 'Instagram',
+     'assets/badges/dev.svg': 'DEV',
+     'assets/sections/selected-work.svg': 'Selected work',
+     'assets/projects/pitchperfect.svg': 'Featured project: PitchPerfect. Mock interviews tailored to '
+                                         'your résumé and role, with live audio/video feedback and '
+                                         'post-session reports. Desktop stack: Next.js, FastAPI, '
+                                         'PostgreSQL, Redis, Docker, Gemini, Whisper; mobile: Next.js, '
+                                         'FastAPI, PostgreSQL, Redis, Docker. Explore the repository.',
+     'assets/projects/smartcampus.svg': 'SmartCampus — course enrollment, notifications and campus '
+                                        'events. Spring Boot, MySQL and Flyway.',
+     'assets/projects/source.svg': 'View source repository',
+     'assets/projects/signbridge.svg': 'SignBridge 3D — gesture recognition and 3D avatars for '
+                                       'accessible communication. Next.js, Gemini and MediaPipe.',
+     'assets/projects/source-half.svg': 'Open the SignBridge 3D repository',
+     'assets/projects/demo-half.svg': 'Open the live SignBridge 3D demo',
+     'assets/projects/mini-swiggy.svg': 'Mini-Swiggy — concurrent orders, worker processes and safe '
+                                        'file access in C. C, pthreads, TCP and IPC.',
+     'assets/projects/aic.svg': 'AIC — OpenEnv incident-response environment with verifiable rewards '
+                                'and 0-1 task graders. FastAPI, OpenEnv, TRL GRPO, Unsloth.',
+     'assets/sections/toolkit.svg': 'My toolkit',
+     'assets/editorial/toolkit.svg': 'Languages: Java, C++, C, Python, SQL, JavaScript. Frameworks: '
+                                     'Spring Boot, React, Next.js, FastAPI. Tools and data: Docker, '
+                                     'PostgreSQL, MySQL, Git, Linux, Postman.',
+     'assets/sections/on-github.svg': 'On GitHub',
+     'assets/stats/overview.svg': 'GitHub activity: Contributions and Active days. Public activity in '
+                                  'the past 12 months, with update date. Repository languages: '
+                                  'code-byte shares in owned public, non-fork project repositories, '
+                                  'including Other.',
+     'assets/stats/contributions.svg': 'Contribution trail: the actual annual GitHub calendar in mint '
+                                       'and charcoal, with the original snake animation. Empty days '
+                                       'remain empty. Open the full graphic.',
+     'assets/sections/along-the-way.svg': 'Along the way',
+     'assets/milestones/strip.svg': 'HackXIOS 2K25: 7 / 2,300, Ranked 7th overall. Meta PyTorch '
+                                    'OpenEnv: Finalist, 12,000+ teams · 2026. Novo Nordisk GBS: '
+                                    'Pre-finalist, Hackathon 2025.',
+     'assets/editorial/footer.svg': '> Always curious. Always building. Ctrl + Z is a lifestyle.'},
     'stats': {
         'language_basis': 'Code bytes in owned public non-fork project repos; excludes the profile repository.',
         'summary_description': '{contributions} contributions across {active_days} active days in the past year. ',
@@ -78,7 +119,7 @@ PROFILE = {
     },
 }
 # Stable aliases for scripts importing the old public design API.
-PROJECTS = [tuple(p[:3]) + (' · '.join(p[3]), p[4]) for p in PROFILE['projects'] if p[0] != 'aic']
+PROJECTS = PROFILE['projects']
 TECH = PROFILE['technologies']
 SECTIONS = PROFILE['sections']
 
@@ -219,21 +260,6 @@ def tech_logo(name,x,y):
 
 
 
-def badge(relative, label, mark=None, accent=False):
-    width = max(72, ceil(text_width(label, 12, 500, 'mono') + 52))
-    svg = start(width, 36, label) + frame(width, 36)
-    if accent:
-        svg += f'<rect x=".5" y=".5" width="{width-1}" height="35" rx="10" fill="#17271e" stroke="#456b55"/>'
-    if mark:
-        root = ET.parse(ROOT / 'badges' / f'{mark}.svg').getroot()
-        logo = root.find(f'{{{NS}}}svg')
-        logo.set('x', '12'); logo.set('y', '9'); logo.set('width', '18'); logo.set('height', '18')
-        logo.set('fill', MUTED)
-        svg += ET.tostring(logo, encoding='unicode')
-    svg += text(label, 39 if mark else 15, 23, 12, BRIGHT if accent else MUTED, mono=True)
-    if not mark:
-        svg += arrow(width-21, 13)
-    write(relative, svg)
 
 def socials():
     for name,label in PROFILE['socials']:
@@ -406,9 +432,16 @@ def version_readme_assets():
         fingerprint = sha256((ROOT.parent / relative).read_bytes()).hexdigest()[:10]
         return f'{prefix}{relative}?v={fingerprint}{suffix}'
 
-    source = readme.read_text()
+    original = readme.read_text()
+    source = original
+    def accessible(match):
+        tag=match.group();path=re.search(r'src="\./([^"?]+)',tag).group(1)
+        if path in PROFILE['alts']:
+            tag=re.sub(r'alt="[^"]*"',lambda _: 'alt="'+escape(PROFILE['alts'][path],quote=True)+'"',tag)
+        return tag
+    source=re.sub(r'<img\b[^>]*src="\./[^"]*"[^>]*>',accessible,source)
     revised = re.sub(r'((?:src|srcset)=")(\./assets/[^"?\s]+)(?:\?v=[^"\s]+)?((?:\s+[^" ]+)?")', version, source)
-    if revised != source:
+    if revised != original:
         readme.write_text(revised)
 
 def main():
