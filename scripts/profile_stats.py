@@ -107,7 +107,7 @@ def summarize(counts, today, totals):
             'calendar_start':min(counts).isoformat(), 'calendar_end':max(counts).isoformat(),
             'contributions':sum(recent.values()),
             'active_days':sum(value>0 for value in recent.values()),
-            'languages':languages, 'language_basis':'Code bytes in owned public non-fork project repos; excludes the profile repository.'}
+            'languages':languages, 'language_basis':PROFILE['stats']['language_basis']}
 
 
 def language_segments(summary):
@@ -147,7 +147,7 @@ def wrapped_lines(value, width, size=13, weight=450):
 
 def overview(summary, mobile=False, compact=False):
     copy = PROFILE['stats']
-    show_activity = summary['contributions'] >= 10 and summary['active_days'] >= 10
+    show_activity = summary['contributions'] >= copy['activity_minimum'] and summary['active_days'] >= copy['activity_minimum']
     w = 320 if mobile else (600 if compact else 800)
     h = 456 if mobile and show_activity else 244
     pad = 22 if mobile else 28
@@ -163,7 +163,7 @@ def overview(summary, mobile=False, compact=False):
     title = copy['activity_title'] + ' / ' + copy['languages_title'] if show_activity else copy['languages_title']
     description = '; '.join(f'{name}: {share:.1%}' for name, share in segments) + '. ' + summary['language_basis']
     if show_activity:
-        description = (f"{summary['contributions']} contributions across {summary['active_days']} active days in the past year. "
+        description = (copy['summary_description'].format(**summary)
                        + description)
     svg = start(w, h, title, description) + frame(w, h)
     if show_activity:

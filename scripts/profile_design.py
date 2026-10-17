@@ -64,6 +64,9 @@ PROFILE = {
     'footer': ['> Always curious. Always building.', 'Ctrl + Z is a lifestyle.'],
     'sections': [('selected-work', 'SELECTED WORK', 'Selected work'), ('toolkit', 'MY TOOLKIT', 'My toolkit'), ('on-github', 'ON GITHUB', 'On GitHub'), ('along-the-way', 'ALONG THE WAY', 'Along the way')],
     'stats': {
+        'language_basis': 'Code bytes in owned public non-fork project repos; excludes the profile repository.',
+        'summary_description': '{contributions} contributions across {active_days} active days in the past year. ',
+        'activity_minimum': 10,
         'activity_title': 'GitHub activity', 'languages_title': 'Repository languages',
         'contributions_label': 'Contributions', 'active_days_label': 'Active days',
         'provenance': 'Public activity · past 12 months · updated {snapshot_date}',
