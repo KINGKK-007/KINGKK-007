@@ -133,8 +133,9 @@ def icon_tile(kind,x,y):
 
 def action_pill(label,x,y,width=None):
     width=width or ceil(text_width(label,14,600)+48)
+    size,padding,arrow_inset=(13,8,17) if width < text_width(label,14,600)+48 else (14,14,25)
     return (f'<g data-action="{escape(label, quote=True)}"><rect x="{x}" y="{y}" width="{width}" height="36" rx="18" fill="{CHIP}" stroke="{MINT}" stroke-opacity=".45"/>'
-            +text(label,x+14,y+23,14,BRIGHT,600)+arrow(x+width-25,y+13,BRIGHT)+'</g>')
+            +text(label,x+padding,y+23,size,BRIGHT,600)+arrow(x+width-arrow_inset,y+13,BRIGHT)+'</g>')
 
 
 def section_rule(x,y,width,uid,light=False,reverse=False):
@@ -328,7 +329,7 @@ def projects():
         for name,label,half in PROFILE['project_actions']:
             width=w/2 if half else w
             svg=start(width,60,label)+card(width,60,uid='action')
-            svg+=action_pill(label,8,12,width-16)
+            svg+=action_pill(label,4 if half else 8,12,width-(8 if half else 16))
             write(f'projects/{name}{suffix}.svg',svg)
 
 def toolkit():
