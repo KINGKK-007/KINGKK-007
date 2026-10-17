@@ -1,7 +1,7 @@
 {
   "label": "final",
   "rendering": "GitHub-sanitized article captured from profile-redesign-v2 repository branch + live public GitHub CSS; local assets/mock column, not the live profile page",
-  "readme_sha256": "57b8d1637654b9f33e31749900dd640c0d81ed819ba9008f264bebf1d2f35841",
+  "readme_sha256": "d7b16eee4f4687b60aacb1f80f7058b586af20a7aa7026690f4adf44c2f96fbe",
   "style_sources": [
     {
       "url": "https://github.githubassets.com/assets/light-3a3d2c708970e4e8.css",
@@ -6862,22 +6862,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 239.72000122070312,
-            "top": 19.18000030517578,
-            "right": 245.47999572753906,
-            "bottom": 26.25
+            "left": 257.79998779296875,
+            "top": 20.030000686645508,
+            "right": 261.8399963378906,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "ALONG THE WAY",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 255.2100067138672,
-            "top": 17.3799991607666,
-            "right": 360.55999755859375,
-            "bottom": 27.1299991607666
+            "left": 268.6400146484375,
+            "top": 18.770000457763672,
+            "right": 342.3900146484375,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -6891,7 +6891,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 222.6999969482422,
+            "right": 241.08999633789062,
             "bottom": 22
           },
           "transform": [
@@ -6907,7 +6907,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 377.29998779296875,
+            "left": 358.9100036621094,
             "top": 22,
             "right": 600,
             "bottom": 22
@@ -6932,7 +6932,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 222.6999969482422,
+            "right": 241.08999633789062,
             "bottom": 22
           },
           "transform": [
@@ -6946,17 +6946,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 225,
+            "right": 244,
             "bottom": 24
           },
-          "painted_pixels": 434,
+          "painted_pixels": 472,
           "max_channel_delta": 21
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 377.29998779296875,
+            "left": 358.9100036621094,
             "top": 22,
             "right": 600,
             "bottom": 22
@@ -6970,19 +6970,19 @@
             0
           ],
           "roi": {
-            "left": 375,
+            "left": 356,
             "top": 20,
             "right": 600,
             "bottom": 24
           },
-          "painted_pixels": 435,
+          "painted_pixels": 472,
           "max_channel_delta": 21
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "85ae3b84b89dc0fb597b401f34b724d5788be7f51b7b68c37368011f93204293",
-      "bytes": 3998,
-      "sha256": "955f4222fbfc34953cac2a2f8b7949265944d2b13b2444c052d463c039194ba9",
+      "png_sha256": "eb05f6a05efa1cbedf68e0825cc7096a41d3ad82941e649a98724ee9ad52cb1f",
+      "bytes": 4035,
+      "sha256": "8a95587a3b1fb5dffd455cf0de6cc16ba74805dbf8806923dfd512aa01a61bad",
       "security_issues": []
     },
     "assets/sections/along-the-way-light-compact.svg": {
@@ -6991,22 +6991,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 239.72000122070312,
-            "top": 19.18000030517578,
-            "right": 245.47999572753906,
-            "bottom": 26.25
+            "left": 257.79998779296875,
+            "top": 20.030000686645508,
+            "right": 261.8399963378906,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "ALONG THE WAY",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 255.2100067138672,
-            "top": 17.3799991607666,
-            "right": 360.55999755859375,
-            "bottom": 27.1299991607666
+            "left": 268.6400146484375,
+            "top": 18.770000457763672,
+            "right": 342.3900146484375,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -7020,7 +7020,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 222.6999969482422,
+            "right": 241.08999633789062,
             "bottom": 22
           },
           "transform": [
@@ -7036,7 +7036,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 377.29998779296875,
+            "left": 358.9100036621094,
             "top": 22,
             "right": 600,
             "bottom": 22
@@ -7061,7 +7061,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 222.6999969482422,
+            "right": 241.08999633789062,
             "bottom": 22
           },
           "transform": [
@@ -7075,17 +7075,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 225,
+            "right": 244,
             "bottom": 24
           },
-          "painted_pixels": 438,
+          "painted_pixels": 474,
           "max_channel_delta": 27
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 377.29998779296875,
+            "left": 358.9100036621094,
             "top": 22,
             "right": 600,
             "bottom": 22
@@ -7099,19 +7099,19 @@
             0
           ],
           "roi": {
-            "left": 375,
+            "left": 356,
             "top": 20,
             "right": 600,
             "bottom": 24
           },
-          "painted_pixels": 438,
+          "painted_pixels": 476,
           "max_channel_delta": 27
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "088b58c63b1f348d24ddb41c8add99fddb9cae0b13c3b2f146ebf2a7f2d0a8ed",
-      "bytes": 3998,
-      "sha256": "df6b2fd63efcab7eb432f9a5e2ea2d3653436c6c5ea9e2091f0f50abd714b6ee",
+      "png_sha256": "5e16a61b4f389963fc5afa51b7620d29c1e6039c5f4a43b7178b3ee5d7a5284b",
+      "bytes": 4035,
+      "sha256": "16b5edcac42baa7c92140101977df62fd81aecc5c4638f8cd33904ce01517522",
       "security_issues": []
     },
     "assets/sections/along-the-way-light-mobile.svg": {
@@ -7120,22 +7120,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 99.72000122070312,
-            "top": 19.18000030517578,
-            "right": 105.4800033569336,
-            "bottom": 26.25
+            "left": 117.80000305175781,
+            "top": 20.030000686645508,
+            "right": 121.83999633789062,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "ALONG THE WAY",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 115.20999908447266,
-            "top": 17.3799991607666,
-            "right": 220.55999755859375,
-            "bottom": 27.1299991607666
+            "left": 128.63999938964844,
+            "top": 18.770000457763672,
+            "right": 202.38999938964844,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -7149,7 +7149,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 82.69999694824219,
+            "right": 101.08999633789062,
             "bottom": 22
           },
           "transform": [
@@ -7165,7 +7165,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 237.3000030517578,
+            "left": 218.91000366210938,
             "top": 22,
             "right": 320,
             "bottom": 22
@@ -7190,7 +7190,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 82.69999694824219,
+            "right": 101.08999633789062,
             "bottom": 22
           },
           "transform": [
@@ -7204,17 +7204,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 85,
+            "right": 104,
             "bottom": 24
           },
-          "painted_pixels": 163,
+          "painted_pixels": 201,
           "max_channel_delta": 27
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 237.3000030517578,
+            "left": 218.91000366210938,
             "top": 22,
             "right": 320,
             "bottom": 22
@@ -7228,19 +7228,19 @@
             0
           ],
           "roi": {
-            "left": 235,
+            "left": 216,
             "top": 20,
             "right": 320,
             "bottom": 24
           },
-          "painted_pixels": 163,
+          "painted_pixels": 200,
           "max_channel_delta": 27
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "c646cd39791d14383b1956e3b797710beaa292a878ad71934600b25fe5234de1",
-      "bytes": 3992,
-      "sha256": "3add68802dbcafc42b14308eba8c4f3cec2398935494563c2720f7f24789aea8",
+      "png_sha256": "445cb63fe56b082e3470cb5ac86b661dcbfba6c7e826de6cac8cf1347192e427",
+      "bytes": 3987,
+      "sha256": "2a7fa674d88a983887de0578d1aeb4c76e3417b41a675be7b0e320cedad06e03",
       "security_issues": []
     },
     "assets/sections/along-the-way-light.svg": {
@@ -7249,22 +7249,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 339.7200012207031,
-            "top": 19.18000030517578,
-            "right": 345.4800109863281,
-            "bottom": 26.25
+            "left": 357.79998779296875,
+            "top": 20.030000686645508,
+            "right": 361.8399963378906,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "ALONG THE WAY",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 355.2099914550781,
-            "top": 17.3799991607666,
-            "right": 460.55999755859375,
-            "bottom": 27.1299991607666
+            "left": 368.6400146484375,
+            "top": 18.770000457763672,
+            "right": 442.3900146484375,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -7278,7 +7278,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 322.70001220703125,
+            "right": 341.0899963378906,
             "bottom": 22
           },
           "transform": [
@@ -7294,7 +7294,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 477.29998779296875,
+            "left": 458.9100036621094,
             "top": 22,
             "right": 800,
             "bottom": 22
@@ -7319,7 +7319,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 322.70001220703125,
+            "right": 341.0899963378906,
             "bottom": 22
           },
           "transform": [
@@ -7333,17 +7333,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 325,
+            "right": 344,
             "bottom": 24
           },
-          "painted_pixels": 634,
+          "painted_pixels": 672,
           "max_channel_delta": 27
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 477.29998779296875,
+            "left": 458.9100036621094,
             "top": 22,
             "right": 800,
             "bottom": 22
@@ -7357,19 +7357,19 @@
             0
           ],
           "roi": {
-            "left": 475,
+            "left": 456,
             "top": 20,
             "right": 800,
             "bottom": 24
           },
-          "painted_pixels": 634,
+          "painted_pixels": 672,
           "max_channel_delta": 27
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "2df3b505ad33e4eba1ccd6120cd8dc2baa3a5efcbbb7c053a612330194f1c3d0",
-      "bytes": 3998,
-      "sha256": "cca97f7cb884eed46c3d9b1becc3010c73ed40b319a3b5775c6c3ca2d56006b4",
+      "png_sha256": "7badc5062bc7e0f9da6df55877dbf755363767ede015f6c89fee57763a2164bf",
+      "bytes": 3999,
+      "sha256": "8c8ea36f47332438b8cb022c1a3187038b55ec8f1058c27955cd32134084a421",
       "security_issues": []
     },
     "assets/sections/along-the-way-mobile.svg": {
@@ -7378,22 +7378,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 99.72000122070312,
-            "top": 19.18000030517578,
-            "right": 105.4800033569336,
-            "bottom": 26.25
+            "left": 117.80000305175781,
+            "top": 20.030000686645508,
+            "right": 121.83999633789062,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "ALONG THE WAY",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 115.20999908447266,
-            "top": 17.3799991607666,
-            "right": 220.55999755859375,
-            "bottom": 27.1299991607666
+            "left": 128.63999938964844,
+            "top": 18.770000457763672,
+            "right": 202.38999938964844,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -7407,7 +7407,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 82.69999694824219,
+            "right": 101.08999633789062,
             "bottom": 22
           },
           "transform": [
@@ -7423,7 +7423,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 237.3000030517578,
+            "left": 218.91000366210938,
             "top": 22,
             "right": 320,
             "bottom": 22
@@ -7448,7 +7448,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 82.69999694824219,
+            "right": 101.08999633789062,
             "bottom": 22
           },
           "transform": [
@@ -7462,17 +7462,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 85,
+            "right": 104,
             "bottom": 24
           },
-          "painted_pixels": 162,
+          "painted_pixels": 200,
           "max_channel_delta": 20
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 237.3000030517578,
+            "left": 218.91000366210938,
             "top": 22,
             "right": 320,
             "bottom": 22
@@ -7486,19 +7486,19 @@
             0
           ],
           "roi": {
-            "left": 235,
+            "left": 216,
             "top": 20,
             "right": 320,
             "bottom": 24
           },
-          "painted_pixels": 162,
-          "max_channel_delta": 20
+          "painted_pixels": 199,
+          "max_channel_delta": 21
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "ddd333f2997a8822d6f63b56a1dfc3f48c34618b9b1d1428eb51ff0a6d64edd2",
-      "bytes": 3992,
-      "sha256": "1c582dd0aa7a353c35d3f05005a5087ff073a6f30920f37bc53efdf23aa4bd3c",
+      "png_sha256": "9b9799277c99a24414b99bfb6994bdcd65ba2b7dab97cd96b4e019b8c72b418b",
+      "bytes": 3987,
+      "sha256": "3ec8a25c92738b3e926b9e70e0f96737c1f1cf28322ce4e8828fc2b4f319a1bb",
       "security_issues": []
     },
     "assets/sections/along-the-way.svg": {
@@ -7507,22 +7507,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 339.7200012207031,
-            "top": 19.18000030517578,
-            "right": 345.4800109863281,
-            "bottom": 26.25
+            "left": 357.79998779296875,
+            "top": 20.030000686645508,
+            "right": 361.8399963378906,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "ALONG THE WAY",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 355.2099914550781,
-            "top": 17.3799991607666,
-            "right": 460.55999755859375,
-            "bottom": 27.1299991607666
+            "left": 368.6400146484375,
+            "top": 18.770000457763672,
+            "right": 442.3900146484375,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -7536,7 +7536,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 322.70001220703125,
+            "right": 341.0899963378906,
             "bottom": 22
           },
           "transform": [
@@ -7552,7 +7552,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 477.29998779296875,
+            "left": 458.9100036621094,
             "top": 22,
             "right": 800,
             "bottom": 22
@@ -7577,7 +7577,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 322.70001220703125,
+            "right": 341.0899963378906,
             "bottom": 22
           },
           "transform": [
@@ -7591,17 +7591,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 325,
+            "right": 344,
             "bottom": 24
           },
-          "painted_pixels": 630,
+          "painted_pixels": 667,
           "max_channel_delta": 21
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 477.29998779296875,
+            "left": 458.9100036621094,
             "top": 22,
             "right": 800,
             "bottom": 22
@@ -7615,19 +7615,19 @@
             0
           ],
           "roi": {
-            "left": 475,
+            "left": 456,
             "top": 20,
             "right": 800,
             "bottom": 24
           },
-          "painted_pixels": 630,
+          "painted_pixels": 667,
           "max_channel_delta": 21
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "9ad7cbed33c590145293c533abdbf146084a9882fe305258322f8203e66c95d3",
-      "bytes": 3998,
-      "sha256": "da9304714fda63d8a6a5686b3d05c3a032dda45a61c3d14892bfefd0cd4bb4eb",
+      "png_sha256": "e67b10ffdb7c2a8b40b1ca9630b2d3616379dd06d15de454ace24c720f2f27ec",
+      "bytes": 3999,
+      "sha256": "dc3216ce9bdf656b422d421872e1e25eb8f243266fd3e73626239c25081f8e9f",
       "security_issues": []
     },
     "assets/sections/on-github-compact.svg": {
@@ -7636,22 +7636,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 256.1199951171875,
-            "top": 19.18000030517578,
-            "right": 261.8800048828125,
-            "bottom": 26.25
+            "left": 269.2799987792969,
+            "top": 20.030000686645508,
+            "right": 273.32000732421875,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "ON GITHUB",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 272.0799865722656,
-            "top": 17.3799991607666,
-            "right": 343.760009765625,
-            "bottom": 27.1299991607666
+            "left": 280.4599914550781,
+            "top": 18.770000457763672,
+            "right": 330.6300048828125,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -7665,7 +7665,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 239.10000610351562,
+            "right": 252.57000732421875,
             "bottom": 22
           },
           "transform": [
@@ -7681,7 +7681,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 360.8999938964844,
+            "left": 347.42999267578125,
             "top": 22,
             "right": 600,
             "bottom": 22
@@ -7706,7 +7706,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 239.10000610351562,
+            "right": 252.57000732421875,
             "bottom": 22
           },
           "transform": [
@@ -7720,17 +7720,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 242,
+            "right": 255,
             "bottom": 24
           },
-          "painted_pixels": 468,
+          "painted_pixels": 494,
           "max_channel_delta": 21
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 360.8999938964844,
+            "left": 347.42999267578125,
             "top": 22,
             "right": 600,
             "bottom": 22
@@ -7744,19 +7744,19 @@
             0
           ],
           "roi": {
-            "left": 358,
+            "left": 345,
             "top": 20,
             "right": 600,
             "bottom": 24
           },
-          "painted_pixels": 468,
+          "painted_pixels": 494,
           "max_channel_delta": 21
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "dfc1f2d2d0131d8fb7588eced2ff95dfa5095d26af9c3e89a59d4a829eee858e",
-      "bytes": 3595,
-      "sha256": "98af4aa8e44e1e2ac8a667c87f4f68dea113c5550be732ae6acd1c5bc244cbc7",
+      "png_sha256": "f1c31e2b70b24f9fcc4dae72f4062ea61ce1ea3391a77fa5ca5c08b6e24413c0",
+      "bytes": 3643,
+      "sha256": "05aa1592333d20583c05274acb32ef3e6599579be511cdb92e8e9b8885233fcc",
       "security_issues": []
     },
     "assets/sections/on-github-light-compact.svg": {
@@ -7765,22 +7765,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 256.1199951171875,
-            "top": 19.18000030517578,
-            "right": 261.8800048828125,
-            "bottom": 26.25
+            "left": 269.2799987792969,
+            "top": 20.030000686645508,
+            "right": 273.32000732421875,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "ON GITHUB",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 272.0799865722656,
-            "top": 17.3799991607666,
-            "right": 343.760009765625,
-            "bottom": 27.1299991607666
+            "left": 280.4599914550781,
+            "top": 18.770000457763672,
+            "right": 330.6300048828125,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -7794,7 +7794,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 239.10000610351562,
+            "right": 252.57000732421875,
             "bottom": 22
           },
           "transform": [
@@ -7810,7 +7810,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 360.8999938964844,
+            "left": 347.42999267578125,
             "top": 22,
             "right": 600,
             "bottom": 22
@@ -7835,7 +7835,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 239.10000610351562,
+            "right": 252.57000732421875,
             "bottom": 22
           },
           "transform": [
@@ -7849,17 +7849,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 242,
+            "right": 255,
             "bottom": 24
           },
-          "painted_pixels": 470,
+          "painted_pixels": 496,
           "max_channel_delta": 27
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 360.8999938964844,
+            "left": 347.42999267578125,
             "top": 22,
             "right": 600,
             "bottom": 22
@@ -7873,19 +7873,19 @@
             0
           ],
           "roi": {
-            "left": 358,
+            "left": 345,
             "top": 20,
             "right": 600,
             "bottom": 24
           },
-          "painted_pixels": 472,
+          "painted_pixels": 495,
           "max_channel_delta": 27
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "245c337dd7d1849bdf428136665f1d934b6359313894545af31208334c3c429e",
-      "bytes": 3595,
-      "sha256": "36337d0f31752b3e24c6125cdb89596c51ec4ca4e78ed44668315f1d0e85c2ab",
+      "png_sha256": "1aa705788ee364a0a69b5a3673e01381a489f441439771cdfd7a8b376a178c36",
+      "bytes": 3643,
+      "sha256": "f668c5609bd7430e191f77b1c9b3307fa59d1d7dfd9238a18517205d63d4dead",
       "security_issues": []
     },
     "assets/sections/on-github-light-mobile.svg": {
@@ -7894,22 +7894,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 116.12000274658203,
-            "top": 19.18000030517578,
-            "right": 121.87999725341797,
-            "bottom": 26.25
+            "left": 129.27999877929688,
+            "top": 20.030000686645508,
+            "right": 133.32000732421875,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "ON GITHUB",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 132.0800018310547,
-            "top": 17.3799991607666,
-            "right": 203.75999450683594,
-            "bottom": 27.1299991607666
+            "left": 140.4600067138672,
+            "top": 18.770000457763672,
+            "right": 190.6300048828125,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -7923,7 +7923,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 99.0999984741211,
+            "right": 112.56999969482422,
             "bottom": 22
           },
           "transform": [
@@ -7939,7 +7939,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 220.89999389648438,
+            "left": 207.42999267578125,
             "top": 22,
             "right": 320,
             "bottom": 22
@@ -7964,7 +7964,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 99.0999984741211,
+            "right": 112.56999969482422,
             "bottom": 22
           },
           "transform": [
@@ -7978,17 +7978,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 102,
+            "right": 115,
             "bottom": 24
           },
-          "painted_pixels": 197,
+          "painted_pixels": 221,
           "max_channel_delta": 27
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 220.89999389648438,
+            "left": 207.42999267578125,
             "top": 22,
             "right": 320,
             "bottom": 22
@@ -8002,19 +8002,19 @@
             0
           ],
           "roi": {
-            "left": 218,
+            "left": 205,
             "top": 20,
             "right": 320,
             "bottom": 24
           },
-          "painted_pixels": 196,
+          "painted_pixels": 222,
           "max_channel_delta": 27
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "4a3ca4db40a9650c6a2b685944e1b67a7e55d494d2333a184dff6643d641731b",
-      "bytes": 3592,
-      "sha256": "eafd72bb8dba1f60f4489c8e175ce200d9e6360e5983764319238dde4f5234d6",
+      "png_sha256": "1ae41538b23d2cc191a4d730ef631a20cb80f24397c1010a0ed8b4cca1c6e680",
+      "bytes": 3655,
+      "sha256": "8fca0c5a9234a923673e58cbf9877735db7ff2b8cf488a58652bc3f613d6eb44",
       "security_issues": []
     },
     "assets/sections/on-github-light.svg": {
@@ -8023,22 +8023,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 356.1199951171875,
-            "top": 19.18000030517578,
-            "right": 361.8800048828125,
-            "bottom": 26.25
+            "left": 369.2799987792969,
+            "top": 20.030000686645508,
+            "right": 373.32000732421875,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "ON GITHUB",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 372.0799865722656,
-            "top": 17.3799991607666,
-            "right": 443.760009765625,
-            "bottom": 27.1299991607666
+            "left": 380.4599914550781,
+            "top": 18.770000457763672,
+            "right": 430.6300048828125,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -8052,7 +8052,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 339.1000061035156,
+            "right": 352.57000732421875,
             "bottom": 22
           },
           "transform": [
@@ -8068,7 +8068,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 460.8999938964844,
+            "left": 447.42999267578125,
             "top": 22,
             "right": 800,
             "bottom": 22
@@ -8093,7 +8093,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 339.1000061035156,
+            "right": 352.57000732421875,
             "bottom": 22
           },
           "transform": [
@@ -8107,17 +8107,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 342,
+            "right": 355,
             "bottom": 24
           },
-          "painted_pixels": 668,
+          "painted_pixels": 694,
           "max_channel_delta": 27
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 460.8999938964844,
+            "left": 447.42999267578125,
             "top": 22,
             "right": 800,
             "bottom": 22
@@ -8131,19 +8131,19 @@
             0
           ],
           "roi": {
-            "left": 458,
+            "left": 445,
             "top": 20,
             "right": 800,
             "bottom": 24
           },
-          "painted_pixels": 668,
+          "painted_pixels": 693,
           "max_channel_delta": 27
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "b38fbeb69f63c5d5dcf556b78be55b6343175df2621e5f74bb9ac30ae80355fd",
-      "bytes": 3595,
-      "sha256": "92170b16dba9e2bdae2568d11905a3745a9342e7c3bc5867e2c2ed7af6c96b09",
+      "png_sha256": "a713b348543276734924508025ac3ac8319ead0ce7292c8edbfe934725f870dd",
+      "bytes": 3643,
+      "sha256": "1fde084b513a097a2ee23f6f00ea08229989fe65893e017e4c19762195cb814c",
       "security_issues": []
     },
     "assets/sections/on-github-mobile.svg": {
@@ -8152,22 +8152,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 116.12000274658203,
-            "top": 19.18000030517578,
-            "right": 121.87999725341797,
-            "bottom": 26.25
+            "left": 129.27999877929688,
+            "top": 20.030000686645508,
+            "right": 133.32000732421875,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "ON GITHUB",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 132.0800018310547,
-            "top": 17.3799991607666,
-            "right": 203.75999450683594,
-            "bottom": 27.1299991607666
+            "left": 140.4600067138672,
+            "top": 18.770000457763672,
+            "right": 190.6300048828125,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -8181,7 +8181,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 99.0999984741211,
+            "right": 112.56999969482422,
             "bottom": 22
           },
           "transform": [
@@ -8197,7 +8197,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 220.89999389648438,
+            "left": 207.42999267578125,
             "top": 22,
             "right": 320,
             "bottom": 22
@@ -8222,7 +8222,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 99.0999984741211,
+            "right": 112.56999969482422,
             "bottom": 22
           },
           "transform": [
@@ -8236,17 +8236,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 102,
+            "right": 115,
             "bottom": 24
           },
-          "painted_pixels": 196,
-          "max_channel_delta": 20
+          "painted_pixels": 221,
+          "max_channel_delta": 21
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 220.89999389648438,
+            "left": 207.42999267578125,
             "top": 22,
             "right": 320,
             "bottom": 22
@@ -8260,19 +8260,19 @@
             0
           ],
           "roi": {
-            "left": 218,
+            "left": 205,
             "top": 20,
             "right": 320,
             "bottom": 24
           },
-          "painted_pixels": 195,
-          "max_channel_delta": 21
+          "painted_pixels": 220,
+          "max_channel_delta": 20
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "1086b6b955b7402499f57db5cf49a3e722f22a8573569b445cc1182e73af6436",
-      "bytes": 3592,
-      "sha256": "73381ad93170d5d73db273cbe4bb7463f2727b153b27bf9727c57948e46ffe9f",
+      "png_sha256": "738e717b97bfc4cd877f349a077e943de8928811206aa8f1cd64b514dd0c4cd3",
+      "bytes": 3655,
+      "sha256": "81d756d68c54fa7dd2565e8c9439b619c3d5bcc2254d939256e8f86e6be66a01",
       "security_issues": []
     },
     "assets/sections/on-github.svg": {
@@ -8281,22 +8281,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 356.1199951171875,
-            "top": 19.18000030517578,
-            "right": 361.8800048828125,
-            "bottom": 26.25
+            "left": 369.2799987792969,
+            "top": 20.030000686645508,
+            "right": 373.32000732421875,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "ON GITHUB",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 372.0799865722656,
-            "top": 17.3799991607666,
-            "right": 443.760009765625,
-            "bottom": 27.1299991607666
+            "left": 380.4599914550781,
+            "top": 18.770000457763672,
+            "right": 430.6300048828125,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -8310,7 +8310,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 339.1000061035156,
+            "right": 352.57000732421875,
             "bottom": 22
           },
           "transform": [
@@ -8326,7 +8326,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 460.8999938964844,
+            "left": 447.42999267578125,
             "top": 22,
             "right": 800,
             "bottom": 22
@@ -8351,7 +8351,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 339.1000061035156,
+            "right": 352.57000732421875,
             "bottom": 22
           },
           "transform": [
@@ -8365,17 +8365,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 342,
+            "right": 355,
             "bottom": 24
           },
-          "painted_pixels": 663,
+          "painted_pixels": 689,
           "max_channel_delta": 21
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 460.8999938964844,
+            "left": 447.42999267578125,
             "top": 22,
             "right": 800,
             "bottom": 22
@@ -8389,19 +8389,19 @@
             0
           ],
           "roi": {
-            "left": 458,
+            "left": 445,
             "top": 20,
             "right": 800,
             "bottom": 24
           },
-          "painted_pixels": 663,
+          "painted_pixels": 687,
           "max_channel_delta": 21
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "6a14fc2140110170662d490d92cf5f93b4f7b10826234310c55105d583b28f9a",
-      "bytes": 3595,
-      "sha256": "2526bf58ec3243eefe6463f2d13453c01323761e0e0c14dcdfcc867a9d063a48",
+      "png_sha256": "9f9c71ca6c10733f0fabe33d2d2138a1efaae77de5da5228260b3020a00fe447",
+      "bytes": 3643,
+      "sha256": "f5f4a06b13d81e3dd208bd0c21aa99c9eba2b1eae0158fccfbfa63a2700c46a4",
       "security_issues": []
     },
     "assets/sections/selected-work-compact.svg": {
@@ -8410,22 +8410,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 239.72000122070312,
-            "top": 19.18000030517578,
-            "right": 245.47999572753906,
-            "bottom": 26.25
+            "left": 257.79998779296875,
+            "top": 20.030000686645508,
+            "right": 261.8399963378906,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "SELECTED WORK",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 255.49000549316406,
-            "top": 17.3700008392334,
-            "right": 360.4700012207031,
-            "bottom": 27.1299991607666
+            "left": 268.8399963378906,
+            "top": 18.760000228881836,
+            "right": 342.3299865722656,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -8439,7 +8439,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 222.6999969482422,
+            "right": 241.08999633789062,
             "bottom": 22
           },
           "transform": [
@@ -8455,7 +8455,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 377.29998779296875,
+            "left": 358.9100036621094,
             "top": 22,
             "right": 600,
             "bottom": 22
@@ -8480,7 +8480,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 222.6999969482422,
+            "right": 241.08999633789062,
             "bottom": 22
           },
           "transform": [
@@ -8494,17 +8494,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 225,
+            "right": 244,
             "bottom": 24
           },
-          "painted_pixels": 434,
+          "painted_pixels": 472,
           "max_channel_delta": 21
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 377.29998779296875,
+            "left": 358.9100036621094,
             "top": 22,
             "right": 600,
             "bottom": 22
@@ -8518,19 +8518,19 @@
             0
           ],
           "roi": {
-            "left": 375,
+            "left": 356,
             "top": 20,
             "right": 600,
             "bottom": 24
           },
-          "painted_pixels": 435,
+          "painted_pixels": 472,
           "max_channel_delta": 21
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "f42561ede4a144e3dd72d4c4691c1aeb9fbaea86de8b1d699dc7fc526190619b",
-      "bytes": 4682,
-      "sha256": "f19f4c2a3aaa9b33560c7003a2fed2bc9239dfa1ae9998257bf230582759bd8b",
+      "png_sha256": "7f785cd3629ada4e57f11125181dc29bd153c490b152db5adff2d06dff2704ce",
+      "bytes": 4659,
+      "sha256": "98296b48aafcf0ee704872d701ce9d03c96b0873656134914369e71f6c64b64f",
       "security_issues": []
     },
     "assets/sections/selected-work-light-compact.svg": {
@@ -8539,22 +8539,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 239.72000122070312,
-            "top": 19.18000030517578,
-            "right": 245.47999572753906,
-            "bottom": 26.25
+            "left": 257.79998779296875,
+            "top": 20.030000686645508,
+            "right": 261.8399963378906,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "SELECTED WORK",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 255.49000549316406,
-            "top": 17.3700008392334,
-            "right": 360.4700012207031,
-            "bottom": 27.1299991607666
+            "left": 268.8399963378906,
+            "top": 18.760000228881836,
+            "right": 342.3299865722656,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -8568,7 +8568,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 222.6999969482422,
+            "right": 241.08999633789062,
             "bottom": 22
           },
           "transform": [
@@ -8584,7 +8584,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 377.29998779296875,
+            "left": 358.9100036621094,
             "top": 22,
             "right": 600,
             "bottom": 22
@@ -8609,7 +8609,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 222.6999969482422,
+            "right": 241.08999633789062,
             "bottom": 22
           },
           "transform": [
@@ -8623,17 +8623,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 225,
+            "right": 244,
             "bottom": 24
           },
-          "painted_pixels": 438,
+          "painted_pixels": 474,
           "max_channel_delta": 27
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 377.29998779296875,
+            "left": 358.9100036621094,
             "top": 22,
             "right": 600,
             "bottom": 22
@@ -8647,19 +8647,19 @@
             0
           ],
           "roi": {
-            "left": 375,
+            "left": 356,
             "top": 20,
             "right": 600,
             "bottom": 24
           },
-          "painted_pixels": 438,
+          "painted_pixels": 476,
           "max_channel_delta": 27
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "732a038b9d13efb7c21464d7fab18162d10b14436bb806d3633b884e221a13a1",
-      "bytes": 4682,
-      "sha256": "67b0eed5b0dea75984fcc039eb6430ce5655f8cc3af6ac231807a4bd02d1cf28",
+      "png_sha256": "6c21d59721cad9e000780f782884719213c9f48cb44d8f4be8a1e5a851ffb88f",
+      "bytes": 4659,
+      "sha256": "6787d3472018d93dd6084547b7cee293cbd70fea8b51ba6c5bdc264df9f6a721",
       "security_issues": []
     },
     "assets/sections/selected-work-light-mobile.svg": {
@@ -8668,22 +8668,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 99.72000122070312,
-            "top": 19.18000030517578,
-            "right": 105.4800033569336,
-            "bottom": 26.25
+            "left": 117.80000305175781,
+            "top": 20.030000686645508,
+            "right": 121.83999633789062,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "SELECTED WORK",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 115.48999786376953,
-            "top": 17.3700008392334,
-            "right": 220.47000122070312,
-            "bottom": 27.1299991607666
+            "left": 128.83999633789062,
+            "top": 18.760000228881836,
+            "right": 202.3300018310547,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -8697,7 +8697,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 82.69999694824219,
+            "right": 101.08999633789062,
             "bottom": 22
           },
           "transform": [
@@ -8713,7 +8713,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 237.3000030517578,
+            "left": 218.91000366210938,
             "top": 22,
             "right": 320,
             "bottom": 22
@@ -8738,7 +8738,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 82.69999694824219,
+            "right": 101.08999633789062,
             "bottom": 22
           },
           "transform": [
@@ -8752,17 +8752,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 85,
+            "right": 104,
             "bottom": 24
           },
-          "painted_pixels": 163,
+          "painted_pixels": 201,
           "max_channel_delta": 27
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 237.3000030517578,
+            "left": 218.91000366210938,
             "top": 22,
             "right": 320,
             "bottom": 22
@@ -8776,19 +8776,19 @@
             0
           ],
           "roi": {
-            "left": 235,
+            "left": 216,
             "top": 20,
             "right": 320,
             "bottom": 24
           },
-          "painted_pixels": 163,
+          "painted_pixels": 200,
           "max_channel_delta": 27
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "312186c5eba54d4f5395e6e7b5f1016a5c628fbbbb07cca0ecdfefd2a33ed51a",
-      "bytes": 4676,
-      "sha256": "f40f81260c72a7d6c925667e1974a7fe489dc4850d833233a7f483be19160b7d",
+      "png_sha256": "8f1893e2c863d62dcdc7d1e368824da0991d5f7de88c611439f71615c1334311",
+      "bytes": 4611,
+      "sha256": "0193fbdfcc00a7121e40cecfe4bbbf64c1ae3f4a1d106c16cee76ae8ac99fcd1",
       "security_issues": []
     },
     "assets/sections/selected-work-light.svg": {
@@ -8797,22 +8797,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 339.7200012207031,
-            "top": 19.18000030517578,
-            "right": 345.4800109863281,
-            "bottom": 26.25
+            "left": 357.79998779296875,
+            "top": 20.030000686645508,
+            "right": 361.8399963378906,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "SELECTED WORK",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 355.489990234375,
-            "top": 17.3700008392334,
-            "right": 460.4700012207031,
-            "bottom": 27.1299991607666
+            "left": 368.8399963378906,
+            "top": 18.760000228881836,
+            "right": 442.3299865722656,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -8826,7 +8826,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 322.70001220703125,
+            "right": 341.0899963378906,
             "bottom": 22
           },
           "transform": [
@@ -8842,7 +8842,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 477.29998779296875,
+            "left": 458.9100036621094,
             "top": 22,
             "right": 800,
             "bottom": 22
@@ -8867,7 +8867,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 322.70001220703125,
+            "right": 341.0899963378906,
             "bottom": 22
           },
           "transform": [
@@ -8881,17 +8881,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 325,
+            "right": 344,
             "bottom": 24
           },
-          "painted_pixels": 634,
+          "painted_pixels": 672,
           "max_channel_delta": 27
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 477.29998779296875,
+            "left": 458.9100036621094,
             "top": 22,
             "right": 800,
             "bottom": 22
@@ -8905,19 +8905,19 @@
             0
           ],
           "roi": {
-            "left": 475,
+            "left": 456,
             "top": 20,
             "right": 800,
             "bottom": 24
           },
-          "painted_pixels": 634,
+          "painted_pixels": 672,
           "max_channel_delta": 27
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "639b37308dc060850f03e6c3e010a78831da38aa8e2f3212ffcb3a550f7e5312",
-      "bytes": 4682,
-      "sha256": "8c42bbaa203227f3cb6df1dbaf569e3fae3b7d61fed41e74b227507668c78844",
+      "png_sha256": "f8af8ec8467745df1bcaf8226865e452cb26f89233a92019cd7ada137d1dd17d",
+      "bytes": 4623,
+      "sha256": "47681a322453bf12ee15833c9897ebce9b4e76f44e0277e58bffd69983019baa",
       "security_issues": []
     },
     "assets/sections/selected-work-mobile.svg": {
@@ -8926,22 +8926,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 99.72000122070312,
-            "top": 19.18000030517578,
-            "right": 105.4800033569336,
-            "bottom": 26.25
+            "left": 117.80000305175781,
+            "top": 20.030000686645508,
+            "right": 121.83999633789062,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "SELECTED WORK",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 115.48999786376953,
-            "top": 17.3700008392334,
-            "right": 220.47000122070312,
-            "bottom": 27.1299991607666
+            "left": 128.83999633789062,
+            "top": 18.760000228881836,
+            "right": 202.3300018310547,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -8955,7 +8955,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 82.69999694824219,
+            "right": 101.08999633789062,
             "bottom": 22
           },
           "transform": [
@@ -8971,7 +8971,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 237.3000030517578,
+            "left": 218.91000366210938,
             "top": 22,
             "right": 320,
             "bottom": 22
@@ -8996,7 +8996,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 82.69999694824219,
+            "right": 101.08999633789062,
             "bottom": 22
           },
           "transform": [
@@ -9010,17 +9010,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 85,
+            "right": 104,
             "bottom": 24
           },
-          "painted_pixels": 162,
+          "painted_pixels": 200,
           "max_channel_delta": 20
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 237.3000030517578,
+            "left": 218.91000366210938,
             "top": 22,
             "right": 320,
             "bottom": 22
@@ -9034,19 +9034,19 @@
             0
           ],
           "roi": {
-            "left": 235,
+            "left": 216,
             "top": 20,
             "right": 320,
             "bottom": 24
           },
-          "painted_pixels": 162,
-          "max_channel_delta": 20
+          "painted_pixels": 199,
+          "max_channel_delta": 21
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "99cdfc351877233ce74a3823f6f59e94a11f3963d40e6a00265ce9651c075f84",
-      "bytes": 4676,
-      "sha256": "9e3ad48af6f71c6c3d433e035e53a311237acdf5e9729451702a8a58d991aeb0",
+      "png_sha256": "be764babed913ea7ad51354d737099ff80d2490aca9f641d92a96be83c252d9e",
+      "bytes": 4611,
+      "sha256": "25804399af2537a5efbe2ecb07e984f11a3103256c47359b50a0e83733a44e53",
       "security_issues": []
     },
     "assets/sections/selected-work.svg": {
@@ -9055,22 +9055,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 339.7200012207031,
-            "top": 19.18000030517578,
-            "right": 345.4800109863281,
-            "bottom": 26.25
+            "left": 357.79998779296875,
+            "top": 20.030000686645508,
+            "right": 361.8399963378906,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "SELECTED WORK",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 355.489990234375,
-            "top": 17.3700008392334,
-            "right": 460.4700012207031,
-            "bottom": 27.1299991607666
+            "left": 368.8399963378906,
+            "top": 18.760000228881836,
+            "right": 442.3299865722656,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -9084,7 +9084,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 322.70001220703125,
+            "right": 341.0899963378906,
             "bottom": 22
           },
           "transform": [
@@ -9100,7 +9100,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 477.29998779296875,
+            "left": 458.9100036621094,
             "top": 22,
             "right": 800,
             "bottom": 22
@@ -9125,7 +9125,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 322.70001220703125,
+            "right": 341.0899963378906,
             "bottom": 22
           },
           "transform": [
@@ -9139,17 +9139,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 325,
+            "right": 344,
             "bottom": 24
           },
-          "painted_pixels": 630,
+          "painted_pixels": 667,
           "max_channel_delta": 21
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 477.29998779296875,
+            "left": 458.9100036621094,
             "top": 22,
             "right": 800,
             "bottom": 22
@@ -9163,19 +9163,19 @@
             0
           ],
           "roi": {
-            "left": 475,
+            "left": 456,
             "top": 20,
             "right": 800,
             "bottom": 24
           },
-          "painted_pixels": 630,
+          "painted_pixels": 667,
           "max_channel_delta": 21
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "85f95eb8c39c26e112418409cfcbeafc57cd9271561ba9aa793a9a7942f8c4d5",
-      "bytes": 4682,
-      "sha256": "c866517c80bdff612475f7877b8dac2c29c90977012605b12af3034b14ced95d",
+      "png_sha256": "c358fa029715b3cb490cd5e76254a9247cccbaf9cabf16e05748bfe089e34859",
+      "bytes": 4623,
+      "sha256": "58b6e749da7767c995762a578e45f82282fb9b199906a127ef431118cc163840",
       "security_issues": []
     },
     "assets/sections/toolkit-compact.svg": {
@@ -9184,22 +9184,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 252.02000427246094,
-            "top": 19.18000030517578,
-            "right": 257.7799987792969,
-            "bottom": 26.25
+            "left": 266.4100036621094,
+            "top": 20.030000686645508,
+            "right": 270.45001220703125,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "MY TOOLKIT",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 267.7900085449219,
-            "top": 17.3799991607666,
-            "right": 347.9700012207031,
-            "bottom": 27.1299991607666
+            "left": 277.45001220703125,
+            "top": 18.770000457763672,
+            "right": 333.5799865722656,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -9213,7 +9213,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 235,
+            "right": 249.6999969482422,
             "bottom": 22
           },
           "transform": [
@@ -9229,7 +9229,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 365,
+            "left": 350.29998779296875,
             "top": 22,
             "right": 600,
             "bottom": 22
@@ -9254,7 +9254,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 235,
+            "right": 249.6999969482422,
             "bottom": 22
           },
           "transform": [
@@ -9268,17 +9268,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 237,
+            "right": 252,
             "bottom": 24
           },
-          "painted_pixels": 458,
+          "painted_pixels": 488,
           "max_channel_delta": 21
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 365,
+            "left": 350.29998779296875,
             "top": 22,
             "right": 600,
             "bottom": 22
@@ -9292,19 +9292,19 @@
             0
           ],
           "roi": {
-            "left": 363,
+            "left": 348,
             "top": 20,
             "right": 600,
             "bottom": 24
           },
-          "painted_pixels": 458,
+          "painted_pixels": 488,
           "max_channel_delta": 21
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "8a7dbec1e43365b57cd665d2c3a7a323478668141868224a65c42a4f9d23db99",
-      "bytes": 3208,
-      "sha256": "9103bf6ee6524ca0b6add79f6e854023851cf8a7ca15bf73dd56045c6a4fa3fa",
+      "png_sha256": "f0e565d93d95c270c69566f49deb200ca6ad8c19dfb7b5e90a4a1f01e2f60935",
+      "bytes": 3332,
+      "sha256": "d1c120ba76426a547e556cf0517724b90e79fd8827cf8689006e1aa7ade1a23d",
       "security_issues": []
     },
     "assets/sections/toolkit-light-compact.svg": {
@@ -9313,22 +9313,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 252.02000427246094,
-            "top": 19.18000030517578,
-            "right": 257.7799987792969,
-            "bottom": 26.25
+            "left": 266.4100036621094,
+            "top": 20.030000686645508,
+            "right": 270.45001220703125,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "MY TOOLKIT",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 267.7900085449219,
-            "top": 17.3799991607666,
-            "right": 347.9700012207031,
-            "bottom": 27.1299991607666
+            "left": 277.45001220703125,
+            "top": 18.770000457763672,
+            "right": 333.5799865722656,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -9342,7 +9342,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 235,
+            "right": 249.6999969482422,
             "bottom": 22
           },
           "transform": [
@@ -9358,7 +9358,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 365,
+            "left": 350.29998779296875,
             "top": 22,
             "right": 600,
             "bottom": 22
@@ -9383,7 +9383,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 235,
+            "right": 249.6999969482422,
             "bottom": 22
           },
           "transform": [
@@ -9397,17 +9397,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 237,
+            "right": 252,
             "bottom": 24
           },
-          "painted_pixels": 461,
+          "painted_pixels": 490,
           "max_channel_delta": 27
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 365,
+            "left": 350.29998779296875,
             "top": 22,
             "right": 600,
             "bottom": 22
@@ -9421,19 +9421,19 @@
             0
           ],
           "roi": {
-            "left": 363,
+            "left": 348,
             "top": 20,
             "right": 600,
             "bottom": 24
           },
-          "painted_pixels": 462,
+          "painted_pixels": 489,
           "max_channel_delta": 27
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "49b80bac515d19a959279d41adfe85123e9b7fd2b2ec9f87a51bc45253813d32",
-      "bytes": 3208,
-      "sha256": "eee95d49f808f1d68d89f46d849591596dba4fa76d141b23aac6f68abc53ed02",
+      "png_sha256": "76b3ff2fce67c0e4ee5ae7767fcfb63bfb6505f5fa0d2d03e941ec706f68fb47",
+      "bytes": 3332,
+      "sha256": "c1790723d51616033110c6afbcfca7f05e08f13e344c8d17888e9de184281af3",
       "security_issues": []
     },
     "assets/sections/toolkit-light-mobile.svg": {
@@ -9442,22 +9442,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 112.0199966430664,
-            "top": 19.18000030517578,
-            "right": 117.77999877929688,
-            "bottom": 26.25
+            "left": 126.41000366210938,
+            "top": 20.030000686645508,
+            "right": 130.4499969482422,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "MY TOOLKIT",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 127.79000091552734,
-            "top": 17.3799991607666,
-            "right": 207.97000122070312,
-            "bottom": 27.1299991607666
+            "left": 137.4499969482422,
+            "top": 18.770000457763672,
+            "right": 193.5800018310547,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -9471,7 +9471,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 95,
+            "right": 109.69999694824219,
             "bottom": 22
           },
           "transform": [
@@ -9487,7 +9487,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 225,
+            "left": 210.3000030517578,
             "top": 22,
             "right": 320,
             "bottom": 22
@@ -9512,7 +9512,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 95,
+            "right": 109.69999694824219,
             "bottom": 22
           },
           "transform": [
@@ -9526,17 +9526,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 97,
+            "right": 112,
             "bottom": 24
           },
-          "painted_pixels": 187,
+          "painted_pixels": 216,
           "max_channel_delta": 27
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 225,
+            "left": 210.3000030517578,
             "top": 22,
             "right": 320,
             "bottom": 22
@@ -9550,19 +9550,19 @@
             0
           ],
           "roi": {
-            "left": 223,
+            "left": 208,
             "top": 20,
             "right": 320,
             "bottom": 24
           },
-          "painted_pixels": 187,
+          "painted_pixels": 216,
           "max_channel_delta": 27
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "cf414dbc36c5e5b11597fc700b1d27c6eb5672ff7ae7f66847b8704c47f91549",
-      "bytes": 3205,
-      "sha256": "73b639670efe0a9625989233520fbb9601f5a219928a5421fce099740a920c5d",
+      "png_sha256": "2525c0629e89d233519e816bbd1678928019e9094cf6655420a5c0fbd85108f2",
+      "bytes": 3332,
+      "sha256": "5610d28907e835ed8127e5d0aedb3228102ea464319f4768bf1499d98caeafff",
       "security_issues": []
     },
     "assets/sections/toolkit-light.svg": {
@@ -9571,22 +9571,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 352.0199890136719,
-            "top": 19.18000030517578,
-            "right": 357.7799987792969,
-            "bottom": 26.25
+            "left": 366.4100036621094,
+            "top": 20.030000686645508,
+            "right": 370.45001220703125,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "MY TOOLKIT",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 367.7900085449219,
-            "top": 17.3799991607666,
-            "right": 447.9700012207031,
-            "bottom": 27.1299991607666
+            "left": 377.45001220703125,
+            "top": 18.770000457763672,
+            "right": 433.5799865722656,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -9600,7 +9600,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 335,
+            "right": 349.70001220703125,
             "bottom": 22
           },
           "transform": [
@@ -9616,7 +9616,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 465,
+            "left": 450.29998779296875,
             "top": 22,
             "right": 800,
             "bottom": 22
@@ -9641,7 +9641,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 335,
+            "right": 349.70001220703125,
             "bottom": 22
           },
           "transform": [
@@ -9655,17 +9655,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 337,
+            "right": 352,
             "bottom": 24
           },
-          "painted_pixels": 658,
+          "painted_pixels": 688,
           "max_channel_delta": 27
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 465,
+            "left": 450.29998779296875,
             "top": 22,
             "right": 800,
             "bottom": 22
@@ -9679,19 +9679,19 @@
             0
           ],
           "roi": {
-            "left": 463,
+            "left": 448,
             "top": 20,
             "right": 800,
             "bottom": 24
           },
-          "painted_pixels": 658,
+          "painted_pixels": 687,
           "max_channel_delta": 27
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "679c9cd06990eaeb24e0a5695ced4bcd6e42c9d8aad0c7fc9a63f368e636f3fd",
-      "bytes": 3208,
-      "sha256": "3f219f7c3509ea10b44fe7ab99ce9bf9647c4ce5ef78a28ac128995e66fba3aa",
+      "png_sha256": "8394e5b25fa6b00403804356f47baa5da071d83c80bf4428914a1e18be3f7d89",
+      "bytes": 3332,
+      "sha256": "496e7f36fac74d85692c2cc667f57deedbdba9a55bd9389193f7e13fe4db212d",
       "security_issues": []
     },
     "assets/sections/toolkit-mobile.svg": {
@@ -9700,22 +9700,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 112.0199966430664,
-            "top": 19.18000030517578,
-            "right": 117.77999877929688,
-            "bottom": 26.25
+            "left": 126.41000366210938,
+            "top": 20.030000686645508,
+            "right": 130.4499969482422,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "MY TOOLKIT",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 127.79000091552734,
-            "top": 17.3799991607666,
-            "right": 207.97000122070312,
-            "bottom": 27.1299991607666
+            "left": 137.4499969482422,
+            "top": 18.770000457763672,
+            "right": 193.5800018310547,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -9729,7 +9729,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 95,
+            "right": 109.69999694824219,
             "bottom": 22
           },
           "transform": [
@@ -9745,7 +9745,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 225,
+            "left": 210.3000030517578,
             "top": 22,
             "right": 320,
             "bottom": 22
@@ -9770,7 +9770,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 95,
+            "right": 109.69999694824219,
             "bottom": 22
           },
           "transform": [
@@ -9784,17 +9784,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 97,
+            "right": 112,
             "bottom": 24
           },
-          "painted_pixels": 186,
+          "painted_pixels": 215,
           "max_channel_delta": 20
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 225,
+            "left": 210.3000030517578,
             "top": 22,
             "right": 320,
             "bottom": 22
@@ -9808,19 +9808,19 @@
             0
           ],
           "roi": {
-            "left": 223,
+            "left": 208,
             "top": 20,
             "right": 320,
             "bottom": 24
           },
-          "painted_pixels": 185,
+          "painted_pixels": 214,
           "max_channel_delta": 21
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "523ebbae56dd96477c4bfe3cae28be4740480afca174e97a4bdd05b6f46428af",
-      "bytes": 3205,
-      "sha256": "44cd90a6a9ca70c15061cc9e9e9b57bc9056a6063a013553020480e26eb24e3f",
+      "png_sha256": "6a089623f0813612b6c335474c9ee62bf88bac5cc972f4b32dc136297f76cf21",
+      "bytes": 3332,
+      "sha256": "7da2f0347c0914e511b99d460fb6678d6524a66ba55d7500193f3d23916e4455",
       "security_issues": []
     },
     "assets/sections/toolkit.svg": {
@@ -9829,22 +9829,22 @@
       "text": [
         {
           "text": ">",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 352.0199890136719,
-            "top": 19.18000030517578,
-            "right": 357.7799987792969,
-            "bottom": 26.25
+            "left": 366.4100036621094,
+            "top": 20.030000686645508,
+            "right": 370.45001220703125,
+            "bottom": 24.969999313354492
           }
         },
         {
           "text": "MY TOOLKIT",
-          "size": 13,
+          "size": 9.1,
           "bounds": {
-            "left": 367.7900085449219,
-            "top": 17.3799991607666,
-            "right": 447.9700012207031,
-            "bottom": 27.1299991607666
+            "left": 377.45001220703125,
+            "top": 18.770000457763672,
+            "right": 433.5799865722656,
+            "bottom": 25.59000015258789
           }
         }
       ],
@@ -9858,7 +9858,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 335,
+            "right": 349.70001220703125,
             "bottom": 22
           },
           "transform": [
@@ -9874,7 +9874,7 @@
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 465,
+            "left": 450.29998779296875,
             "top": 22,
             "right": 800,
             "bottom": 22
@@ -9899,7 +9899,7 @@
           "bounds": {
             "left": 0,
             "top": 22,
-            "right": 335,
+            "right": 349.70001220703125,
             "bottom": 22
           },
           "transform": [
@@ -9913,17 +9913,17 @@
           "roi": {
             "left": 0,
             "top": 20,
-            "right": 337,
+            "right": 352,
             "bottom": 24
           },
-          "painted_pixels": 654,
+          "painted_pixels": 683,
           "max_channel_delta": 21
         },
         {
           "index": 11,
           "id": "right-rule",
           "bounds": {
-            "left": 465,
+            "left": 450.29998779296875,
             "top": 22,
             "right": 800,
             "bottom": 22
@@ -9937,19 +9937,19 @@
             0
           ],
           "roi": {
-            "left": 463,
+            "left": 448,
             "top": 20,
             "right": 800,
             "bottom": 24
           },
-          "painted_pixels": 653,
+          "painted_pixels": 683,
           "max_channel_delta": 21
         }
       ],
       "invisible_gradient_strokes": [],
-      "png_sha256": "cf95f76e5f843dbe4c830838566b9a259e91d8c48fd98abe1e85543aed26c382",
-      "bytes": 3208,
-      "sha256": "90adac242fcd51c0acf85aa0ea17a5de6ea80832249374ab3574e2527a99504b",
+      "png_sha256": "486223af3621d35b25f3473c03cfc2d9332598c9ae098fddfae2e189b02c74a7",
+      "bytes": 3332,
+      "sha256": "220695a949e74cab5a15a29d48edd89d420f109d355fa117169416099f45a1a4",
       "security_issues": []
     },
     "assets/stats/contributions-compact.svg": {
@@ -11403,7 +11403,7 @@
           "bottom": 239.390625,
           "width": 684,
           "height": 239.390625,
-          "src": "http://127.0.0.1:57777/assets/header-dark.svg",
+          "src": "http://127.0.0.1:58260/assets/header-dark.svg",
           "alt": "/ KINGKK-007. Kanav Kumar. Backend. Systems. Applied AI. CSE @ IIIT Bangalore \u00b7 2028.",
           "complete": true,
           "naturalWidth": 800,
@@ -11416,7 +11416,7 @@
           "bottom": 297.390625,
           "width": 120,
           "height": 36,
-          "src": "http://127.0.0.1:57777/assets/badges/linkedin.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/linkedin.svg",
           "alt": "LinkedIn",
           "complete": true,
           "naturalWidth": 120,
@@ -11429,7 +11429,7 @@
           "bottom": 297.390625,
           "width": 120,
           "height": 36,
-          "src": "http://127.0.0.1:57777/assets/badges/email.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/email.svg",
           "alt": "Email Kanav",
           "complete": true,
           "naturalWidth": 120,
@@ -11442,7 +11442,7 @@
           "bottom": 297.390625,
           "width": 120,
           "height": 36,
-          "src": "http://127.0.0.1:57777/assets/badges/x.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/x.svg",
           "alt": "X",
           "complete": true,
           "naturalWidth": 120,
@@ -11455,7 +11455,7 @@
           "bottom": 297.390625,
           "width": 120,
           "height": 36,
-          "src": "http://127.0.0.1:57777/assets/badges/instagram.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/instagram.svg",
           "alt": "Instagram",
           "complete": true,
           "naturalWidth": 120,
@@ -11468,7 +11468,7 @@
           "bottom": 297.390625,
           "width": 120,
           "height": 36,
-          "src": "http://127.0.0.1:57777/assets/badges/dev.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/dev.svg",
           "alt": "DEV",
           "complete": true,
           "naturalWidth": 120,
@@ -11481,7 +11481,7 @@
           "bottom": 517,
           "width": 684,
           "height": 37.609375,
-          "src": "http://127.0.0.1:57777/assets/sections/selected-work.svg",
+          "src": "http://127.0.0.1:58260/assets/sections/selected-work.svg",
           "alt": "Selected work",
           "complete": true,
           "naturalWidth": 800,
@@ -11494,7 +11494,7 @@
           "bottom": 818.4375,
           "width": 684,
           "height": 280.4375,
-          "src": "http://127.0.0.1:57777/assets/projects/pitchperfect.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/pitchperfect.svg",
           "alt": "Featured project: PitchPerfect. Mock interviews tailored to your r\u00e9sum\u00e9 and role, with live audio/video feedback and post-session reports. Desktop stack: Next.js, FastAPI, PostgreSQL, Redis, Docker, Gemini, Whisper; mobile: Next.js, FastAPI, PostgreSQL, Redis, Docker. Explore the repository.",
           "complete": true,
           "naturalWidth": 800,
@@ -11507,7 +11507,7 @@
           "bottom": 1101.4375,
           "width": 306,
           "height": 254,
-          "src": "http://127.0.0.1:57777/assets/projects/smartcampus.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/smartcampus.svg",
           "alt": "SmartCampus \u2014 course enrollment, notifications and campus events. Spring Boot, MySQL and Flyway.",
           "complete": true,
           "naturalWidth": 306,
@@ -11520,7 +11520,7 @@
           "bottom": 1161.4375,
           "width": 306,
           "height": 60,
-          "src": "http://127.0.0.1:57777/assets/projects/source.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/source.svg",
           "alt": "View source repository",
           "complete": true,
           "naturalWidth": 306,
@@ -11533,7 +11533,7 @@
           "bottom": 1101.4375,
           "width": 306,
           "height": 254,
-          "src": "http://127.0.0.1:57777/assets/projects/signbridge.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/signbridge.svg",
           "alt": "SignBridge 3D \u2014 gesture recognition and 3D avatars for accessible communication. Next.js, Gemini and MediaPipe.",
           "complete": true,
           "naturalWidth": 306,
@@ -11546,7 +11546,7 @@
           "bottom": 1161.4375,
           "width": 153,
           "height": 60,
-          "src": "http://127.0.0.1:57777/assets/projects/source-half.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/source-half.svg",
           "alt": "Open the SignBridge 3D repository",
           "complete": true,
           "naturalWidth": 153,
@@ -11559,7 +11559,7 @@
           "bottom": 1161.4375,
           "width": 153,
           "height": 60,
-          "src": "http://127.0.0.1:57777/assets/projects/demo-half.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/demo-half.svg",
           "alt": "Open the live SignBridge 3D demo",
           "complete": true,
           "naturalWidth": 153,
@@ -11572,7 +11572,7 @@
           "bottom": 1445.4375,
           "width": 306,
           "height": 254,
-          "src": "http://127.0.0.1:57777/assets/projects/mini-swiggy.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/mini-swiggy.svg",
           "alt": "Mini-Swiggy \u2014 concurrent orders, worker processes and safe file access in C. C, pthreads, TCP and IPC.",
           "complete": true,
           "naturalWidth": 306,
@@ -11585,7 +11585,7 @@
           "bottom": 1505.4375,
           "width": 306,
           "height": 60,
-          "src": "http://127.0.0.1:57777/assets/projects/source.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/source.svg",
           "alt": "View source repository",
           "complete": true,
           "naturalWidth": 306,
@@ -11598,7 +11598,7 @@
           "bottom": 1445.4375,
           "width": 306,
           "height": 254,
-          "src": "http://127.0.0.1:57777/assets/projects/aic.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/aic.svg",
           "alt": "AIC \u2014 OpenEnv incident-response environment with verifiable rewards and 0-1 task graders. FastAPI, OpenEnv, TRL GRPO, Unsloth.",
           "complete": true,
           "naturalWidth": 306,
@@ -11611,7 +11611,7 @@
           "bottom": 1505.4375,
           "width": 306,
           "height": 60,
-          "src": "http://127.0.0.1:57777/assets/projects/source.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/source.svg",
           "alt": "View source repository",
           "complete": true,
           "naturalWidth": 306,
@@ -11624,7 +11624,7 @@
           "bottom": 1590.046875,
           "width": 684,
           "height": 37.609375,
-          "src": "http://127.0.0.1:57777/assets/sections/toolkit.svg",
+          "src": "http://127.0.0.1:58260/assets/sections/toolkit.svg",
           "alt": "My toolkit",
           "complete": true,
           "naturalWidth": 800,
@@ -11637,7 +11637,7 @@
           "bottom": 1877.796875,
           "width": 684,
           "height": 266.75,
-          "src": "http://127.0.0.1:57777/assets/editorial/toolkit.svg",
+          "src": "http://127.0.0.1:58260/assets/editorial/toolkit.svg",
           "alt": "Languages: Java, C++, C, Python, SQL, JavaScript. Frameworks: Spring Boot, React, Next.js, FastAPI. Tools and data: Docker, PostgreSQL, MySQL, Git, Linux, Postman.",
           "complete": true,
           "naturalWidth": 800,
@@ -11650,7 +11650,7 @@
           "bottom": 1945.40625,
           "width": 684,
           "height": 37.609375,
-          "src": "http://127.0.0.1:57777/assets/sections/on-github.svg",
+          "src": "http://127.0.0.1:58260/assets/sections/on-github.svg",
           "alt": "On GitHub",
           "complete": true,
           "naturalWidth": 800,
@@ -11663,7 +11663,7 @@
           "bottom": 2175.015625,
           "width": 684,
           "height": 208.609375,
-          "src": "http://127.0.0.1:57777/assets/stats/overview.svg",
+          "src": "http://127.0.0.1:58260/assets/stats/overview.svg",
           "alt": "GitHub activity: Contributions and Active days. Public activity in the past 12 months, with update date. Repository languages: code-byte shares in owned public, non-fork project repositories, including Other.",
           "complete": true,
           "naturalWidth": 800,
@@ -11676,7 +11676,7 @@
           "bottom": 2405.625,
           "width": 684,
           "height": 208.609375,
-          "src": "http://127.0.0.1:57777/assets/stats/contributions.svg",
+          "src": "http://127.0.0.1:58260/assets/stats/contributions.svg",
           "alt": "Contribution trail: the actual annual GitHub calendar in mint and charcoal, with the original snake animation. Empty days remain empty. Open the full graphic.",
           "complete": true,
           "naturalWidth": 800,
@@ -11689,7 +11689,7 @@
           "bottom": 2473.234375,
           "width": 684,
           "height": 37.609375,
-          "src": "http://127.0.0.1:57777/assets/sections/along-the-way.svg",
+          "src": "http://127.0.0.1:58260/assets/sections/along-the-way.svg",
           "alt": "Along the way",
           "complete": true,
           "naturalWidth": 800,
@@ -11702,7 +11702,7 @@
           "bottom": 2596.828125,
           "width": 684,
           "height": 102.59375,
-          "src": "http://127.0.0.1:57777/assets/milestones/strip.svg",
+          "src": "http://127.0.0.1:58260/assets/milestones/strip.svg",
           "alt": "HackXIOS 2K25: 7 / 2,300, Ranked 7th overall. Meta PyTorch OpenEnv: Finalist, 12,000+ teams \u00b7 2026. Novo Nordisk GBS: Pre-finalist, Hackathon 2025.",
           "complete": true,
           "naturalWidth": 800,
@@ -11715,7 +11715,7 @@
           "bottom": 2700.90625,
           "width": 684,
           "height": 82.078125,
-          "src": "http://127.0.0.1:57777/assets/editorial/footer.svg",
+          "src": "http://127.0.0.1:58260/assets/editorial/footer.svg",
           "alt": "> Always curious. Always building. Ctrl + Z is a lifestyle.",
           "complete": true,
           "naturalWidth": 800,
@@ -11855,476 +11855,7 @@
       "full_panel_edge_spread": {
         "left": 0.0,
         "right": 0.0
-      },
-      "evidence_reused_from_readme_sha256": "f49b664dac20db76ac3f790d6531001dc601207bf68adb5af5ba71b819f6817b"
-    },
-    "desktop-684-light": {
-      "article": {
-        "width": 684,
-        "height": 2706.90625
-      },
-      "images": [
-        {
-          "left": 0,
-          "right": 684,
-          "top": 0,
-          "bottom": 239.390625,
-          "width": 684,
-          "height": 239.390625,
-          "src": "http://127.0.0.1:57777/assets/header-dark.svg",
-          "alt": "/ KINGKK-007. Kanav Kumar. Backend. Systems. Applied AI. CSE @ IIIT Bangalore \u00b7 2028.",
-          "complete": true,
-          "naturalWidth": 800,
-          "naturalHeight": 280
-        },
-        {
-          "left": 33.625,
-          "right": 153.625,
-          "top": 261.390625,
-          "bottom": 297.390625,
-          "width": 120,
-          "height": 36,
-          "src": "http://127.0.0.1:57777/assets/badges/linkedin.svg",
-          "alt": "LinkedIn",
-          "complete": true,
-          "naturalWidth": 120,
-          "naturalHeight": 36
-        },
-        {
-          "left": 157.8125,
-          "right": 277.8125,
-          "top": 261.390625,
-          "bottom": 297.390625,
-          "width": 120,
-          "height": 36,
-          "src": "http://127.0.0.1:57777/assets/badges/email.svg",
-          "alt": "Email Kanav",
-          "complete": true,
-          "naturalWidth": 120,
-          "naturalHeight": 36
-        },
-        {
-          "left": 282,
-          "right": 402,
-          "top": 261.390625,
-          "bottom": 297.390625,
-          "width": 120,
-          "height": 36,
-          "src": "http://127.0.0.1:57777/assets/badges/x.svg",
-          "alt": "X",
-          "complete": true,
-          "naturalWidth": 120,
-          "naturalHeight": 36
-        },
-        {
-          "left": 406.1875,
-          "right": 526.1875,
-          "top": 261.390625,
-          "bottom": 297.390625,
-          "width": 120,
-          "height": 36,
-          "src": "http://127.0.0.1:57777/assets/badges/instagram.svg",
-          "alt": "Instagram",
-          "complete": true,
-          "naturalWidth": 120,
-          "naturalHeight": 36
-        },
-        {
-          "left": 530.375,
-          "right": 650.375,
-          "top": 261.390625,
-          "bottom": 297.390625,
-          "width": 120,
-          "height": 36,
-          "src": "http://127.0.0.1:57777/assets/badges/dev.svg",
-          "alt": "DEV",
-          "complete": true,
-          "naturalWidth": 120,
-          "naturalHeight": 36
-        },
-        {
-          "left": 0,
-          "right": 684,
-          "top": 479.390625,
-          "bottom": 517,
-          "width": 684,
-          "height": 37.609375,
-          "src": "http://127.0.0.1:57777/assets/sections/selected-work-light.svg",
-          "alt": "Selected work",
-          "complete": true,
-          "naturalWidth": 800,
-          "naturalHeight": 44
-        },
-        {
-          "left": 0,
-          "right": 684,
-          "top": 538,
-          "bottom": 818.4375,
-          "width": 684,
-          "height": 280.4375,
-          "src": "http://127.0.0.1:57777/assets/projects/pitchperfect.svg",
-          "alt": "Featured project: PitchPerfect. Mock interviews tailored to your r\u00e9sum\u00e9 and role, with live audio/video feedback and post-session reports. Desktop stack: Next.js, FastAPI, PostgreSQL, Redis, Docker, Gemini, Whisper; mobile: Next.js, FastAPI, PostgreSQL, Redis, Docker. Explore the repository.",
-          "complete": true,
-          "naturalWidth": 800,
-          "naturalHeight": 328
-        },
-        {
-          "left": 14,
-          "right": 320,
-          "top": 847.4375,
-          "bottom": 1101.4375,
-          "width": 306,
-          "height": 254,
-          "src": "http://127.0.0.1:57777/assets/projects/smartcampus.svg",
-          "alt": "SmartCampus \u2014 course enrollment, notifications and campus events. Spring Boot, MySQL and Flyway.",
-          "complete": true,
-          "naturalWidth": 306,
-          "naturalHeight": 254
-        },
-        {
-          "left": 14,
-          "right": 320,
-          "top": 1101.4375,
-          "bottom": 1161.4375,
-          "width": 306,
-          "height": 60,
-          "src": "http://127.0.0.1:57777/assets/projects/source.svg",
-          "alt": "View source repository",
-          "complete": true,
-          "naturalWidth": 306,
-          "naturalHeight": 60
-        },
-        {
-          "left": 364,
-          "right": 670,
-          "top": 847.4375,
-          "bottom": 1101.4375,
-          "width": 306,
-          "height": 254,
-          "src": "http://127.0.0.1:57777/assets/projects/signbridge.svg",
-          "alt": "SignBridge 3D \u2014 gesture recognition and 3D avatars for accessible communication. Next.js, Gemini and MediaPipe.",
-          "complete": true,
-          "naturalWidth": 306,
-          "naturalHeight": 254
-        },
-        {
-          "left": 364,
-          "right": 517,
-          "top": 1101.4375,
-          "bottom": 1161.4375,
-          "width": 153,
-          "height": 60,
-          "src": "http://127.0.0.1:57777/assets/projects/source-half.svg",
-          "alt": "Open the SignBridge 3D repository",
-          "complete": true,
-          "naturalWidth": 153,
-          "naturalHeight": 60
-        },
-        {
-          "left": 517,
-          "right": 670,
-          "top": 1101.4375,
-          "bottom": 1161.4375,
-          "width": 153,
-          "height": 60,
-          "src": "http://127.0.0.1:57777/assets/projects/demo-half.svg",
-          "alt": "Open the live SignBridge 3D demo",
-          "complete": true,
-          "naturalWidth": 153,
-          "naturalHeight": 60
-        },
-        {
-          "left": 14,
-          "right": 320,
-          "top": 1191.4375,
-          "bottom": 1445.4375,
-          "width": 306,
-          "height": 254,
-          "src": "http://127.0.0.1:57777/assets/projects/mini-swiggy.svg",
-          "alt": "Mini-Swiggy \u2014 concurrent orders, worker processes and safe file access in C. C, pthreads, TCP and IPC.",
-          "complete": true,
-          "naturalWidth": 306,
-          "naturalHeight": 254
-        },
-        {
-          "left": 14,
-          "right": 320,
-          "top": 1445.4375,
-          "bottom": 1505.4375,
-          "width": 306,
-          "height": 60,
-          "src": "http://127.0.0.1:57777/assets/projects/source.svg",
-          "alt": "View source repository",
-          "complete": true,
-          "naturalWidth": 306,
-          "naturalHeight": 60
-        },
-        {
-          "left": 364,
-          "right": 670,
-          "top": 1191.4375,
-          "bottom": 1445.4375,
-          "width": 306,
-          "height": 254,
-          "src": "http://127.0.0.1:57777/assets/projects/aic.svg",
-          "alt": "AIC \u2014 OpenEnv incident-response environment with verifiable rewards and 0-1 task graders. FastAPI, OpenEnv, TRL GRPO, Unsloth.",
-          "complete": true,
-          "naturalWidth": 306,
-          "naturalHeight": 254
-        },
-        {
-          "left": 364,
-          "right": 670,
-          "top": 1445.4375,
-          "bottom": 1505.4375,
-          "width": 306,
-          "height": 60,
-          "src": "http://127.0.0.1:57777/assets/projects/source.svg",
-          "alt": "View source repository",
-          "complete": true,
-          "naturalWidth": 306,
-          "naturalHeight": 60
-        },
-        {
-          "left": 0,
-          "right": 684,
-          "top": 1552.4375,
-          "bottom": 1590.046875,
-          "width": 684,
-          "height": 37.609375,
-          "src": "http://127.0.0.1:57777/assets/sections/toolkit-light.svg",
-          "alt": "My toolkit",
-          "complete": true,
-          "naturalWidth": 800,
-          "naturalHeight": 44
-        },
-        {
-          "left": 0,
-          "right": 684,
-          "top": 1611.046875,
-          "bottom": 1877.796875,
-          "width": 684,
-          "height": 266.75,
-          "src": "http://127.0.0.1:57777/assets/editorial/toolkit.svg",
-          "alt": "Languages: Java, C++, C, Python, SQL, JavaScript. Frameworks: Spring Boot, React, Next.js, FastAPI. Tools and data: Docker, PostgreSQL, MySQL, Git, Linux, Postman.",
-          "complete": true,
-          "naturalWidth": 800,
-          "naturalHeight": 312
-        },
-        {
-          "left": 0,
-          "right": 684,
-          "top": 1907.796875,
-          "bottom": 1945.40625,
-          "width": 684,
-          "height": 37.609375,
-          "src": "http://127.0.0.1:57777/assets/sections/on-github-light.svg",
-          "alt": "On GitHub",
-          "complete": true,
-          "naturalWidth": 800,
-          "naturalHeight": 44
-        },
-        {
-          "left": 0,
-          "right": 684,
-          "top": 1966.40625,
-          "bottom": 2175.015625,
-          "width": 684,
-          "height": 208.609375,
-          "src": "http://127.0.0.1:57777/assets/stats/overview.svg",
-          "alt": "GitHub activity: Contributions and Active days. Public activity in the past 12 months, with update date. Repository languages: code-byte shares in owned public, non-fork project repositories, including Other.",
-          "complete": true,
-          "naturalWidth": 800,
-          "naturalHeight": 244
-        },
-        {
-          "left": 0,
-          "right": 684,
-          "top": 2197.015625,
-          "bottom": 2405.625,
-          "width": 684,
-          "height": 208.609375,
-          "src": "http://127.0.0.1:57777/assets/stats/contributions.svg",
-          "alt": "Contribution trail: the actual annual GitHub calendar in mint and charcoal, with the original snake animation. Empty days remain empty. Open the full graphic.",
-          "complete": true,
-          "naturalWidth": 800,
-          "naturalHeight": 244
-        },
-        {
-          "left": 0,
-          "right": 684,
-          "top": 2435.625,
-          "bottom": 2473.234375,
-          "width": 684,
-          "height": 37.609375,
-          "src": "http://127.0.0.1:57777/assets/sections/along-the-way-light.svg",
-          "alt": "Along the way",
-          "complete": true,
-          "naturalWidth": 800,
-          "naturalHeight": 44
-        },
-        {
-          "left": 0,
-          "right": 684,
-          "top": 2494.234375,
-          "bottom": 2596.828125,
-          "width": 684,
-          "height": 102.59375,
-          "src": "http://127.0.0.1:57777/assets/milestones/strip.svg",
-          "alt": "HackXIOS 2K25: 7 / 2,300, Ranked 7th overall. Meta PyTorch OpenEnv: Finalist, 12,000+ teams \u00b7 2026. Novo Nordisk GBS: Pre-finalist, Hackathon 2025.",
-          "complete": true,
-          "naturalWidth": 800,
-          "naturalHeight": 120
-        },
-        {
-          "left": 0,
-          "right": 684,
-          "top": 2618.828125,
-          "bottom": 2700.90625,
-          "width": 684,
-          "height": 82.078125,
-          "src": "http://127.0.0.1:57777/assets/editorial/footer.svg",
-          "alt": "> Always curious. Always building. Ctrl + Z is a lifestyle.",
-          "complete": true,
-          "naturalWidth": 800,
-          "naturalHeight": 96
-        }
-      ],
-      "headings": [
-        {
-          "left": 0,
-          "right": 684,
-          "top": 479.390625,
-          "bottom": 522,
-          "width": 684,
-          "height": 42.609375,
-          "tag": "H3",
-          "text": "\n  \n    \n    \n    \n    \n    \n    \n    \n  \n"
-        },
-        {
-          "left": 0,
-          "right": 684,
-          "top": 1552.4375,
-          "bottom": 1595.046875,
-          "width": 684,
-          "height": 42.609375,
-          "tag": "H3",
-          "text": "\n  \n    \n    \n    \n    \n    \n    \n    \n  \n"
-        },
-        {
-          "left": 0,
-          "right": 684,
-          "top": 1907.796875,
-          "bottom": 1950.40625,
-          "width": 684,
-          "height": 42.609375,
-          "tag": "H3",
-          "text": "\n  \n    \n    \n    \n    \n    \n    \n    \n  \n"
-        },
-        {
-          "left": 0,
-          "right": 684,
-          "top": 2435.625,
-          "bottom": 2478.234375,
-          "width": 684,
-          "height": 42.609375,
-          "tag": "H3",
-          "text": "\n  \n    \n    \n    \n    \n    \n    \n    \n  \n"
-        }
-      ],
-      "tables": [
-        {
-          "left": 0,
-          "right": 334,
-          "top": 840.4375,
-          "bottom": 1168.4375,
-          "width": 334,
-          "height": 328
-        },
-        {
-          "left": 350,
-          "right": 684,
-          "top": 840.4375,
-          "bottom": 1168.4375,
-          "width": 334,
-          "height": 328
-        },
-        {
-          "left": 0,
-          "right": 334,
-          "top": 1184.4375,
-          "bottom": 1512.4375,
-          "width": 334,
-          "height": 328
-        },
-        {
-          "left": 350,
-          "right": 684,
-          "top": 1184.4375,
-          "bottom": 1512.4375,
-          "width": 334,
-          "height": 328
-        }
-      ],
-      "social_rows": [
-        {
-          "top": 261.390625,
-          "count": 5
-        }
-      ],
-      "scrollWidth": 1440,
-      "viewportWidth": 1440,
-      "failed_images": [],
-      "layout_issues": [],
-      "full_panel_frames": [
-        {
-          "asset": "assets/header-dark.svg",
-          "left": 0.0,
-          "right": 684.0,
-          "image_width": 684
-        },
-        {
-          "asset": "assets/projects/pitchperfect.svg",
-          "left": 0.0,
-          "right": 684.0,
-          "image_width": 684
-        },
-        {
-          "asset": "assets/editorial/toolkit.svg",
-          "left": 0.0,
-          "right": 684.0,
-          "image_width": 684
-        },
-        {
-          "asset": "assets/stats/overview.svg",
-          "left": 0.0,
-          "right": 684.0,
-          "image_width": 684
-        },
-        {
-          "asset": "assets/stats/contributions.svg",
-          "left": 0.0,
-          "right": 684.0,
-          "image_width": 684
-        },
-        {
-          "asset": "assets/milestones/strip.svg",
-          "left": 0.0,
-          "right": 684.0,
-          "image_width": 684
-        },
-        {
-          "asset": "assets/editorial/footer.svg",
-          "left": 0.0,
-          "right": 684.0,
-          "image_width": 684
-        }
-      ],
-      "full_panel_edge_spread": {
-        "left": 0.0,
-        "right": 0.0
-      },
-      "evidence_reused_from_readme_sha256": "f49b664dac20db76ac3f790d6531001dc601207bf68adb5af5ba71b819f6817b"
+      }
     },
     "compact-600": {
       "article": {
@@ -12339,7 +11870,7 @@
           "bottom": 280,
           "width": 600,
           "height": 280,
-          "src": "http://127.0.0.1:57939/assets/header-dark-compact.svg",
+          "src": "http://127.0.0.1:58260/assets/header-dark-compact.svg",
           "alt": "/ KINGKK-007. Kanav Kumar. Backend. Systems. Applied AI. CSE @ IIIT Bangalore \u00b7 2028.",
           "complete": true,
           "naturalWidth": 600,
@@ -12352,7 +11883,7 @@
           "bottom": 338,
           "width": 120,
           "height": 36,
-          "src": "http://127.0.0.1:57939/assets/badges/linkedin.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/linkedin.svg",
           "alt": "LinkedIn",
           "complete": true,
           "naturalWidth": 120,
@@ -12365,7 +11896,7 @@
           "bottom": 338,
           "width": 120,
           "height": 36,
-          "src": "http://127.0.0.1:57939/assets/badges/email.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/email.svg",
           "alt": "Email Kanav",
           "complete": true,
           "naturalWidth": 120,
@@ -12378,7 +11909,7 @@
           "bottom": 338,
           "width": 120,
           "height": 36,
-          "src": "http://127.0.0.1:57939/assets/badges/x.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/x.svg",
           "alt": "X",
           "complete": true,
           "naturalWidth": 120,
@@ -12391,7 +11922,7 @@
           "bottom": 338,
           "width": 120,
           "height": 36,
-          "src": "http://127.0.0.1:57939/assets/badges/instagram.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/instagram.svg",
           "alt": "Instagram",
           "complete": true,
           "naturalWidth": 120,
@@ -12404,7 +11935,7 @@
           "bottom": 380,
           "width": 120,
           "height": 36,
-          "src": "http://127.0.0.1:57939/assets/badges/dev.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/dev.svg",
           "alt": "DEV",
           "complete": true,
           "naturalWidth": 120,
@@ -12417,7 +11948,7 @@
           "bottom": 606,
           "width": 600,
           "height": 44,
-          "src": "http://127.0.0.1:57939/assets/sections/selected-work-compact.svg",
+          "src": "http://127.0.0.1:58260/assets/sections/selected-work-compact.svg",
           "alt": "Selected work",
           "complete": true,
           "naturalWidth": 600,
@@ -12430,7 +11961,7 @@
           "bottom": 955,
           "width": 600,
           "height": 328,
-          "src": "http://127.0.0.1:57939/assets/projects/pitchperfect-compact.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/pitchperfect-compact.svg",
           "alt": "Featured project: PitchPerfect. Mock interviews tailored to your r\u00e9sum\u00e9 and role, with live audio/video feedback and post-session reports. Desktop stack: Next.js, FastAPI, PostgreSQL, Redis, Docker, Gemini, Whisper; mobile: Next.js, FastAPI, PostgreSQL, Redis, Docker. Explore the repository.",
           "complete": true,
           "naturalWidth": 600,
@@ -12443,7 +11974,7 @@
           "bottom": 1286,
           "width": 264,
           "height": 302,
-          "src": "http://127.0.0.1:57939/assets/projects/smartcampus-compact.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/smartcampus-compact.svg",
           "alt": "SmartCampus \u2014 course enrollment, notifications and campus events. Spring Boot, MySQL and Flyway.",
           "complete": true,
           "naturalWidth": 264,
@@ -12456,7 +11987,7 @@
           "bottom": 1346,
           "width": 264,
           "height": 60,
-          "src": "http://127.0.0.1:57939/assets/projects/source-compact.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/source-compact.svg",
           "alt": "View source repository",
           "complete": true,
           "naturalWidth": 264,
@@ -12469,7 +12000,7 @@
           "bottom": 1286,
           "width": 264,
           "height": 302,
-          "src": "http://127.0.0.1:57939/assets/projects/signbridge-compact.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/signbridge-compact.svg",
           "alt": "SignBridge 3D \u2014 gesture recognition and 3D avatars for accessible communication. Next.js, Gemini and MediaPipe.",
           "complete": true,
           "naturalWidth": 264,
@@ -12482,7 +12013,7 @@
           "bottom": 1346,
           "width": 132,
           "height": 60,
-          "src": "http://127.0.0.1:57939/assets/projects/source-half-compact.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/source-half-compact.svg",
           "alt": "Open the SignBridge 3D repository",
           "complete": true,
           "naturalWidth": 132,
@@ -12495,7 +12026,7 @@
           "bottom": 1346,
           "width": 132,
           "height": 60,
-          "src": "http://127.0.0.1:57939/assets/projects/demo-half-compact.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/demo-half-compact.svg",
           "alt": "Open the live SignBridge 3D demo",
           "complete": true,
           "naturalWidth": 132,
@@ -12508,7 +12039,7 @@
           "bottom": 1678,
           "width": 264,
           "height": 302,
-          "src": "http://127.0.0.1:57939/assets/projects/mini-swiggy-compact.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/mini-swiggy-compact.svg",
           "alt": "Mini-Swiggy \u2014 concurrent orders, worker processes and safe file access in C. C, pthreads, TCP and IPC.",
           "complete": true,
           "naturalWidth": 264,
@@ -12521,7 +12052,7 @@
           "bottom": 1738,
           "width": 264,
           "height": 60,
-          "src": "http://127.0.0.1:57939/assets/projects/source-compact.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/source-compact.svg",
           "alt": "View source repository",
           "complete": true,
           "naturalWidth": 264,
@@ -12534,7 +12065,7 @@
           "bottom": 1678,
           "width": 264,
           "height": 302,
-          "src": "http://127.0.0.1:57939/assets/projects/aic-compact.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/aic-compact.svg",
           "alt": "AIC \u2014 OpenEnv incident-response environment with verifiable rewards and 0-1 task graders. FastAPI, OpenEnv, TRL GRPO, Unsloth.",
           "complete": true,
           "naturalWidth": 264,
@@ -12547,7 +12078,7 @@
           "bottom": 1738,
           "width": 264,
           "height": 60,
-          "src": "http://127.0.0.1:57939/assets/projects/source-compact.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/source-compact.svg",
           "alt": "View source repository",
           "complete": true,
           "naturalWidth": 264,
@@ -12560,7 +12091,7 @@
           "bottom": 1829,
           "width": 600,
           "height": 44,
-          "src": "http://127.0.0.1:57939/assets/sections/toolkit-compact.svg",
+          "src": "http://127.0.0.1:58260/assets/sections/toolkit-compact.svg",
           "alt": "My toolkit",
           "complete": true,
           "naturalWidth": 600,
@@ -12573,7 +12104,7 @@
           "bottom": 2204,
           "width": 600,
           "height": 354,
-          "src": "http://127.0.0.1:57939/assets/editorial/toolkit-compact.svg",
+          "src": "http://127.0.0.1:58260/assets/editorial/toolkit-compact.svg",
           "alt": "Languages: Java, C++, C, Python, SQL, JavaScript. Frameworks: Spring Boot, React, Next.js, FastAPI. Tools and data: Docker, PostgreSQL, MySQL, Git, Linux, Postman.",
           "complete": true,
           "naturalWidth": 600,
@@ -12586,7 +12117,7 @@
           "bottom": 2278,
           "width": 600,
           "height": 44,
-          "src": "http://127.0.0.1:57939/assets/sections/on-github-compact.svg",
+          "src": "http://127.0.0.1:58260/assets/sections/on-github-compact.svg",
           "alt": "On GitHub",
           "complete": true,
           "naturalWidth": 600,
@@ -12599,7 +12130,7 @@
           "bottom": 2543,
           "width": 600,
           "height": 244,
-          "src": "http://127.0.0.1:57939/assets/stats/overview-compact.svg",
+          "src": "http://127.0.0.1:58260/assets/stats/overview-compact.svg",
           "alt": "GitHub activity: Contributions and Active days. Public activity in the past 12 months, with update date. Repository languages: code-byte shares in owned public, non-fork project repositories, including Other.",
           "complete": true,
           "naturalWidth": 600,
@@ -12612,7 +12143,7 @@
           "bottom": 2785,
           "width": 600,
           "height": 220,
-          "src": "http://127.0.0.1:57939/assets/stats/contributions-compact.svg",
+          "src": "http://127.0.0.1:58260/assets/stats/contributions-compact.svg",
           "alt": "Contribution trail: the actual annual GitHub calendar in mint and charcoal, with the original snake animation. Empty days remain empty. Open the full graphic.",
           "complete": true,
           "naturalWidth": 600,
@@ -12625,7 +12156,7 @@
           "bottom": 2859,
           "width": 600,
           "height": 44,
-          "src": "http://127.0.0.1:57939/assets/sections/along-the-way-compact.svg",
+          "src": "http://127.0.0.1:58260/assets/sections/along-the-way-compact.svg",
           "alt": "Along the way",
           "complete": true,
           "naturalWidth": 600,
@@ -12638,7 +12169,7 @@
           "bottom": 3000,
           "width": 600,
           "height": 120,
-          "src": "http://127.0.0.1:57939/assets/milestones/strip-compact.svg",
+          "src": "http://127.0.0.1:58260/assets/milestones/strip-compact.svg",
           "alt": "HackXIOS 2K25: 7 / 2,300, Ranked 7th overall. Meta PyTorch OpenEnv: Finalist, 12,000+ teams \u00b7 2026. Novo Nordisk GBS: Pre-finalist, Hackathon 2025.",
           "complete": true,
           "naturalWidth": 600,
@@ -12651,7 +12182,7 @@
           "bottom": 3118,
           "width": 600,
           "height": 96,
-          "src": "http://127.0.0.1:57939/assets/editorial/footer-compact.svg",
+          "src": "http://127.0.0.1:58260/assets/editorial/footer-compact.svg",
           "alt": "> Always curious. Always building. Ctrl + Z is a lifestyle.",
           "complete": true,
           "naturalWidth": 600,
@@ -12810,7 +12341,7 @@
           "bottom": 351,
           "width": 390,
           "height": 351,
-          "src": "http://127.0.0.1:57939/assets/header-dark-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/header-dark-mobile.svg",
           "alt": "/ KINGKK-007. Kanav Kumar. Backend. Systems. Applied AI. CSE @ IIIT Bangalore \u00b7 2028.",
           "complete": true,
           "naturalWidth": 320,
@@ -12823,7 +12354,7 @@
           "bottom": 406.640625,
           "width": 112.125,
           "height": 33.640625,
-          "src": "http://127.0.0.1:57939/assets/badges/linkedin.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/linkedin.svg",
           "alt": "LinkedIn",
           "complete": true,
           "naturalWidth": 112,
@@ -12836,7 +12367,7 @@
           "bottom": 406.640625,
           "width": 112.125,
           "height": 33.640625,
-          "src": "http://127.0.0.1:57939/assets/badges/email.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/email.svg",
           "alt": "Email Kanav",
           "complete": true,
           "naturalWidth": 112,
@@ -12849,7 +12380,7 @@
           "bottom": 406.640625,
           "width": 112.125,
           "height": 33.640625,
-          "src": "http://127.0.0.1:57939/assets/badges/x.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/x.svg",
           "alt": "X",
           "complete": true,
           "naturalWidth": 112,
@@ -12862,7 +12393,7 @@
           "bottom": 446.28125,
           "width": 112.125,
           "height": 33.640625,
-          "src": "http://127.0.0.1:57939/assets/badges/instagram.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/instagram.svg",
           "alt": "Instagram",
           "complete": true,
           "naturalWidth": 112,
@@ -12875,7 +12406,7 @@
           "bottom": 446.28125,
           "width": 112.125,
           "height": 33.640625,
-          "src": "http://127.0.0.1:57939/assets/badges/dev.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/dev.svg",
           "alt": "DEV",
           "complete": true,
           "naturalWidth": 112,
@@ -12888,7 +12419,7 @@
           "bottom": 729.90625,
           "width": 390,
           "height": 53.625,
-          "src": "http://127.0.0.1:57939/assets/sections/selected-work-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/sections/selected-work-mobile.svg",
           "alt": "Selected work",
           "complete": true,
           "naturalWidth": 320,
@@ -12901,7 +12432,7 @@
           "bottom": 1211.59375,
           "width": 390,
           "height": 460.6875,
-          "src": "http://127.0.0.1:57939/assets/projects/pitchperfect-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/pitchperfect-mobile.svg",
           "alt": "Featured project: PitchPerfect. Mock interviews tailored to your r\u00e9sum\u00e9 and role, with live audio/video feedback and post-session reports. Desktop stack: Next.js, FastAPI, PostgreSQL, Redis, Docker, Gemini, Whisper; mobile: Next.js, FastAPI, PostgreSQL, Redis, Docker. Explore the repository.",
           "complete": true,
           "naturalWidth": 320,
@@ -12914,7 +12445,7 @@
           "bottom": 1494.59375,
           "width": 330,
           "height": 254,
-          "src": "http://127.0.0.1:57939/assets/projects/smartcampus-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/smartcampus-mobile.svg",
           "alt": "SmartCampus \u2014 course enrollment, notifications and campus events. Spring Boot, MySQL and Flyway.",
           "complete": true,
           "naturalWidth": 330,
@@ -12927,7 +12458,7 @@
           "bottom": 1554.59375,
           "width": 330,
           "height": 60,
-          "src": "http://127.0.0.1:57939/assets/projects/source-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/source-mobile.svg",
           "alt": "View source repository",
           "complete": true,
           "naturalWidth": 330,
@@ -12940,7 +12471,7 @@
           "bottom": 1838.59375,
           "width": 330,
           "height": 254,
-          "src": "http://127.0.0.1:57939/assets/projects/signbridge-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/signbridge-mobile.svg",
           "alt": "SignBridge 3D \u2014 gesture recognition and 3D avatars for accessible communication. Next.js, Gemini and MediaPipe.",
           "complete": true,
           "naturalWidth": 330,
@@ -12953,7 +12484,7 @@
           "bottom": 1898.59375,
           "width": 165,
           "height": 60,
-          "src": "http://127.0.0.1:57939/assets/projects/source-half-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/source-half-mobile.svg",
           "alt": "Open the SignBridge 3D repository",
           "complete": true,
           "naturalWidth": 165,
@@ -12966,7 +12497,7 @@
           "bottom": 1898.59375,
           "width": 165,
           "height": 60,
-          "src": "http://127.0.0.1:57939/assets/projects/demo-half-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/demo-half-mobile.svg",
           "alt": "Open the live SignBridge 3D demo",
           "complete": true,
           "naturalWidth": 165,
@@ -12979,7 +12510,7 @@
           "bottom": 2182.59375,
           "width": 330,
           "height": 254,
-          "src": "http://127.0.0.1:57939/assets/projects/mini-swiggy-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/mini-swiggy-mobile.svg",
           "alt": "Mini-Swiggy \u2014 concurrent orders, worker processes and safe file access in C. C, pthreads, TCP and IPC.",
           "complete": true,
           "naturalWidth": 330,
@@ -12992,7 +12523,7 @@
           "bottom": 2242.59375,
           "width": 330,
           "height": 60,
-          "src": "http://127.0.0.1:57939/assets/projects/source-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/source-mobile.svg",
           "alt": "View source repository",
           "complete": true,
           "naturalWidth": 330,
@@ -13005,7 +12536,7 @@
           "bottom": 2526.59375,
           "width": 330,
           "height": 254,
-          "src": "http://127.0.0.1:57939/assets/projects/aic-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/aic-mobile.svg",
           "alt": "AIC \u2014 OpenEnv incident-response environment with verifiable rewards and 0-1 task graders. FastAPI, OpenEnv, TRL GRPO, Unsloth.",
           "complete": true,
           "naturalWidth": 330,
@@ -13018,7 +12549,7 @@
           "bottom": 2586.59375,
           "width": 330,
           "height": 60,
-          "src": "http://127.0.0.1:57939/assets/projects/source-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/source-mobile.svg",
           "alt": "View source repository",
           "complete": true,
           "naturalWidth": 330,
@@ -13031,7 +12562,7 @@
           "bottom": 2687.21875,
           "width": 390,
           "height": 53.625,
-          "src": "http://127.0.0.1:57939/assets/sections/toolkit-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/sections/toolkit-mobile.svg",
           "alt": "My toolkit",
           "complete": true,
           "naturalWidth": 320,
@@ -13044,7 +12575,7 @@
           "bottom": 3344.40625,
           "width": 390,
           "height": 636.1875,
-          "src": "http://127.0.0.1:57939/assets/editorial/toolkit-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/editorial/toolkit-mobile.svg",
           "alt": "Languages: Java, C++, C, Python, SQL, JavaScript. Frameworks: Spring Boot, React, Next.js, FastAPI. Tools and data: Docker, PostgreSQL, MySQL, Git, Linux, Postman.",
           "complete": true,
           "naturalWidth": 320,
@@ -13057,7 +12588,7 @@
           "bottom": 3428.03125,
           "width": 390,
           "height": 53.625,
-          "src": "http://127.0.0.1:57939/assets/sections/on-github-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/sections/on-github-mobile.svg",
           "alt": "On GitHub",
           "complete": true,
           "naturalWidth": 320,
@@ -13070,7 +12601,7 @@
           "bottom": 4004.78125,
           "width": 390,
           "height": 555.75,
-          "src": "http://127.0.0.1:57939/assets/stats/overview-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/stats/overview-mobile.svg",
           "alt": "GitHub activity: Contributions and Active days. Public activity in the past 12 months, with update date. Repository languages: code-byte shares in owned public, non-fork project repositories, including Other.",
           "complete": true,
           "naturalWidth": 320,
@@ -13083,7 +12614,7 @@
           "bottom": 4236.40625,
           "width": 390,
           "height": 209.625,
-          "src": "http://127.0.0.1:57939/assets/stats/contributions-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/stats/contributions-mobile.svg",
           "alt": "Contribution trail: the actual annual GitHub calendar in mint and charcoal, with the original snake animation. Empty days remain empty. Open the full graphic.",
           "complete": true,
           "naturalWidth": 320,
@@ -13096,7 +12627,7 @@
           "bottom": 4320.03125,
           "width": 390,
           "height": 53.625,
-          "src": "http://127.0.0.1:57939/assets/sections/along-the-way-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/sections/along-the-way-mobile.svg",
           "alt": "Along the way",
           "complete": true,
           "naturalWidth": 320,
@@ -13109,7 +12640,7 @@
           "bottom": 4721.28125,
           "width": 390,
           "height": 380.25,
-          "src": "http://127.0.0.1:57939/assets/milestones/strip-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/milestones/strip-mobile.svg",
           "alt": "HackXIOS 2K25: 7 / 2,300, Ranked 7th overall. Meta PyTorch OpenEnv: Finalist, 12,000+ teams \u00b7 2026. Novo Nordisk GBS: Pre-finalist, Hackathon 2025.",
           "complete": true,
           "naturalWidth": 320,
@@ -13122,7 +12653,7 @@
           "bottom": 4860.28125,
           "width": 390,
           "height": 117,
-          "src": "http://127.0.0.1:57939/assets/editorial/footer-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/editorial/footer-mobile.svg",
           "alt": "> Always curious. Always building. Ctrl + Z is a lifestyle.",
           "complete": true,
           "naturalWidth": 320,
@@ -13281,7 +12812,7 @@
           "bottom": 322.1875,
           "width": 358,
           "height": 322.1875,
-          "src": "http://127.0.0.1:57939/assets/header-dark-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/header-dark-mobile.svg",
           "alt": "/ KINGKK-007. Kanav Kumar. Backend. Systems. Applied AI. CSE @ IIIT Bangalore \u00b7 2028.",
           "complete": true,
           "naturalWidth": 320,
@@ -13294,7 +12825,7 @@
           "bottom": 377.828125,
           "width": 112.125,
           "height": 33.640625,
-          "src": "http://127.0.0.1:57939/assets/badges/linkedin.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/linkedin.svg",
           "alt": "LinkedIn",
           "complete": true,
           "naturalWidth": 112,
@@ -13307,7 +12838,7 @@
           "bottom": 377.828125,
           "width": 112.125,
           "height": 33.640625,
-          "src": "http://127.0.0.1:57939/assets/badges/email.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/email.svg",
           "alt": "Email Kanav",
           "complete": true,
           "naturalWidth": 112,
@@ -13320,7 +12851,7 @@
           "bottom": 377.828125,
           "width": 112.125,
           "height": 33.640625,
-          "src": "http://127.0.0.1:57939/assets/badges/x.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/x.svg",
           "alt": "X",
           "complete": true,
           "naturalWidth": 112,
@@ -13333,7 +12864,7 @@
           "bottom": 417.46875,
           "width": 112.125,
           "height": 33.640625,
-          "src": "http://127.0.0.1:57939/assets/badges/instagram.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/instagram.svg",
           "alt": "Instagram",
           "complete": true,
           "naturalWidth": 112,
@@ -13346,7 +12877,7 @@
           "bottom": 417.46875,
           "width": 112.125,
           "height": 33.640625,
-          "src": "http://127.0.0.1:57939/assets/badges/dev.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/dev.svg",
           "alt": "DEV",
           "complete": true,
           "naturalWidth": 112,
@@ -13359,7 +12890,7 @@
           "bottom": 696.6875,
           "width": 358,
           "height": 49.21875,
-          "src": "http://127.0.0.1:57939/assets/sections/selected-work-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/sections/selected-work-mobile.svg",
           "alt": "Selected work",
           "complete": true,
           "naturalWidth": 320,
@@ -13372,7 +12903,7 @@
           "bottom": 1140.5625,
           "width": 358,
           "height": 422.875,
-          "src": "http://127.0.0.1:57939/assets/projects/pitchperfect-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/pitchperfect-mobile.svg",
           "alt": "Featured project: PitchPerfect. Mock interviews tailored to your r\u00e9sum\u00e9 and role, with live audio/video feedback and post-session reports. Desktop stack: Next.js, FastAPI, PostgreSQL, Redis, Docker, Gemini, Whisper; mobile: Next.js, FastAPI, PostgreSQL, Redis, Docker. Explore the repository.",
           "complete": true,
           "naturalWidth": 320,
@@ -13385,7 +12916,7 @@
           "bottom": 1423.5625,
           "width": 330,
           "height": 254,
-          "src": "http://127.0.0.1:57939/assets/projects/smartcampus-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/smartcampus-mobile.svg",
           "alt": "SmartCampus \u2014 course enrollment, notifications and campus events. Spring Boot, MySQL and Flyway.",
           "complete": true,
           "naturalWidth": 330,
@@ -13398,7 +12929,7 @@
           "bottom": 1483.5625,
           "width": 330,
           "height": 60,
-          "src": "http://127.0.0.1:57939/assets/projects/source-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/source-mobile.svg",
           "alt": "View source repository",
           "complete": true,
           "naturalWidth": 330,
@@ -13411,7 +12942,7 @@
           "bottom": 1767.5625,
           "width": 330,
           "height": 254,
-          "src": "http://127.0.0.1:57939/assets/projects/signbridge-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/signbridge-mobile.svg",
           "alt": "SignBridge 3D \u2014 gesture recognition and 3D avatars for accessible communication. Next.js, Gemini and MediaPipe.",
           "complete": true,
           "naturalWidth": 330,
@@ -13424,7 +12955,7 @@
           "bottom": 1827.5625,
           "width": 165,
           "height": 60,
-          "src": "http://127.0.0.1:57939/assets/projects/source-half-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/source-half-mobile.svg",
           "alt": "Open the SignBridge 3D repository",
           "complete": true,
           "naturalWidth": 165,
@@ -13437,7 +12968,7 @@
           "bottom": 1827.5625,
           "width": 165,
           "height": 60,
-          "src": "http://127.0.0.1:57939/assets/projects/demo-half-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/demo-half-mobile.svg",
           "alt": "Open the live SignBridge 3D demo",
           "complete": true,
           "naturalWidth": 165,
@@ -13450,7 +12981,7 @@
           "bottom": 2111.5625,
           "width": 330,
           "height": 254,
-          "src": "http://127.0.0.1:57939/assets/projects/mini-swiggy-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/mini-swiggy-mobile.svg",
           "alt": "Mini-Swiggy \u2014 concurrent orders, worker processes and safe file access in C. C, pthreads, TCP and IPC.",
           "complete": true,
           "naturalWidth": 330,
@@ -13463,7 +12994,7 @@
           "bottom": 2171.5625,
           "width": 330,
           "height": 60,
-          "src": "http://127.0.0.1:57939/assets/projects/source-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/source-mobile.svg",
           "alt": "View source repository",
           "complete": true,
           "naturalWidth": 330,
@@ -13476,7 +13007,7 @@
           "bottom": 2455.5625,
           "width": 330,
           "height": 254,
-          "src": "http://127.0.0.1:57939/assets/projects/aic-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/aic-mobile.svg",
           "alt": "AIC \u2014 OpenEnv incident-response environment with verifiable rewards and 0-1 task graders. FastAPI, OpenEnv, TRL GRPO, Unsloth.",
           "complete": true,
           "naturalWidth": 330,
@@ -13489,7 +13020,7 @@
           "bottom": 2515.5625,
           "width": 330,
           "height": 60,
-          "src": "http://127.0.0.1:57939/assets/projects/source-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/source-mobile.svg",
           "alt": "View source repository",
           "complete": true,
           "naturalWidth": 330,
@@ -13502,7 +13033,7 @@
           "bottom": 2611.78125,
           "width": 358,
           "height": 49.21875,
-          "src": "http://127.0.0.1:57939/assets/sections/toolkit-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/sections/toolkit-mobile.svg",
           "alt": "My toolkit",
           "complete": true,
           "naturalWidth": 320,
@@ -13515,7 +13046,7 @@
           "bottom": 3216.765625,
           "width": 358,
           "height": 583.984375,
-          "src": "http://127.0.0.1:57939/assets/editorial/toolkit-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/editorial/toolkit-mobile.svg",
           "alt": "Languages: Java, C++, C, Python, SQL, JavaScript. Frameworks: Spring Boot, React, Next.js, FastAPI. Tools and data: Docker, PostgreSQL, MySQL, Git, Linux, Postman.",
           "complete": true,
           "naturalWidth": 320,
@@ -13528,7 +13059,7 @@
           "bottom": 3295.984375,
           "width": 358,
           "height": 49.21875,
-          "src": "http://127.0.0.1:57939/assets/sections/on-github-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/sections/on-github-mobile.svg",
           "alt": "On GitHub",
           "complete": true,
           "naturalWidth": 320,
@@ -13541,7 +13072,7 @@
           "bottom": 3827.125,
           "width": 358,
           "height": 510.140625,
-          "src": "http://127.0.0.1:57939/assets/stats/overview-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/stats/overview-mobile.svg",
           "alt": "GitHub activity: Contributions and Active days. Public activity in the past 12 months, with update date. Repository languages: code-byte shares in owned public, non-fork project repositories, including Other.",
           "complete": true,
           "naturalWidth": 320,
@@ -13554,7 +13085,7 @@
           "bottom": 4041.546875,
           "width": 358,
           "height": 192.421875,
-          "src": "http://127.0.0.1:57939/assets/stats/contributions-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/stats/contributions-mobile.svg",
           "alt": "Contribution trail: the actual annual GitHub calendar in mint and charcoal, with the original snake animation. Empty days remain empty. Open the full graphic.",
           "complete": true,
           "naturalWidth": 320,
@@ -13567,7 +13098,7 @@
           "bottom": 4120.765625,
           "width": 358,
           "height": 49.21875,
-          "src": "http://127.0.0.1:57939/assets/sections/along-the-way-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/sections/along-the-way-mobile.svg",
           "alt": "Along the way",
           "complete": true,
           "naturalWidth": 320,
@@ -13580,7 +13111,7 @@
           "bottom": 4490.8125,
           "width": 358,
           "height": 349.046875,
-          "src": "http://127.0.0.1:57939/assets/milestones/strip-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/milestones/strip-mobile.svg",
           "alt": "HackXIOS 2K25: 7 / 2,300, Ranked 7th overall. Meta PyTorch OpenEnv: Finalist, 12,000+ teams \u00b7 2026. Novo Nordisk GBS: Pre-finalist, Hackathon 2025.",
           "complete": true,
           "naturalWidth": 320,
@@ -13593,7 +13124,7 @@
           "bottom": 4620.203125,
           "width": 358,
           "height": 107.390625,
-          "src": "http://127.0.0.1:57939/assets/editorial/footer-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/editorial/footer-mobile.svg",
           "alt": "> Always curious. Always building. Ctrl + Z is a lifestyle.",
           "complete": true,
           "naturalWidth": 320,
@@ -13739,6 +13270,473 @@
         "right": 0.0
       }
     },
+    "desktop-684-light": {
+      "article": {
+        "width": 684,
+        "height": 2706.90625
+      },
+      "images": [
+        {
+          "left": 0,
+          "right": 684,
+          "top": 0,
+          "bottom": 239.390625,
+          "width": 684,
+          "height": 239.390625,
+          "src": "http://127.0.0.1:58260/assets/header-dark.svg",
+          "alt": "/ KINGKK-007. Kanav Kumar. Backend. Systems. Applied AI. CSE @ IIIT Bangalore \u00b7 2028.",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 280
+        },
+        {
+          "left": 33.625,
+          "right": 153.625,
+          "top": 261.390625,
+          "bottom": 297.390625,
+          "width": 120,
+          "height": 36,
+          "src": "http://127.0.0.1:58260/assets/badges/linkedin.svg",
+          "alt": "LinkedIn",
+          "complete": true,
+          "naturalWidth": 120,
+          "naturalHeight": 36
+        },
+        {
+          "left": 157.8125,
+          "right": 277.8125,
+          "top": 261.390625,
+          "bottom": 297.390625,
+          "width": 120,
+          "height": 36,
+          "src": "http://127.0.0.1:58260/assets/badges/email.svg",
+          "alt": "Email Kanav",
+          "complete": true,
+          "naturalWidth": 120,
+          "naturalHeight": 36
+        },
+        {
+          "left": 282,
+          "right": 402,
+          "top": 261.390625,
+          "bottom": 297.390625,
+          "width": 120,
+          "height": 36,
+          "src": "http://127.0.0.1:58260/assets/badges/x.svg",
+          "alt": "X",
+          "complete": true,
+          "naturalWidth": 120,
+          "naturalHeight": 36
+        },
+        {
+          "left": 406.1875,
+          "right": 526.1875,
+          "top": 261.390625,
+          "bottom": 297.390625,
+          "width": 120,
+          "height": 36,
+          "src": "http://127.0.0.1:58260/assets/badges/instagram.svg",
+          "alt": "Instagram",
+          "complete": true,
+          "naturalWidth": 120,
+          "naturalHeight": 36
+        },
+        {
+          "left": 530.375,
+          "right": 650.375,
+          "top": 261.390625,
+          "bottom": 297.390625,
+          "width": 120,
+          "height": 36,
+          "src": "http://127.0.0.1:58260/assets/badges/dev.svg",
+          "alt": "DEV",
+          "complete": true,
+          "naturalWidth": 120,
+          "naturalHeight": 36
+        },
+        {
+          "left": 0,
+          "right": 684,
+          "top": 479.390625,
+          "bottom": 517,
+          "width": 684,
+          "height": 37.609375,
+          "src": "http://127.0.0.1:58260/assets/sections/selected-work-light.svg",
+          "alt": "Selected work",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 44
+        },
+        {
+          "left": 0,
+          "right": 684,
+          "top": 538,
+          "bottom": 818.4375,
+          "width": 684,
+          "height": 280.4375,
+          "src": "http://127.0.0.1:58260/assets/projects/pitchperfect.svg",
+          "alt": "Featured project: PitchPerfect. Mock interviews tailored to your r\u00e9sum\u00e9 and role, with live audio/video feedback and post-session reports. Desktop stack: Next.js, FastAPI, PostgreSQL, Redis, Docker, Gemini, Whisper; mobile: Next.js, FastAPI, PostgreSQL, Redis, Docker. Explore the repository.",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 328
+        },
+        {
+          "left": 14,
+          "right": 320,
+          "top": 847.4375,
+          "bottom": 1101.4375,
+          "width": 306,
+          "height": 254,
+          "src": "http://127.0.0.1:58260/assets/projects/smartcampus.svg",
+          "alt": "SmartCampus \u2014 course enrollment, notifications and campus events. Spring Boot, MySQL and Flyway.",
+          "complete": true,
+          "naturalWidth": 306,
+          "naturalHeight": 254
+        },
+        {
+          "left": 14,
+          "right": 320,
+          "top": 1101.4375,
+          "bottom": 1161.4375,
+          "width": 306,
+          "height": 60,
+          "src": "http://127.0.0.1:58260/assets/projects/source.svg",
+          "alt": "View source repository",
+          "complete": true,
+          "naturalWidth": 306,
+          "naturalHeight": 60
+        },
+        {
+          "left": 364,
+          "right": 670,
+          "top": 847.4375,
+          "bottom": 1101.4375,
+          "width": 306,
+          "height": 254,
+          "src": "http://127.0.0.1:58260/assets/projects/signbridge.svg",
+          "alt": "SignBridge 3D \u2014 gesture recognition and 3D avatars for accessible communication. Next.js, Gemini and MediaPipe.",
+          "complete": true,
+          "naturalWidth": 306,
+          "naturalHeight": 254
+        },
+        {
+          "left": 364,
+          "right": 517,
+          "top": 1101.4375,
+          "bottom": 1161.4375,
+          "width": 153,
+          "height": 60,
+          "src": "http://127.0.0.1:58260/assets/projects/source-half.svg",
+          "alt": "Open the SignBridge 3D repository",
+          "complete": true,
+          "naturalWidth": 153,
+          "naturalHeight": 60
+        },
+        {
+          "left": 517,
+          "right": 670,
+          "top": 1101.4375,
+          "bottom": 1161.4375,
+          "width": 153,
+          "height": 60,
+          "src": "http://127.0.0.1:58260/assets/projects/demo-half.svg",
+          "alt": "Open the live SignBridge 3D demo",
+          "complete": true,
+          "naturalWidth": 153,
+          "naturalHeight": 60
+        },
+        {
+          "left": 14,
+          "right": 320,
+          "top": 1191.4375,
+          "bottom": 1445.4375,
+          "width": 306,
+          "height": 254,
+          "src": "http://127.0.0.1:58260/assets/projects/mini-swiggy.svg",
+          "alt": "Mini-Swiggy \u2014 concurrent orders, worker processes and safe file access in C. C, pthreads, TCP and IPC.",
+          "complete": true,
+          "naturalWidth": 306,
+          "naturalHeight": 254
+        },
+        {
+          "left": 14,
+          "right": 320,
+          "top": 1445.4375,
+          "bottom": 1505.4375,
+          "width": 306,
+          "height": 60,
+          "src": "http://127.0.0.1:58260/assets/projects/source.svg",
+          "alt": "View source repository",
+          "complete": true,
+          "naturalWidth": 306,
+          "naturalHeight": 60
+        },
+        {
+          "left": 364,
+          "right": 670,
+          "top": 1191.4375,
+          "bottom": 1445.4375,
+          "width": 306,
+          "height": 254,
+          "src": "http://127.0.0.1:58260/assets/projects/aic.svg",
+          "alt": "AIC \u2014 OpenEnv incident-response environment with verifiable rewards and 0-1 task graders. FastAPI, OpenEnv, TRL GRPO, Unsloth.",
+          "complete": true,
+          "naturalWidth": 306,
+          "naturalHeight": 254
+        },
+        {
+          "left": 364,
+          "right": 670,
+          "top": 1445.4375,
+          "bottom": 1505.4375,
+          "width": 306,
+          "height": 60,
+          "src": "http://127.0.0.1:58260/assets/projects/source.svg",
+          "alt": "View source repository",
+          "complete": true,
+          "naturalWidth": 306,
+          "naturalHeight": 60
+        },
+        {
+          "left": 0,
+          "right": 684,
+          "top": 1552.4375,
+          "bottom": 1590.046875,
+          "width": 684,
+          "height": 37.609375,
+          "src": "http://127.0.0.1:58260/assets/sections/toolkit-light.svg",
+          "alt": "My toolkit",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 44
+        },
+        {
+          "left": 0,
+          "right": 684,
+          "top": 1611.046875,
+          "bottom": 1877.796875,
+          "width": 684,
+          "height": 266.75,
+          "src": "http://127.0.0.1:58260/assets/editorial/toolkit.svg",
+          "alt": "Languages: Java, C++, C, Python, SQL, JavaScript. Frameworks: Spring Boot, React, Next.js, FastAPI. Tools and data: Docker, PostgreSQL, MySQL, Git, Linux, Postman.",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 312
+        },
+        {
+          "left": 0,
+          "right": 684,
+          "top": 1907.796875,
+          "bottom": 1945.40625,
+          "width": 684,
+          "height": 37.609375,
+          "src": "http://127.0.0.1:58260/assets/sections/on-github-light.svg",
+          "alt": "On GitHub",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 44
+        },
+        {
+          "left": 0,
+          "right": 684,
+          "top": 1966.40625,
+          "bottom": 2175.015625,
+          "width": 684,
+          "height": 208.609375,
+          "src": "http://127.0.0.1:58260/assets/stats/overview.svg",
+          "alt": "GitHub activity: Contributions and Active days. Public activity in the past 12 months, with update date. Repository languages: code-byte shares in owned public, non-fork project repositories, including Other.",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 244
+        },
+        {
+          "left": 0,
+          "right": 684,
+          "top": 2197.015625,
+          "bottom": 2405.625,
+          "width": 684,
+          "height": 208.609375,
+          "src": "http://127.0.0.1:58260/assets/stats/contributions.svg",
+          "alt": "Contribution trail: the actual annual GitHub calendar in mint and charcoal, with the original snake animation. Empty days remain empty. Open the full graphic.",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 244
+        },
+        {
+          "left": 0,
+          "right": 684,
+          "top": 2435.625,
+          "bottom": 2473.234375,
+          "width": 684,
+          "height": 37.609375,
+          "src": "http://127.0.0.1:58260/assets/sections/along-the-way-light.svg",
+          "alt": "Along the way",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 44
+        },
+        {
+          "left": 0,
+          "right": 684,
+          "top": 2494.234375,
+          "bottom": 2596.828125,
+          "width": 684,
+          "height": 102.59375,
+          "src": "http://127.0.0.1:58260/assets/milestones/strip.svg",
+          "alt": "HackXIOS 2K25: 7 / 2,300, Ranked 7th overall. Meta PyTorch OpenEnv: Finalist, 12,000+ teams \u00b7 2026. Novo Nordisk GBS: Pre-finalist, Hackathon 2025.",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 120
+        },
+        {
+          "left": 0,
+          "right": 684,
+          "top": 2618.828125,
+          "bottom": 2700.90625,
+          "width": 684,
+          "height": 82.078125,
+          "src": "http://127.0.0.1:58260/assets/editorial/footer.svg",
+          "alt": "> Always curious. Always building. Ctrl + Z is a lifestyle.",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 96
+        }
+      ],
+      "headings": [
+        {
+          "left": 0,
+          "right": 684,
+          "top": 479.390625,
+          "bottom": 522,
+          "width": 684,
+          "height": 42.609375,
+          "tag": "H3",
+          "text": "\n  \n    \n    \n    \n    \n    \n    \n    \n  \n"
+        },
+        {
+          "left": 0,
+          "right": 684,
+          "top": 1552.4375,
+          "bottom": 1595.046875,
+          "width": 684,
+          "height": 42.609375,
+          "tag": "H3",
+          "text": "\n  \n    \n    \n    \n    \n    \n    \n    \n  \n"
+        },
+        {
+          "left": 0,
+          "right": 684,
+          "top": 1907.796875,
+          "bottom": 1950.40625,
+          "width": 684,
+          "height": 42.609375,
+          "tag": "H3",
+          "text": "\n  \n    \n    \n    \n    \n    \n    \n    \n  \n"
+        },
+        {
+          "left": 0,
+          "right": 684,
+          "top": 2435.625,
+          "bottom": 2478.234375,
+          "width": 684,
+          "height": 42.609375,
+          "tag": "H3",
+          "text": "\n  \n    \n    \n    \n    \n    \n    \n    \n  \n"
+        }
+      ],
+      "tables": [
+        {
+          "left": 0,
+          "right": 334,
+          "top": 840.4375,
+          "bottom": 1168.4375,
+          "width": 334,
+          "height": 328
+        },
+        {
+          "left": 350,
+          "right": 684,
+          "top": 840.4375,
+          "bottom": 1168.4375,
+          "width": 334,
+          "height": 328
+        },
+        {
+          "left": 0,
+          "right": 334,
+          "top": 1184.4375,
+          "bottom": 1512.4375,
+          "width": 334,
+          "height": 328
+        },
+        {
+          "left": 350,
+          "right": 684,
+          "top": 1184.4375,
+          "bottom": 1512.4375,
+          "width": 334,
+          "height": 328
+        }
+      ],
+      "social_rows": [
+        {
+          "top": 261.390625,
+          "count": 5
+        }
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "failed_images": [],
+      "layout_issues": [],
+      "full_panel_frames": [
+        {
+          "asset": "assets/header-dark.svg",
+          "left": 0.0,
+          "right": 684.0,
+          "image_width": 684
+        },
+        {
+          "asset": "assets/projects/pitchperfect.svg",
+          "left": 0.0,
+          "right": 684.0,
+          "image_width": 684
+        },
+        {
+          "asset": "assets/editorial/toolkit.svg",
+          "left": 0.0,
+          "right": 684.0,
+          "image_width": 684
+        },
+        {
+          "asset": "assets/stats/overview.svg",
+          "left": 0.0,
+          "right": 684.0,
+          "image_width": 684
+        },
+        {
+          "asset": "assets/stats/contributions.svg",
+          "left": 0.0,
+          "right": 684.0,
+          "image_width": 684
+        },
+        {
+          "asset": "assets/milestones/strip.svg",
+          "left": 0.0,
+          "right": 684.0,
+          "image_width": 684
+        },
+        {
+          "asset": "assets/editorial/footer.svg",
+          "left": 0.0,
+          "right": 684.0,
+          "image_width": 684
+        }
+      ],
+      "full_panel_edge_spread": {
+        "left": 0.0,
+        "right": 0.0
+      }
+    },
     "mobile-390-light": {
       "article": {
         "width": 390,
@@ -13752,7 +13750,7 @@
           "bottom": 351,
           "width": 390,
           "height": 351,
-          "src": "http://127.0.0.1:57939/assets/header-dark-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/header-dark-mobile.svg",
           "alt": "/ KINGKK-007. Kanav Kumar. Backend. Systems. Applied AI. CSE @ IIIT Bangalore \u00b7 2028.",
           "complete": true,
           "naturalWidth": 320,
@@ -13765,7 +13763,7 @@
           "bottom": 406.640625,
           "width": 112.125,
           "height": 33.640625,
-          "src": "http://127.0.0.1:57939/assets/badges/linkedin.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/linkedin.svg",
           "alt": "LinkedIn",
           "complete": true,
           "naturalWidth": 112,
@@ -13778,7 +13776,7 @@
           "bottom": 406.640625,
           "width": 112.125,
           "height": 33.640625,
-          "src": "http://127.0.0.1:57939/assets/badges/email.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/email.svg",
           "alt": "Email Kanav",
           "complete": true,
           "naturalWidth": 112,
@@ -13791,7 +13789,7 @@
           "bottom": 406.640625,
           "width": 112.125,
           "height": 33.640625,
-          "src": "http://127.0.0.1:57939/assets/badges/x.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/x.svg",
           "alt": "X",
           "complete": true,
           "naturalWidth": 112,
@@ -13804,7 +13802,7 @@
           "bottom": 446.28125,
           "width": 112.125,
           "height": 33.640625,
-          "src": "http://127.0.0.1:57939/assets/badges/instagram.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/instagram.svg",
           "alt": "Instagram",
           "complete": true,
           "naturalWidth": 112,
@@ -13817,7 +13815,7 @@
           "bottom": 446.28125,
           "width": 112.125,
           "height": 33.640625,
-          "src": "http://127.0.0.1:57939/assets/badges/dev.svg",
+          "src": "http://127.0.0.1:58260/assets/badges/dev.svg",
           "alt": "DEV",
           "complete": true,
           "naturalWidth": 112,
@@ -13830,7 +13828,7 @@
           "bottom": 729.90625,
           "width": 390,
           "height": 53.625,
-          "src": "http://127.0.0.1:57939/assets/sections/selected-work-light-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/sections/selected-work-light-mobile.svg",
           "alt": "Selected work",
           "complete": true,
           "naturalWidth": 320,
@@ -13843,7 +13841,7 @@
           "bottom": 1211.59375,
           "width": 390,
           "height": 460.6875,
-          "src": "http://127.0.0.1:57939/assets/projects/pitchperfect-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/pitchperfect-mobile.svg",
           "alt": "Featured project: PitchPerfect. Mock interviews tailored to your r\u00e9sum\u00e9 and role, with live audio/video feedback and post-session reports. Desktop stack: Next.js, FastAPI, PostgreSQL, Redis, Docker, Gemini, Whisper; mobile: Next.js, FastAPI, PostgreSQL, Redis, Docker. Explore the repository.",
           "complete": true,
           "naturalWidth": 320,
@@ -13856,7 +13854,7 @@
           "bottom": 1494.59375,
           "width": 330,
           "height": 254,
-          "src": "http://127.0.0.1:57939/assets/projects/smartcampus-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/smartcampus-mobile.svg",
           "alt": "SmartCampus \u2014 course enrollment, notifications and campus events. Spring Boot, MySQL and Flyway.",
           "complete": true,
           "naturalWidth": 330,
@@ -13869,7 +13867,7 @@
           "bottom": 1554.59375,
           "width": 330,
           "height": 60,
-          "src": "http://127.0.0.1:57939/assets/projects/source-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/source-mobile.svg",
           "alt": "View source repository",
           "complete": true,
           "naturalWidth": 330,
@@ -13882,7 +13880,7 @@
           "bottom": 1838.59375,
           "width": 330,
           "height": 254,
-          "src": "http://127.0.0.1:57939/assets/projects/signbridge-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/signbridge-mobile.svg",
           "alt": "SignBridge 3D \u2014 gesture recognition and 3D avatars for accessible communication. Next.js, Gemini and MediaPipe.",
           "complete": true,
           "naturalWidth": 330,
@@ -13895,7 +13893,7 @@
           "bottom": 1898.59375,
           "width": 165,
           "height": 60,
-          "src": "http://127.0.0.1:57939/assets/projects/source-half-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/source-half-mobile.svg",
           "alt": "Open the SignBridge 3D repository",
           "complete": true,
           "naturalWidth": 165,
@@ -13908,7 +13906,7 @@
           "bottom": 1898.59375,
           "width": 165,
           "height": 60,
-          "src": "http://127.0.0.1:57939/assets/projects/demo-half-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/demo-half-mobile.svg",
           "alt": "Open the live SignBridge 3D demo",
           "complete": true,
           "naturalWidth": 165,
@@ -13921,7 +13919,7 @@
           "bottom": 2182.59375,
           "width": 330,
           "height": 254,
-          "src": "http://127.0.0.1:57939/assets/projects/mini-swiggy-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/mini-swiggy-mobile.svg",
           "alt": "Mini-Swiggy \u2014 concurrent orders, worker processes and safe file access in C. C, pthreads, TCP and IPC.",
           "complete": true,
           "naturalWidth": 330,
@@ -13934,7 +13932,7 @@
           "bottom": 2242.59375,
           "width": 330,
           "height": 60,
-          "src": "http://127.0.0.1:57939/assets/projects/source-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/source-mobile.svg",
           "alt": "View source repository",
           "complete": true,
           "naturalWidth": 330,
@@ -13947,7 +13945,7 @@
           "bottom": 2526.59375,
           "width": 330,
           "height": 254,
-          "src": "http://127.0.0.1:57939/assets/projects/aic-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/aic-mobile.svg",
           "alt": "AIC \u2014 OpenEnv incident-response environment with verifiable rewards and 0-1 task graders. FastAPI, OpenEnv, TRL GRPO, Unsloth.",
           "complete": true,
           "naturalWidth": 330,
@@ -13960,7 +13958,7 @@
           "bottom": 2586.59375,
           "width": 330,
           "height": 60,
-          "src": "http://127.0.0.1:57939/assets/projects/source-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/projects/source-mobile.svg",
           "alt": "View source repository",
           "complete": true,
           "naturalWidth": 330,
@@ -13973,7 +13971,7 @@
           "bottom": 2687.21875,
           "width": 390,
           "height": 53.625,
-          "src": "http://127.0.0.1:57939/assets/sections/toolkit-light-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/sections/toolkit-light-mobile.svg",
           "alt": "My toolkit",
           "complete": true,
           "naturalWidth": 320,
@@ -13986,7 +13984,7 @@
           "bottom": 3344.40625,
           "width": 390,
           "height": 636.1875,
-          "src": "http://127.0.0.1:57939/assets/editorial/toolkit-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/editorial/toolkit-mobile.svg",
           "alt": "Languages: Java, C++, C, Python, SQL, JavaScript. Frameworks: Spring Boot, React, Next.js, FastAPI. Tools and data: Docker, PostgreSQL, MySQL, Git, Linux, Postman.",
           "complete": true,
           "naturalWidth": 320,
@@ -13999,7 +13997,7 @@
           "bottom": 3428.03125,
           "width": 390,
           "height": 53.625,
-          "src": "http://127.0.0.1:57939/assets/sections/on-github-light-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/sections/on-github-light-mobile.svg",
           "alt": "On GitHub",
           "complete": true,
           "naturalWidth": 320,
@@ -14012,7 +14010,7 @@
           "bottom": 4004.78125,
           "width": 390,
           "height": 555.75,
-          "src": "http://127.0.0.1:57939/assets/stats/overview-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/stats/overview-mobile.svg",
           "alt": "GitHub activity: Contributions and Active days. Public activity in the past 12 months, with update date. Repository languages: code-byte shares in owned public, non-fork project repositories, including Other.",
           "complete": true,
           "naturalWidth": 320,
@@ -14025,7 +14023,7 @@
           "bottom": 4236.40625,
           "width": 390,
           "height": 209.625,
-          "src": "http://127.0.0.1:57939/assets/stats/contributions-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/stats/contributions-mobile.svg",
           "alt": "Contribution trail: the actual annual GitHub calendar in mint and charcoal, with the original snake animation. Empty days remain empty. Open the full graphic.",
           "complete": true,
           "naturalWidth": 320,
@@ -14038,7 +14036,7 @@
           "bottom": 4320.03125,
           "width": 390,
           "height": 53.625,
-          "src": "http://127.0.0.1:57939/assets/sections/along-the-way-light-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/sections/along-the-way-light-mobile.svg",
           "alt": "Along the way",
           "complete": true,
           "naturalWidth": 320,
@@ -14051,7 +14049,7 @@
           "bottom": 4721.28125,
           "width": 390,
           "height": 380.25,
-          "src": "http://127.0.0.1:57939/assets/milestones/strip-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/milestones/strip-mobile.svg",
           "alt": "HackXIOS 2K25: 7 / 2,300, Ranked 7th overall. Meta PyTorch OpenEnv: Finalist, 12,000+ teams \u00b7 2026. Novo Nordisk GBS: Pre-finalist, Hackathon 2025.",
           "complete": true,
           "naturalWidth": 320,
@@ -14064,7 +14062,7 @@
           "bottom": 4860.28125,
           "width": 390,
           "height": 117,
-          "src": "http://127.0.0.1:57939/assets/editorial/footer-mobile.svg",
+          "src": "http://127.0.0.1:58260/assets/editorial/footer-mobile.svg",
           "alt": "> Always curious. Always building. Ctrl + Z is a lifestyle.",
           "complete": true,
           "naturalWidth": 320,
@@ -14213,11 +14211,11 @@
   },
   "readme_image_count": 25,
   "readme_asset_count": 78,
-  "markup_sha256": "b03a92a76ae473e334b2e1b3528a9853b6b53d9df8bded60b5d2183572f070e3",
+  "markup_sha256": "f2065d10fcc7860871b59291ad7c0820ccb911395342fd79f757a9daa7bb1912",
   "desktop_payload": {
     "baseline_bytes": 615755,
     "maximum_bytes": 677330,
-    "unique_bytes": 656654,
+    "unique_bytes": 656768,
     "unique_paths": [
       "assets/badges/dev.svg",
       "assets/badges/email.svg",
@@ -14243,7 +14241,7 @@
       "assets/stats/contributions.svg",
       "assets/stats/overview.svg"
     ],
-    "reference_bytes": 666304,
+    "reference_bytes": 666418,
     "references": [
       {
         "image_index": 0,
@@ -14278,7 +14276,7 @@
       {
         "image_index": 6,
         "path": "assets/sections/selected-work.svg",
-        "bytes": 4682
+        "bytes": 4623
       },
       {
         "image_index": 7,
@@ -14333,7 +14331,7 @@
       {
         "image_index": 17,
         "path": "assets/sections/toolkit.svg",
-        "bytes": 3208
+        "bytes": 3332
       },
       {
         "image_index": 18,
@@ -14343,7 +14341,7 @@
       {
         "image_index": 19,
         "path": "assets/sections/on-github.svg",
-        "bytes": 3595
+        "bytes": 3643
       },
       {
         "image_index": 20,
@@ -14358,7 +14356,7 @@
       {
         "image_index": 22,
         "path": "assets/sections/along-the-way.svg",
-        "bytes": 3998
+        "bytes": 3999
       },
       {
         "image_index": 23,
@@ -14443,30 +14441,30 @@
     "assets/projects/source-mobile.svg": 4825,
     "assets/projects/source-narrow.svg": 4825,
     "assets/projects/source.svg": 4825,
-    "assets/sections/along-the-way-compact.svg": 3998,
-    "assets/sections/along-the-way-light-compact.svg": 3998,
-    "assets/sections/along-the-way-light-mobile.svg": 3992,
-    "assets/sections/along-the-way-light.svg": 3998,
-    "assets/sections/along-the-way-mobile.svg": 3992,
-    "assets/sections/along-the-way.svg": 3998,
-    "assets/sections/on-github-compact.svg": 3595,
-    "assets/sections/on-github-light-compact.svg": 3595,
-    "assets/sections/on-github-light-mobile.svg": 3592,
-    "assets/sections/on-github-light.svg": 3595,
-    "assets/sections/on-github-mobile.svg": 3592,
-    "assets/sections/on-github.svg": 3595,
-    "assets/sections/selected-work-compact.svg": 4682,
-    "assets/sections/selected-work-light-compact.svg": 4682,
-    "assets/sections/selected-work-light-mobile.svg": 4676,
-    "assets/sections/selected-work-light.svg": 4682,
-    "assets/sections/selected-work-mobile.svg": 4676,
-    "assets/sections/selected-work.svg": 4682,
-    "assets/sections/toolkit-compact.svg": 3208,
-    "assets/sections/toolkit-light-compact.svg": 3208,
-    "assets/sections/toolkit-light-mobile.svg": 3205,
-    "assets/sections/toolkit-light.svg": 3208,
-    "assets/sections/toolkit-mobile.svg": 3205,
-    "assets/sections/toolkit.svg": 3208,
+    "assets/sections/along-the-way-compact.svg": 4035,
+    "assets/sections/along-the-way-light-compact.svg": 4035,
+    "assets/sections/along-the-way-light-mobile.svg": 3987,
+    "assets/sections/along-the-way-light.svg": 3999,
+    "assets/sections/along-the-way-mobile.svg": 3987,
+    "assets/sections/along-the-way.svg": 3999,
+    "assets/sections/on-github-compact.svg": 3643,
+    "assets/sections/on-github-light-compact.svg": 3643,
+    "assets/sections/on-github-light-mobile.svg": 3655,
+    "assets/sections/on-github-light.svg": 3643,
+    "assets/sections/on-github-mobile.svg": 3655,
+    "assets/sections/on-github.svg": 3643,
+    "assets/sections/selected-work-compact.svg": 4659,
+    "assets/sections/selected-work-light-compact.svg": 4659,
+    "assets/sections/selected-work-light-mobile.svg": 4611,
+    "assets/sections/selected-work-light.svg": 4623,
+    "assets/sections/selected-work-mobile.svg": 4611,
+    "assets/sections/selected-work.svg": 4623,
+    "assets/sections/toolkit-compact.svg": 3332,
+    "assets/sections/toolkit-light-compact.svg": 3332,
+    "assets/sections/toolkit-light-mobile.svg": 3332,
+    "assets/sections/toolkit-light.svg": 3332,
+    "assets/sections/toolkit-mobile.svg": 3332,
+    "assets/sections/toolkit.svg": 3332,
     "assets/snake.svg": 30959,
     "assets/stats/contributions-compact.svg": 63122,
     "assets/stats/contributions-mobile.svg": 53320,
@@ -14476,56 +14474,6 @@
     "assets/stats/overview.svg": 89770
   },
   "rendered_assets": [
-    "assets/projects/aic-compact.svg",
-    "assets/projects/aic-mobile.svg",
-    "assets/projects/demo-half-compact.svg",
-    "assets/projects/demo-half-mobile.svg",
-    "assets/projects/mini-swiggy-compact.svg",
-    "assets/projects/mini-swiggy-mobile.svg",
-    "assets/projects/signbridge-compact.svg",
-    "assets/projects/signbridge-mobile.svg",
-    "assets/projects/smartcampus-compact.svg",
-    "assets/projects/smartcampus-mobile.svg",
-    "assets/projects/source-compact.svg",
-    "assets/projects/source-half-compact.svg",
-    "assets/projects/source-half-mobile.svg",
-    "assets/projects/source-mobile.svg"
-  ],
-  "reused_assets": [
-    "assets/badges/dev.svg",
-    "assets/badges/email.svg",
-    "assets/badges/instagram.svg",
-    "assets/badges/linkedin.svg",
-    "assets/badges/x.svg",
-    "assets/editorial/footer-compact.svg",
-    "assets/editorial/footer-mobile.svg",
-    "assets/editorial/footer.svg",
-    "assets/editorial/toolkit-compact.svg",
-    "assets/editorial/toolkit-mobile.svg",
-    "assets/editorial/toolkit.svg",
-    "assets/header-dark-compact.svg",
-    "assets/header-dark-mobile.svg",
-    "assets/header-dark.svg",
-    "assets/milestones/strip-compact.svg",
-    "assets/milestones/strip-mobile.svg",
-    "assets/milestones/strip.svg",
-    "assets/projects/aic-narrow.svg",
-    "assets/projects/aic.svg",
-    "assets/projects/demo-half-narrow.svg",
-    "assets/projects/demo-half.svg",
-    "assets/projects/mini-swiggy-narrow.svg",
-    "assets/projects/mini-swiggy.svg",
-    "assets/projects/pitchperfect-compact.svg",
-    "assets/projects/pitchperfect-mobile.svg",
-    "assets/projects/pitchperfect.svg",
-    "assets/projects/signbridge-narrow.svg",
-    "assets/projects/signbridge.svg",
-    "assets/projects/smartcampus-narrow.svg",
-    "assets/projects/smartcampus.svg",
-    "assets/projects/source-half-narrow.svg",
-    "assets/projects/source-half.svg",
-    "assets/projects/source-narrow.svg",
-    "assets/projects/source.svg",
     "assets/sections/along-the-way-compact.svg",
     "assets/sections/along-the-way-light-compact.svg",
     "assets/sections/along-the-way-light-mobile.svg",
@@ -14549,7 +14497,57 @@
     "assets/sections/toolkit-light-mobile.svg",
     "assets/sections/toolkit-light.svg",
     "assets/sections/toolkit-mobile.svg",
-    "assets/sections/toolkit.svg",
+    "assets/sections/toolkit.svg"
+  ],
+  "reused_assets": [
+    "assets/badges/dev.svg",
+    "assets/badges/email.svg",
+    "assets/badges/instagram.svg",
+    "assets/badges/linkedin.svg",
+    "assets/badges/x.svg",
+    "assets/editorial/footer-compact.svg",
+    "assets/editorial/footer-mobile.svg",
+    "assets/editorial/footer.svg",
+    "assets/editorial/toolkit-compact.svg",
+    "assets/editorial/toolkit-mobile.svg",
+    "assets/editorial/toolkit.svg",
+    "assets/header-dark-compact.svg",
+    "assets/header-dark-mobile.svg",
+    "assets/header-dark.svg",
+    "assets/milestones/strip-compact.svg",
+    "assets/milestones/strip-mobile.svg",
+    "assets/milestones/strip.svg",
+    "assets/projects/aic-compact.svg",
+    "assets/projects/aic-mobile.svg",
+    "assets/projects/aic-narrow.svg",
+    "assets/projects/aic.svg",
+    "assets/projects/demo-half-compact.svg",
+    "assets/projects/demo-half-mobile.svg",
+    "assets/projects/demo-half-narrow.svg",
+    "assets/projects/demo-half.svg",
+    "assets/projects/mini-swiggy-compact.svg",
+    "assets/projects/mini-swiggy-mobile.svg",
+    "assets/projects/mini-swiggy-narrow.svg",
+    "assets/projects/mini-swiggy.svg",
+    "assets/projects/pitchperfect-compact.svg",
+    "assets/projects/pitchperfect-mobile.svg",
+    "assets/projects/pitchperfect.svg",
+    "assets/projects/signbridge-compact.svg",
+    "assets/projects/signbridge-mobile.svg",
+    "assets/projects/signbridge-narrow.svg",
+    "assets/projects/signbridge.svg",
+    "assets/projects/smartcampus-compact.svg",
+    "assets/projects/smartcampus-mobile.svg",
+    "assets/projects/smartcampus-narrow.svg",
+    "assets/projects/smartcampus.svg",
+    "assets/projects/source-compact.svg",
+    "assets/projects/source-half-compact.svg",
+    "assets/projects/source-half-mobile.svg",
+    "assets/projects/source-half-narrow.svg",
+    "assets/projects/source-half.svg",
+    "assets/projects/source-mobile.svg",
+    "assets/projects/source-narrow.svg",
+    "assets/projects/source.svg",
     "assets/stats/contributions-compact.svg",
     "assets/stats/contributions-mobile.svg",
     "assets/stats/contributions.svg",
@@ -14559,17 +14557,16 @@
   ],
   "rendered_cases": [
     "compact-600",
+    "desktop-684",
+    "desktop-684-light",
     "mobile-358",
     "mobile-390",
     "mobile-390-light"
   ],
-  "reused_cases": [
-    "desktop-684",
-    "desktop-684-light"
-  ],
+  "reused_cases": [],
   "reuse_source": {
-    "path": "/Users/kanavkumar/Desktop/KINGKK-007/docs/preview-v2/final/full-pass-geometry.json",
-    "readme_sha256": "f49b664dac20db76ac3f790d6531001dc601207bf68adb5af5ba71b819f6817b"
+    "path": "/Users/kanavkumar/Desktop/KINGKK-007/docs/preview-v2/final/geometry-before-focused-8e4c98ab4a88.json",
+    "readme_sha256": "57b8d1637654b9f33e31749900dd640c0d81ed819ba9008f264bebf1d2f35841"
   },
   "animation_checks": {
     "assets/editorial/footer-compact.svg": {
