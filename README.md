@@ -122,6 +122,10 @@
 </p>
 
 <p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KINGKK-007&layout=compact&theme=transparent&title_color=9bd8bc&text_color=a7b2bc&bg_color=0d1117&border_color=28352f&langs_count=8&hide_border=false" alt="Most used languages" />
+</p>
+
+<p align="center">
   <a href="https://raw.githubusercontent.com/KINGKK-007/KINGKK-007/main/assets/stats/contributions.svg">
     <picture>
       <source media="(max-width: 480px)" srcset="./assets/stats/contributions-mobile.svg" />
