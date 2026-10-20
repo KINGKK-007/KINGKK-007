@@ -7,6 +7,12 @@
 </p>
 
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=KINGKK-007&style=flat-square&color=9bd8bc&label=profile+views" alt="Profile views" />
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/open%20to-opportunities-9bd8bc?style=flat-square&logo=handshake&logoColor=0d1117" alt="Open to opportunities" />
+</p>
+
+<p align="center">
   <a href="https://www.linkedin.com/in/kanavkumar007/" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/linkedin.svg?v=505c4fa886" alt="LinkedIn" height="36" /></a>
   <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kumarkanav1510%40gmail.com&amp;su=Hey%20Kanav%21" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/email.svg?v=f4e08e08c0" alt="Email Kanav" height="36" /></a>
   <a href="https://x.com/KanavKumar007" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/x.svg?v=2f74b3a056" alt="X" height="36" /></a>
