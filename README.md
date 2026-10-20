@@ -21,14 +21,13 @@
 </p>
 
 <p align="center">
-  Hey, I'm Kanav, a <strong>Computer Science undergrad at IIIT Bangalore ('28)</strong>.<br />
-  I build software and explore <strong>AI/ML, systems and backend engineering</strong>,<br />
-  usually by asking what happens under the hood.
+  Hey, I’m Kanav — a <strong>Computer Science undergrad at IIIT Bangalore ('28)</strong>.<br />
+  I build software and dig into <strong>AI/ML, systems and backend engineering</strong>,<br />
+  always asking <em>what’s actually happening under the hood.</em>
 </p>
 
 <p align="center">
-  Away from the keyboard: cricket, gym, travelling.<br />
-  Usually followed by “just one more episode.”
+  <sub>🏏 cricket &nbsp;·&nbsp; 🏋️ gym &nbsp;·&nbsp; ✈️ travelling &nbsp;·&nbsp; 📺 “just one more episode”</sub>
 </p>
 
 <h3 align="center">
