@@ -31,6 +31,10 @@
 </p>
 
 <p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Random dev quote" width="100%" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/currently%20building-Spring%20Boot-6db33f?style=flat-square&logo=spring-boot&logoColor=white" alt="Spring Boot" />
   <img src="https://img.shields.io/badge/currently%20building-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/exploring-LLM%20Infra-a259ff?style=flat-square&logo=openai&logoColor=white" alt="LLM Infra" />
