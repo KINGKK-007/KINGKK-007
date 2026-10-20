@@ -17,14 +17,18 @@
 </p>
 
 <p align="center">
-  <sub>— find me on —</sub>
+  <sub>— connect with me —</sub>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/kanavkumar007/" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/linkedin.svg?v=505c4fa886" alt="LinkedIn" height="36" /></a>
+  &nbsp;&nbsp;
   <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kumarkanav1510%40gmail.com&amp;su=Hey%20Kanav%21" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/email.svg?v=f4e08e08c0" alt="Email Kanav" height="36" /></a>
+  &nbsp;&nbsp;
   <a href="https://x.com/KanavKumar007" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/x.svg?v=2f74b3a056" alt="X" height="36" /></a>
+  &nbsp;&nbsp;
   <a href="https://www.instagram.com/kanavvkumarr" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/instagram.svg?v=b8e94557f2" alt="Instagram" height="36" /></a>
+  &nbsp;&nbsp;
   <a href="https://dev.to/kingkk007" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/dev.svg?v=e35b840fee" alt="DEV" height="36" /></a>
 </p>
 
