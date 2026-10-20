@@ -165,10 +165,16 @@
   <sub>🏆 hackathons &nbsp;·&nbsp; ranked, finaled, pre-finaled</sub>
 </p>
 
+<br />
+
 <p align="center">
   <picture>
     <source media="(max-width: 480px)" srcset="./assets/editorial/footer-mobile.svg?v=20b87c684f" />
     <source media="(max-width: 1100px)" srcset="./assets/editorial/footer-compact.svg?v=b20c57d013" />
     <img src="./assets/editorial/footer.svg?v=74c87dd0f6" alt="Always curious. Always building." width="100%" />
   </picture>
+</p>
+
+<p align="center">
+  <sub>made with ☕ · <a href="https://github.com/KINGKK-007">KINGKK-007</a></sub>
 </p>
