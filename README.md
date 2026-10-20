@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 <p align="center">
 <picture>
   <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/header-dark-mobile.svg?v=4b7921806c" />
@@ -198,5 +200,5 @@
 </p>
 
 <p align="center">
-  <sub>made with ☕ · <a href="https://github.com/KINGKK-007">KINGKK-007</a></sub>
+  <sub>crafted with ☕ &nbsp;·&nbsp; <a href="https://github.com/KINGKK-007">@KINGKK-007</a> &nbsp;·&nbsp; <a href="#top">back to top ↑</a></sub>
 </p>
