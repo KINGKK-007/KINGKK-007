@@ -114,6 +114,10 @@
 </h3>
 
 <p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=KINGKK-007&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7" alt="GitHub Trophies" width="100%" />
+</p>
+
+<p align="center">
   <picture>
     <source media="(max-width: 480px)" srcset="./assets/stats/overview-mobile.svg" />
     <source media="(max-width: 1100px)" srcset="./assets/stats/overview-compact.svg" />
