@@ -159,7 +159,7 @@
 
 <p align="center">
   <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=KINGKK-007&theme=dark&background=0d1117&border=28352f&ring=9bd8bc&fire=9bd8bc&currStreakNum=e6edf3&sideNums=a7b2bc&currStreakLabel=9bd8bc&sideLabels=a7b2bc&dates=a7b2bc&hide_border=false" alt="GitHub Streak" width="100%" />
+    <img src="https://streak-stats.demolab.com?user=KINGKK-007&theme=dark&background=0d1117&border=28352f&ring=9bd8bc&fire=9bd8bc&currStreakNum=e6edf3&sideNums=a7b2bc&currStreakLabel=9bd8bc&sideLabels=a7b2bc&dates=a7b2bc&hide_border=false" alt="GitHub Streak" />
   </a>
 </p>
 
