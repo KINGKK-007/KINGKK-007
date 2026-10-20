@@ -132,7 +132,7 @@
 </h3>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=KINGKK-007&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7" alt="GitHub Trophies" width="100%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=KINGKK-007&show_icons=true&theme=transparent&title_color=9bd8bc&text_color=a7b2bc&icon_color=9bd8bc&bg_color=0d1117&border_color=28352f&hide_border=false" alt="GitHub Stats" />
 </p>
 
 <p align="center">
