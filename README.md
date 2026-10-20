@@ -1,7 +1,11 @@
 <p align="center">
 <picture>
-  <source media="(max-width: 480px)" srcset="./assets/header-dark-mobile.svg?v=4b7921806c" />
-  <source media="(max-width: 1100px)" srcset="./assets/header-dark-compact.svg?v=8adb9a37dd" />
+  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/header-dark-mobile.svg?v=4b7921806c" />
+  <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/header-light-mobile.svg?v=4b7921806c" />
+  <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/header-dark-compact.svg?v=8adb9a37dd" />
+  <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/header-light-compact.svg?v=8adb9a37dd" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg?v=373a9d3476" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg?v=373a9d3476" />
   <img src="./assets/header-dark.svg?v=373a9d3476" alt="Kanav Kumar — Ghost in the Terminal. Backend engineering, systems and applied AI. CS at IIIT Bangalore, class of 2028." width="100%" />
 </picture>
 </p>
