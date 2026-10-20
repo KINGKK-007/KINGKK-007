@@ -176,9 +176,9 @@
 </h3>
 
 <p align="center">
-  <img src="./assets/milestones/hackxios.svg?v=2d7aa7390f" alt="HackXIOS 2K25 — ranked 7th out of 2,300" width="260" />
+  <a href="https://github.com/Jdsb06/SmartCampus"><img src="./assets/milestones/hackxios.svg?v=2d7aa7390f" alt="HackXIOS 2K25 — ranked 7th out of 2,300" width="260" /></a>
   &nbsp;&nbsp;&nbsp;
-  <img src="./assets/milestones/openenv.svg?v=be621bb302" alt="Meta PyTorch OpenEnv Hackathon 2026 — finalist among 12,000+ teams" width="260" />
+  <a href="https://github.com/COolAlien35/AIC"><img src="./assets/milestones/openenv.svg?v=be621bb302" alt="Meta PyTorch OpenEnv Hackathon 2026 — finalist among 12,000+ teams" width="260" /></a>
   &nbsp;&nbsp;&nbsp;
   <img src="./assets/milestones/novo-nordisk.svg?v=411f8f4c18" alt="Novo Nordisk GBS Hackathon 2025 — pre-finalist" width="260" />
 </p>
