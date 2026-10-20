@@ -13,7 +13,7 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=KINGKK-007&style=flat-square&color=9bd8bc&label=profile+views" alt="Profile views" />
   &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/open%20to-opportunities-9bd8bc?style=flat-square&logo=handshake&logoColor=0d1117" alt="Open to opportunities" />
+  <img src="https://img.shields.io/badge/open%20to-opportunities-9bd8bc?style=flat-square&logo=handshake&logoColor=0d1117&labelColor=131c17" alt="Open to opportunities" />
 </p>
 
 <p align="center">
