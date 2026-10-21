@@ -2,24 +2,14 @@
 
 <p align="center">
 <picture>
-  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/header-dark-mobile.svg?v=4b7921806c" />
-  <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/header-light-mobile.svg?v=4b7921806c" />
-  <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/header-dark-compact.svg?v=8adb9a37dd" />
-  <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/header-light-compact.svg?v=8adb9a37dd" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg?v=373a9d3476" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg?v=373a9d3476" />
-  <img src="./assets/header-dark.svg?v=373a9d3476" alt="Kanav Kumar — Ghost in the Terminal. Backend engineering, systems and applied AI. CS at IIIT Bangalore, class of 2028." width="640" />
+  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/header-dark-mobile.svg?v=0dba9198ae" />
+  <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/header-light-mobile.svg?v=70041e5487" />
+  <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/header-dark-compact.svg?v=71027042b3" />
+  <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/header-light-compact.svg?v=3b1735d9c4" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg?v=9750adc96d" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg?v=1a8da894e2" />
+  <img src="./assets/header-dark.svg?v=9750adc96d" alt="Kanav Kumar — Ghost in the Terminal. Backend engineering, systems and applied AI. CS at IIIT Bangalore, class of 2028." width="640" />
 </picture>
-</p>
-
-<p align="center">
-  <a href="https://komarev.com/ghpvc/?username=KINGKK-007&amp;style=flat-square&amp;color=131c17&amp;label=profile+views"><img src="./assets/badges/profile-views.svg?v=64bebd4520" alt="Profile views — open live counter" height="30" /></a>
-  &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/kanavkumar007/"><img src="./assets/badges/available.svg?v=2ac9e51f12" alt="Open to opportunities" height="30" /></a>
-</p>
-
-<p align="center">
-  <img src="./assets/badges/connect.svg?v=c443691c5b" alt="Connect with me" height="24" />
 </p>
 
 <p align="center">
