@@ -8,52 +8,50 @@
   <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/header-light-compact.svg?v=8adb9a37dd" />
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg?v=373a9d3476" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg?v=373a9d3476" />
-  <img src="./assets/header-dark.svg?v=373a9d3476" alt="Kanav Kumar — Ghost in the Terminal. Backend engineering, systems and applied AI. CS at IIIT Bangalore, class of 2028." width="100%" />
+  <img src="./assets/header-dark.svg?v=373a9d3476" alt="Kanav Kumar — Ghost in the Terminal. Backend engineering, systems and applied AI. CS at IIIT Bangalore, class of 2028." width="640" />
 </picture>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=KINGKK-007&style=flat-square&color=9bd8bc&label=profile+views" alt="Profile views" />
+  <a href="https://komarev.com/ghpvc/?username=KINGKK-007&amp;style=flat-square&amp;color=131c17&amp;label=profile+views"><img src="./assets/badges/profile-views.svg?v=64bebd4520" alt="Profile views — open live counter" height="30" /></a>
   &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/open%20to-opportunities-9bd8bc?style=flat-square&logo=handshake&logoColor=0d1117&labelColor=131c17" alt="Open to opportunities" />
+  <a href="https://www.linkedin.com/in/kanavkumar007/"><img src="./assets/badges/available.svg?v=2ac9e51f12" alt="Open to opportunities" height="30" /></a>
 </p>
 
 <p align="center">
-  <sub>— connect with me —</sub>
+  <img src="./assets/badges/connect.svg?v=c443691c5b" alt="Connect with me" height="24" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/kanavkumar007/" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/linkedin.svg?v=505c4fa886" alt="LinkedIn" height="36" /></a>
+  <a href="https://www.linkedin.com/in/kanavkumar007/" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/linkedin.svg?v=505c4fa886" alt="LinkedIn" height="32" /></a>
   &nbsp;&nbsp;
-  <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kumarkanav1510%40gmail.com&amp;su=Hey%20Kanav%21" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/email.svg?v=f4e08e08c0" alt="Email Kanav" height="36" /></a>
+  <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kumarkanav1510%40gmail.com&amp;su=Hey%20Kanav%21" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/email.svg?v=f4e08e08c0" alt="Email Kanav" height="32" /></a>
   &nbsp;&nbsp;
-  <a href="https://x.com/KanavKumar007" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/x.svg?v=2f74b3a056" alt="X" height="36" /></a>
+  <a href="https://x.com/KanavKumar007" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/x.svg?v=2f74b3a056" alt="X" height="32" /></a>
   &nbsp;&nbsp;
-  <a href="https://www.instagram.com/kanavvkumarr" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/instagram.svg?v=b8e94557f2" alt="Instagram" height="36" /></a>
+  <a href="https://www.instagram.com/kanavvkumarr" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/instagram.svg?v=b8e94557f2" alt="Instagram" height="32" /></a>
   &nbsp;&nbsp;
-  <a href="https://dev.to/kingkk007" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/dev.svg?v=e35b840fee" alt="DEV" height="36" /></a>
+  <a href="https://dev.to/kingkk007" target="_blank" rel="noopener noreferrer"><img src="./assets/badges/dev.svg?v=e35b840fee" alt="DEV" height="32" /></a>
+</p>
+
+<h3 align="center">Hey, I’m Kanav.</h3>
+
+<p align="center">
+  Computer Science undergrad at <strong>IIIT Bangalore ('28)</strong>.<br />
+  I build software and dig into <strong>AI/ML, systems and backend engineering</strong>.<br />
+  <em>Always asking what’s actually happening under the hood.</em>
 </p>
 
 <p align="center">
-  👋 Hey, I’m Kanav — a <strong>Computer Science undergrad at IIIT Bangalore ('28)</strong>.<br />
-  I build software and dig into <strong>AI/ML, systems and backend engineering</strong>,<br />
-  always asking <em>what’s actually happening under the hood.</em>
+  <sub>cricket &nbsp;·&nbsp; gym &nbsp;·&nbsp; travelling &nbsp;·&nbsp; “just one more episode”</sub>
 </p>
 
 <p align="center">
-  <sub>🏏 cricket &nbsp;·&nbsp; 🏋️ gym &nbsp;·&nbsp; ✈️ travelling &nbsp;·&nbsp; 📺 “just one more episode”</sub>
-</p>
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Random dev quote" width="600" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/currently%20building-Spring%20Boot-6db33f?style=flat-square&logo=spring-boot&logoColor=white&labelColor=131c17" alt="Spring Boot" />
+  <img src="./assets/badges/building-spring.svg?v=5e66a32237" alt="Spring Boot" height="30" />
   &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/currently%20building-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white&labelColor=131c17" alt="FastAPI" />
+  <img src="./assets/badges/building-fastapi.svg?v=c523f98aa3" alt="FastAPI" height="30" />
   &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/exploring-LLM%20Infra-a259ff?style=flat-square&logo=openai&logoColor=white&labelColor=131c17" alt="LLM Infra" />
+  <img src="./assets/badges/exploring-llm.svg?v=0012c0ee36" alt="LLM Infra" height="30" />
 </p>
 
 <h3 align="center">
@@ -64,7 +62,7 @@
     <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light-compact.svg?v=0726af1756" />
     <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/selected-work.svg?v=69da293a49" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/sections/selected-work-light.svg?v=7bbb27b777" />
-    <img src="./assets/sections/selected-work.svg?v=69da293a49" alt="Selected work" width="100%" />
+    <img src="./assets/sections/selected-work.svg?v=69da293a49" alt="Selected work" width="640" />
   </picture>
 </h3>
 
@@ -109,7 +107,7 @@
     <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light-compact.svg?v=cc37ca50d0" />
     <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/toolkit.svg?v=853c19de5d" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/sections/toolkit-light.svg?v=32c9544595" />
-    <img src="./assets/sections/toolkit.svg?v=853c19de5d" alt="My toolkit" width="100%" />
+    <img src="./assets/sections/toolkit.svg?v=853c19de5d" alt="My toolkit" width="640" />
   </picture>
 </h3>
 
@@ -129,7 +127,7 @@
     <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/on-github-light-compact.svg?v=0bab846f5d" />
     <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/on-github.svg?v=7a19e5b234" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/sections/on-github-light.svg?v=e2c49b8a5f" />
-    <img src="./assets/sections/on-github.svg?v=7a19e5b234" alt="On GitHub" width="100%" />
+    <img src="./assets/sections/on-github.svg?v=7a19e5b234" alt="On GitHub" width="640" />
   </picture>
 </h3>
 
@@ -173,7 +171,7 @@
     <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light-compact.svg?v=e5817fb0da" />
     <source media="(prefers-color-scheme: dark)" srcset="./assets/sections/along-the-way.svg?v=2042a64b82" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/sections/along-the-way-light.svg?v=ca55cecf82" />
-    <img src="./assets/sections/along-the-way.svg?v=2042a64b82" alt="Along the way" width="100%" />
+    <img src="./assets/sections/along-the-way.svg?v=2042a64b82" alt="Along the way" width="640" />
   </picture>
 </h3>
 
@@ -197,8 +195,4 @@
     <source media="(max-width: 1100px)" srcset="./assets/editorial/footer-compact.svg?v=b20c57d013" />
     <img src="./assets/editorial/footer.svg?v=74c87dd0f6" alt="Always curious. Always building." width="100%" />
   </picture>
-</p>
-
-<p align="center">
-  <sub>crafted with ☕ &nbsp;·&nbsp; <a href="https://github.com/KINGKK-007">@KINGKK-007</a> &nbsp;·&nbsp; <a href="#top">back to top ↑</a></sub>
 </p>
