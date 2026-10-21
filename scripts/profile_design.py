@@ -281,6 +281,8 @@ def banners():
             svg += text('CSE @ IIIT Bangalore · 2028', x, 131 if mobile else (155 if compact else 199), 11.5 if mobile else (13 if compact else 15), muted, 500)
             svg += f'</g><rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="12" fill="none" stroke="{border}"/>'
             write(f'header-{suffix}{"" if mode=="desktop" else "-"+mode}.svg', svg)
+            if mode == "desktop":
+                write(f"profile-banner-{suffix}.svg", svg)
 
 def featured():
     desc = 'Mock interviews tailored to your résumé and role, with live audio/video feedback and post-session reports.'

@@ -2,13 +2,9 @@
 
 <p align="center">
 <picture>
-  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="./assets/header-dark-mobile.svg?v=0dba9198ae" />
-  <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="./assets/header-light-mobile.svg?v=70041e5487" />
-  <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="./assets/header-dark-compact.svg?v=71027042b3" />
-  <source media="(max-width: 1100px) and (prefers-color-scheme: light)" srcset="./assets/header-light-compact.svg?v=3b1735d9c4" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg?v=9750adc96d" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg?v=1a8da894e2" />
-  <img src="./assets/header-dark.svg?v=9750adc96d" alt="Kanav Kumar — Ghost in the Terminal. Backend engineering, systems and applied AI. CS at IIIT Bangalore, class of 2028." width="640" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-banner-dark.svg?v=9750adc96d" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-banner-light.svg?v=1a8da894e2" />
+  <img src="./assets/profile-banner-dark.svg?v=9750adc96d" alt="Kanav Kumar — backend engineering, systems and applied AI. CSE at IIIT Bangalore, class of 2028." width="640" />
 </picture>
 </p>
 
