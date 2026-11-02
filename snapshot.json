@@ -1,9 +1,9 @@
 {
-  "snapshot_date": "2026-11-01",
+  "snapshot_date": "2026-11-02",
   "calendar_start": "2025-11-02",
-  "calendar_end": "2026-11-01",
-  "contributions": 259,
-  "active_days": 61,
+  "calendar_end": "2026-11-02",
+  "contributions": 257,
+  "active_days": 60,
   "languages": [
     [
       "Python",
